@@ -17,7 +17,7 @@
 body {
     background-color: coral;
     font-family: 'Arsenal', sans-serif;
-    /* Min-body height is equal (100%) to the viewport height*/
+    /* Will fill up 100% of the viewport height*/
     min-height: 100vh;
     /* Flex container */
     display: flex;
@@ -28,7 +28,7 @@ body {
 /* Navigation */
 nav {
     background-color: white;
-    display: flex;
+    display: flex; /*default flex direction is row */
     align-items: center;
 }
 
