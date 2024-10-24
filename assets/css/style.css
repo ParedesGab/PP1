@@ -61,18 +61,22 @@ nav {
     /* hide the nav links*/
     display: none;
     /* position the nav at the bottom of its parent*/
-    top:100%;
-    }
-
-/* Toggle */
-#toggle {
-    display:none;
+    top: 100%;
 }
 
+/* Toggle */
+
+/* Toggle checkbox */
+#toggle {
+    display: none;
+}
+
+/* Toggle label */
 .toggle-label {
     padding: 0.2rem 0.7rem;
 }
 
+/* Check the burger icon so the nav appears or disappears*/
 #toggle:checked~nav {
     display: block;
 }
