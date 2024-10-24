@@ -28,15 +28,17 @@ body {
 /* Navigation */
 nav {
     background-color: white;
+    display: flex;
+    align-items: center;
 }
 
 /* Logo */
-#nav-link h1 {
+#nav h1 {
     background-color: blueviolet;
-    font-size: 90%;
+    font-size: 110%;
     /*narrow the space between letters*/
-    letter-spacing: -0.5px;
-    
+    letter-spacing: -1.1px;
+    align-items: center;
 }
 
 /* Header */
