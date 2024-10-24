@@ -9,13 +9,19 @@
     box-sizing: border-box;
     /*so the total size (width and height) includes padding and border*/
     border: solid red 1px;
+    color: black;
 }
 
 
 /* Body */
 body {
-    background-color: white;
-    font-family:'Arsenal', sans-serif;
+    background-color:coral;
+    font-family: 'Arsenal', sans-serif;
+    min-height:100vh;
+    /* Flex property */
+    display:flex;
+    flex-direction: column;
+    
 }
 
 /* Navigation */
@@ -34,6 +40,10 @@ header {
 /* Main */
 main {
     background-color: aquamarine;
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 47px;
 }
 
 /* Footer */
