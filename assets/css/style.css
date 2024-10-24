@@ -28,11 +28,14 @@ body {
 /* Header */
 header {
     background-color: coral;
-    padding: 0 3px;
+    padding: 0.2rem 0.7rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+
 }
 
 header a {
@@ -43,21 +46,35 @@ header a {
 /* Logo */
 header h1 {
     background-color: blueviolet;
-    font-size: 140%;
+    font-size: 170%;
     /*narrow the space between letters*/
     letter-spacing: -1px;
 }
 
 /* Navigation links */
 nav {
-    /*visibility: collapse;*/
     /* remove bullet points*/
     list-style-type: none;
     font-size: 100%;
-    /* separate the nav from the other header content*/
-    position:absolute;
-    /* hide the nav  links*/
+    /* separate the nav from the other header content. Otherwisem it would be shown in a row too*/
+    position: absolute;
+    /* hide the nav links*/
+    display: none;
+    /* position the nav at the bottom of its parent*/
+    top:100%;
+    }
+
+/* Toggle */
+#toggle {
     display:none;
+}
+
+.toggle-label {
+    padding: 0.2rem 0.7rem;
+}
+
+#toggle:checked~nav {
+    display: block;
 }
 
 /* Main */
