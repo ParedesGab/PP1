@@ -27,46 +27,37 @@ body {
 
 /* Header */
 header {
-    background-color: white;
+    background-color: coral;
+    padding: 0 3px;
     position: fixed;
+    z-index: 99;
     width: 100%;
-    display: flex;
-    /*default flex direction is row */
+    
 }
 
 header a {
+    /* remove underline from all header links*/
     text-decoration: none;
 }
 
 /* Logo */
 header h1 {
     background-color: blueviolet;
+    font-size: 140%;
     /*narrow the space between letters*/
+    letter-spacing: -1px;
 }
 
-/* Toggle */
-#toggle {
-    /* hide the toggle checkbox */
-    display: none;
-}
-
-.nav-menu-links {
-    visibility: collapse;
-
-}
-
-.toggle-label {
-    display: inline-block;
-    margin-top: 12px;
-    padding: 5px 11px;
-    background-color: #ff7;
-    border: 1px solid;
-    border-radius: 3px;
-}
-
-#toggle:checked~* .nav-menu-links {
-    visibility: visible;
-    top: 100%;
+/* Navigation links */
+nav {
+    /*visibility: collapse;*/
+    /* remove bullet points*/
+    list-style-type: none;
+    font-size: 100%;
+    /* separate the nav from the other header content*/
+    position:absolute;
+    /* hide the nav  links*/
+    display:none;
 }
 
 /* Main */
