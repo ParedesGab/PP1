@@ -1,3 +1,19 @@
 body {
     background-color: red;
 }
+
+nav {
+    background-color:aqua;
+}
+
+header {
+    background-color:blueviolet;
+}
+
+main {
+    background-color:aquamarine;
+}
+
+footer {
+    background-color:chocolate;
+}
