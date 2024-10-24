@@ -25,27 +25,48 @@ body {
     flex-direction: column;
 }
 
-/* Navigation */
-nav {
+/* Header */
+header {
     background-color: white;
-    display: flex; /*default flex direction is row */
-    align-items: center;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    /*default flex direction is row */
+}
+
+header a {
+    text-decoration: none;
 }
 
 /* Logo */
-#nav h1 {
+header h1 {
     background-color: blueviolet;
-    font-size: 110%;
     /*narrow the space between letters*/
-    letter-spacing: -1.1px;
-    align-items: center;
 }
 
-/* Header */
-header {
-    background-color: black;
-    color: white;
-    font-size: 200%;
+/* Toggle */
+#toggle {
+    /* hide the toggle checkbox */
+    display: none;
+}
+
+.nav-menu-links {
+    visibility: collapse;
+
+}
+
+.toggle-label {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 5px 11px;
+    background-color: #ff7;
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+#toggle:checked~* .nav-menu-links {
+    visibility: visible;
+    top: 100%;
 }
 
 /* Main */
