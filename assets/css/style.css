@@ -1,16 +1,31 @@
+/* Google fonts- Import */ 
+
+/* Wildcard selector * to override default styles */
+* {
+padding: 0px;
+margin:0px;
+box-sizing: border-box; /*so the total size (width and height) includes padding and border*/
+border: solid red 1px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
 /* Body */
 body {
-    background-color: red;
+    background-color: white;
 }
 
 /* Navigation */
 nav {
-    background-color:aqua;
+    background-color:white;
 }
 
 /* Header */
 header {
-    background-color:blueviolet;
+    background-color:black;
+    color:white;
+    font-size:500%;
+
 }
 
 /* Main */
