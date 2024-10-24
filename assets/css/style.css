@@ -1,19 +1,24 @@
+/* Body */
 body {
     background-color: red;
 }
 
+/* Navigation */
 nav {
     background-color:aqua;
 }
 
+/* Header */
 header {
     background-color:blueviolet;
 }
 
+/* Main */
 main {
     background-color:aquamarine;
 }
 
+/* Footer */
 footer {
     background-color:chocolate;
 }
