@@ -7,8 +7,8 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    /*so the total size (width and height) includes padding and border*/
-    border: solid red 1px;
+    /*so the total size (width and height) includes padding and border
+    border: solid red 1px;*/
     color: black;
 }
 
@@ -109,6 +109,8 @@ footer {
 }
 
 /* Media queries */
+
+/* Tablets and up */
 @media screen and (min-width:768px) {
     nav {
         /*Displays the navbar*/
@@ -128,4 +130,21 @@ footer {
     .toggle-label {
         display: none;
     }
+
+    /*#logo {
+        font-size: 280%;
+    }
+
+    main {
+        margin-top: 66px;
+    }*/
+}
+
+/* Laptops and up */
+@media screen and (min-width: 992px) {
+    /*make the links clickable*/
+    .active:hover {
+        text-decoration: underline;
+    }
+    
 }
