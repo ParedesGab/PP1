@@ -46,7 +46,7 @@ header a {
 /* Logo */
 header h1 {
     background-color: blueviolet;
-    font-size: 170%;
+    font-size: 180%;
     /*narrow the space between letters*/
     letter-spacing: -1px;
 }
@@ -55,7 +55,7 @@ header h1 {
 nav {
     /* remove bullet points*/
     list-style-type: none;
-    font-size: 100%;
+    font-size: 110%;
     /* separate the nav from the other header content. Otherwisem it would be shown in a row too*/
     position: absolute;
     /* hide the nav links*/
@@ -66,7 +66,7 @@ nav {
 
 /* Toggle */
 
-/* Toggle checkbox */
+/* Hide checkbox */
 #toggle {
     display: none;
 }
@@ -74,6 +74,7 @@ nav {
 /* Toggle label */
 .toggle-label {
     padding: 0.2rem 0.7rem;
+    font-size: 1.5rem;
 }
 
 /* Check the burger icon so the nav appears or disappears*/
@@ -89,6 +90,7 @@ main {
     /*
     display: flex;
     flex-direction: column;*/
+    margin-top:49px;
 }
 
 /* Footer */
