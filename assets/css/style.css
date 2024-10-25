@@ -106,7 +106,20 @@ main {
 /* Footer */
 footer {
     background-color: chocolate;
+    margin: 10px;
 }
+
+#social-links {
+    display:flex;
+    font-size: 110%;
+    justify-content:end;
+}
+
+#social-links li {
+    list-style-type: none;
+    margin-right:30px;
+}
+
 
 /* Media queries */
 
