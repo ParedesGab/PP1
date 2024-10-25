@@ -15,7 +15,7 @@
 
 /* Body */
 body {
-    background-color: coral;
+    background-color: rgb(51, 0, 255);
     font-family: 'Arsenal', sans-serif;
     /* Will fill up 100% of the viewport height*/
     min-height: 100vh;
@@ -27,15 +27,14 @@ body {
 
 /* Header */
 header {
-    background-color: coral;
-    padding: 0.2rem 0.7rem;
+    background-color: #fbfaf1f8;
+    padding: 0.2rem 0.2rem;
     position: fixed;
     z-index: 99;
     width: 100%;
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-between;
-
 }
 
 header a {
@@ -44,8 +43,8 @@ header a {
 }
 
 /* Logo */
-header h1 {
-    background-color: blueviolet;
+#logo {
+    /*background-color: blueviolet;*/
     font-size: 180%;
     /*narrow the space between letters*/
     letter-spacing: -1px;
@@ -53,8 +52,6 @@ header h1 {
 
 /* Navigation links */
 nav {
-    /* remove bullet points*/
-    list-style-type: none;
     font-size: 110%;
     /* separate the nav from the other header content. Otherwisem it would be shown in a row too*/
     position: absolute;
@@ -62,6 +59,14 @@ nav {
     display: none;
     /* position the nav at the bottom of its parent*/
     top: 100%;
+    background-color: #fbfaf1f8;
+    padding: 0.2rem 0.2rem;
+    left: 0;
+}
+
+#nav-links li {
+    /* remove bullet points*/
+    list-style-type: none;
 }
 
 /* Toggle */
@@ -87,13 +92,40 @@ main {
     background-color: aquamarine;
     /* Push footer down to the bottom */
     flex: 1 0 auto;
-    /*
-    display: flex;
+    /*Main shows up under the Header*/
+    margin-top: 45px;
+    /*display: flex;
     flex-direction: column;*/
-    margin-top:49px;
 }
+
+/* Section1 */
+/* Section2 */
+/* Section3 */
+/* Section4 */
 
 /* Footer */
 footer {
     background-color: chocolate;
+}
+
+/* Media queries */
+@media screen and (min-width:768px) {
+    nav {
+        /*Displays the navbar*/
+        display: block;
+        font-size: 100%;
+        /* bring the nav inside the header*/
+        position: relative;
+        background-color: #fbfaf1f8;
+    }
+
+    /* Nav links to be displayed in a row */
+    #nav-links {
+        display: flex;
+    }
+
+    /* Hide Toggle label */
+    .toggle-label {
+        display: none;
+    }
 }
