@@ -124,7 +124,6 @@ main {
 /* Section2 */
 #love-story {
     background-color: #fbfaf1f8;
-    margin: 30px;
 }
 
 #love-story h3 {
@@ -146,11 +145,8 @@ main {
 
 .story img {
     height: 250px;
-    margin-right: 180px;
+    margin-right: 400px;
 }
-
-
-
 
 /* Section3 */
 
