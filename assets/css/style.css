@@ -96,13 +96,13 @@ main {
     margin-top: 45px;
     /*display: flex;
     flex-direction: column;*/
-    
+
 }
 
 /* Section1 */
 #hero {
     width: 100%;
-    height:400px;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -111,18 +111,49 @@ main {
 }
 
 #hero h2 {
-    font-size:450%;
-    color:#fbfaf1f8;
-    width: 50%;
-    text-align: center;
+    font-size: 480%;
+    color: #fbfaf1f8;
+    width: 45%;
+    text-align:left;
 }
+
 #hero img {
     height: 250px;
 }
 
-
 /* Section2 */
+#love-story {
+    background-color: #fbfaf1f8;
+    margin: 30px;
+}
+
+#love-story h3 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#love-story .story {
+    display: flex;
+    text-align: center;
+}
+
+.story p {
+    font-size:20px;
+    margin-right:10px;
+    margin-left: 150px;
+}
+
+.story img {
+    height: 250px;
+    margin-right: 180px;
+}
+
+
+
+
 /* Section3 */
+
 /* Section4 */
 
 /* Footer */
