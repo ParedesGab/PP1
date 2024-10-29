@@ -7,8 +7,8 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    /*so the total size (width and height) includes padding and border
-    border: solid red 1px;*/
+    /*so the total size (width and height) includes padding and border*/
+    border: solid red 1px;
     color: black;
 }
 
@@ -92,6 +92,8 @@ nav {
 }
 
 /* Main */
+
+/* Main: Home page */
 main {
     background-color: aquamarine;
     /* Push footer down to the bottom */
@@ -103,7 +105,7 @@ main {
 
 }
 
-/* Section1 */
+/* Hero section */
 #hero {
     width: 100%;
     height: 400px;
@@ -118,14 +120,14 @@ main {
     font-size: 480%;
     color: #fbfaf1f8;
     width: 45%;
-    text-align:left;
+    text-align: left;
 }
 
 #hero img {
     height: 250px;
 }
 
-/* Section2 */
+/* Love story section */
 #love-story {
     background-color: #fbfaf1f8;
 }
@@ -142,8 +144,8 @@ main {
 }
 
 .story p {
-    font-size:20px;
-    margin-right:10px;
+    font-size: 20px;
+    margin-right: 10px;
     margin-left: 150px;
 }
 
@@ -152,9 +154,32 @@ main {
     margin-right: 400px;
 }
 
-/* Section3 */
+/* Wny extraordinary? section */
 
-/* Section4 */
+/* Main: Laxus and Thiosymbion subpages */
+#laxus-thiosym-hero {
+    background: url("../images/bmi-calculator.webp");
+    height: 250px;
+}
+
+#laxus-thiosym-hero h2,
+em {
+    text-align: center;
+    color: white;
+}
+
+#laxus-thiosym-introduction .organism {
+    background-color: white;
+    display: flex;
+}
+
+#benefits .model {
+    display: flex;
+}
+
+.model img {
+    width: 600px;
+}
 
 /* Footer */
 footer {
