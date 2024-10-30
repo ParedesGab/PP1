@@ -8,10 +8,9 @@
     margin: 0px;
     box-sizing: border-box;
     /*so the total size (width and height) includes padding and border*/
-    /*border: solid red 0.5px;*/
-    /*color: darkgoldenrod;*/
+    border: solid red 0.5px;
+    color: rgb(226, 216, 188);
 }
-
 
 /* Body */
 body {
@@ -27,243 +26,58 @@ body {
 
 /* Header */
 header {
-    background-color: black;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    /* top and bottom=0, left and right=1rem -- this is to prevent the text from sticking to the side of the screen*/
     position: fixed;
-    /*z-index: 99;*/
+    /*this is to keep the header always on top*. Note: the position property has affected the width of the element!!
+    This is because it reverted to content width when we made the position fixed. That is why below, I gave the witdh of 100%*/
+    z-index: 99;
+    /*99 is a HIGH index, it is to make sure it's layered on top of any other elements*/
     width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    /* we also used this color in the body element above*/
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    color: #fbfaf1f8;
+    align-items: baseline;
 }
 
-header a {
-    /* remove underline from all header links*/
-    text-decoration: none;
-}
+/*Navbar styles with dropdown toggle*/
+nav {
+    position: absolute;
+    /*Absolute positioning takes an element outside the normal
+    flow of the page structure.
+    It is positioned relative to the nearest positioned ancestor
+    in our case, the header.*/
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    /* top and bottom=0, left and right=1rem -- this is to prevent the text from sticking to the side of the screen*/
 
-/* Logo */
-#logo {
-    /*background-color: green;*/
-    margin: 15px 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-#logo img {
-    width: 70px;
-}
-
-#logo h1 {
-    font-size: 80px;
-    /*narrow the space between letters*/
-    letter-spacing: -1px;
-    margin-left: 15px;
-    color: #fbfaf1f8;
-}
-
-/* Toggle */
-
-#toggle {
+    box-shadow: 0 2px 2px #3a3a3a;
     display: none;
-    /* Hide checkbox */
+    /*this is so the navbars are hidden until the user clicks to open them*/
+    top: 100%;
+    /*Effectively, this tells the navigation element that the top of the element
+    should start at the bottom of its parent.*/
+
 }
 
-/* Toggle label */
-#toggle-label {
-    margin: 15px 45px;
-    font-size: 80px;
-    color: #ffde21;
-    /*color:#ccff00;*/
-}
-
-/* Check the burger icon so the nav appears or disappears*/
-#toggle:checked~nav {
+/*Checkboxes have a PSEUDOCLASS that indicates when they are checked*/
+/*Nav-toggle*/
+#nav-toggle:checked~nav {
+    /*the tilde ~ is the adjoining element we want to target
+                                        In this case, when we check the box, we want the nav to appear*/
     display: block;
 }
 
-/* Navigation links */
-nav {
-    /* separate the nav from the other header content. Otherwisem it would be shown in a row too*/
-    position: absolute;
-    /* hide the nav links*/
+/*hide the checkbox*/
+#nav-toggle {
     display: none;
-    /* position the nav at the bottom of its parent*/
-    top: 100%;
-    width: 100%;
-    padding:30px 0;
-    background-color: black;
 }
 
-#nav-links li {
-    /* remove bullet points*/
-    list-style-type: none;
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 65px;
-}
-
-#nav-links a {
-    color: #fbfaf1f8;
-}
-
-.active:hover {
-    text-decoration: underline;
-}
-
-
-
-/* Main */
-
-/* Main: Home page */
-main {
-    background-color: aquamarine;
-    /* Push footer down to the bottom */
-    flex: 1 0 auto;
-    /*Main shows up under the Header*/
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-}
-
-/* Hero section */
-#hero {
-    width: 100%;
-    height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    color: #fbfaf1f8;
-    background-color: black;
-}
-
-#hero h2 {
-    font-size: 480%;
-    color: #fbfaf1f8;
-    width: 45%;
-    text-align: left;
-}
-
-#hero img {
-    height: 250px;
-}
-
-/* Love story section */
-#love-story {
-    background-color: #fbfaf1f8;
-}
-
-#love-story h3 {
-    text-align: center;
-    font-size: 40px;
-    margin-bottom: 30px;
-}
-
-#love-story .story {
-    display: flex;
-    text-align: center;
-}
-
-.story p {
-    font-size: 20px;
-    margin-right: 10px;
-    margin-left: 150px;
-}
-
-.story img {
-    height: 250px;
-    margin-right: 400px;
-}
-
-/* Wny extraordinary? section */
-#extraordinary {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    background: url("../images/Der\ Wurm\ mit\ dem\ bakterienpelz.webp") center center/cover;
-}
-
-/* Main: Laxus and Thiosymbion subpages */
-#laxus-thiosym-hero {
-    background: url("../images/bmi-calculator.webp");
-    height: 250px;
-}
-
-#laxus-thiosym-hero h2,
-em {
-    text-align: center;
-    color: white;
-}
-
-#laxus-thiosym-introduction .organism {
-    background-color: white;
-    display: flex;
-}
-
-#benefits .model {
-    display: flex;
-}
-
-.model img {
-    width: 600px;
-}
-
-/* Footer */
-footer {
-    background-color: chocolate;
-    margin: 10px;
-}
-
-#social-links {
-    display: flex;
-    font-size: 110%;
-    justify-content: end;
-}
-
-#social-links li {
-    list-style-type: none;
-    margin-right: 30px;
-}
-
-
-/* Media queries */
-
-/* Tablets and up */
-@media screen and (min-width:768px) {
-    nav {
-        /*Displays the navbar*/
-        display: block;
-        font-size: 100%;
-        /* bring the nav inside the header*/
-        position: relative;
-    }
-
-    /* Nav links to be displayed in a row */
-    #nav-links {
-        display: flex;
-    }
-
-    /* Hide Toggle label */
-    .toggle-label {
-        display: none;
-    }
-
-    /*#logo {
-        font-size: 280%;
-    }
-
-    main {
-        margin-top: 66px;
-    }*/
-}
-
-/* Laptops and up */
-@media screen and (min-width: 992px) {
-
-    /*make the links clickable*/
-    .active:hover {
-        text-decoration: underline;
-    }
-
+/*Make the label X larger */
+.nav-toggle-label {
+    font-size: 2rem;
 }
