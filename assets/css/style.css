@@ -8,8 +8,8 @@
     margin: 0px;
     box-sizing: border-box;
     /*so the total size (width and height) includes padding and border*/
-    /*border: solid red 1px;*/
-    color: darkgoldenrod;
+    /*border: solid red 0.5px;*/
+    /*color: darkgoldenrod;*/
 }
 
 
@@ -34,6 +34,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: #fbfaf1f8;
 }
 
 header a {
@@ -46,13 +47,12 @@ header a {
     /*background-color: green;*/
     margin: 15px 30px;
     display: flex;
-    align-items: center	;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #logo img {
-    width: 80px;
-    height:90px;
-    margin-top: ;
+    width: 70px;
 }
 
 #logo h1 {
@@ -60,25 +60,41 @@ header a {
     /*narrow the space between letters*/
     letter-spacing: -1px;
     margin-left: 15px;
+    color: #fbfaf1f8;
 }
 
-.active:hover {
-    text-decoration: underline;
+/* Toggle */
+
+#toggle {
+    display: none;
+    /* Hide checkbox */
 }
 
+/* Toggle label */
+#toggle-label {
+    margin: 15px 45px;
+    font-size: 80px;
+    color: #ffde21;
+    /*color:#ccff00;*/
+}
 
-
-
+/* Check the burger icon so the nav appears or disappears*/
+#toggle:checked~nav {
+    display: block;
+}
 
 /* Navigation links */
 nav {
-    font-size: 110%;
     /* separate the nav from the other header content. Otherwisem it would be shown in a row too*/
     position: absolute;
     /* hide the nav links*/
     display: none;
     /* position the nav at the bottom of its parent*/
     top: 100%;
+    width: 100%;
+    margin: auto;
+
+
     background-color: black;
     padding: 0.2rem 0.2rem;
     left: 0;
@@ -87,25 +103,20 @@ nav {
 #nav-links li {
     /* remove bullet points*/
     list-style-type: none;
+    text-align: center;
+    margin: 5px 0;
+    font-size: 65px;
 }
 
-/* Toggle */
-
-/* Hide checkbox */
-#toggle {
-    display: none;
+#nav-links a {
+    color: #fbfaf1f8;
 }
 
-/* Toggle label */
-.toggle-label {
-    padding: 0.2rem 0.7rem;
-    font-size: 90px;
+.active:hover {
+    text-decoration: underline;
 }
 
-/* Check the burger icon so the nav appears or disappears*/
-#toggle:checked~nav {
-    display: block;
-}
+
 
 /* Main */
 
