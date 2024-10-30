@@ -155,6 +155,11 @@ main {
 }
 
 /* Wny extraordinary? section */
+#extraordinary {
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+}
 
 /* Main: Laxus and Thiosymbion subpages */
 #laxus-thiosym-hero {
