@@ -8,7 +8,7 @@
     margin: 0px;
     box-sizing: border-box;
     /*so the total size (width and height) includes padding and border*/
-    border: solid red 1px;
+    /*border: solid red 1px;*/
     color: darkgoldenrod;
 }
 
@@ -28,17 +28,12 @@ body {
 /* Header */
 header {
     background-color: black;
-    padding: 0.2rem 0.2rem;
     position: fixed;
-    z-index: 99;
+    /*z-index: 99;*/
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.active:hover {
-    text-decoration: underline;
 }
 
 header a {
@@ -48,11 +43,32 @@ header a {
 
 /* Logo */
 #logo {
-    /*background-color: blueviolet;*/
-    font-size: 180%;
+    /*background-color: green;*/
+    margin: 15px 30px;
+    display: flex;
+    align-items: center	;
+}
+
+#logo img {
+    width: 80px;
+    height:90px;
+    margin-top: ;
+}
+
+#logo h1 {
+    font-size: 80px;
     /*narrow the space between letters*/
     letter-spacing: -1px;
+    margin-left: 15px;
 }
+
+.active:hover {
+    text-decoration: underline;
+}
+
+
+
+
 
 /* Navigation links */
 nav {
@@ -83,7 +99,7 @@ nav {
 /* Toggle label */
 .toggle-label {
     padding: 0.2rem 0.7rem;
-    font-size: 1.5rem;
+    font-size: 90px;
 }
 
 /* Check the burger icon so the nav appears or disappears*/
@@ -99,10 +115,9 @@ main {
     /* Push footer down to the bottom */
     flex: 1 0 auto;
     /*Main shows up under the Header*/
-    margin-top: 45px;
-    /*display: flex;
-    flex-direction: column;*/
-
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Hero section */
@@ -156,9 +171,10 @@ main {
 
 /* Wny extraordinary? section */
 #extraordinary {
-    display:flex;
+    display: flex;
     justify-content: space-around;
     text-align: center;
+    background: url("../images/Der\ Wurm\ mit\ dem\ bakterienpelz.webp") center center/cover;
 }
 
 /* Main: Laxus and Thiosymbion subpages */
