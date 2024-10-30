@@ -9,7 +9,7 @@
     box-sizing: border-box;
     /*so the total size (width and height) includes padding and border*/
     border: solid red 1px;
-    color: black;
+    color: darkgoldenrod;
 }
 
 
@@ -27,7 +27,7 @@ body {
 
 /* Header */
 header {
-    background-color: #fbfaf1f8;
+    background-color: black;
     padding: 0.2rem 0.2rem;
     position: fixed;
     z-index: 99;
@@ -63,7 +63,7 @@ nav {
     display: none;
     /* position the nav at the bottom of its parent*/
     top: 100%;
-    background-color: #fbfaf1f8;
+    background-color: black;
     padding: 0.2rem 0.2rem;
     left: 0;
 }
@@ -209,7 +209,6 @@ footer {
         font-size: 100%;
         /* bring the nav inside the header*/
         position: relative;
-        background-color: #fbfaf1f8;
     }
 
     /* Nav links to be displayed in a row */
