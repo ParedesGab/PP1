@@ -8,7 +8,7 @@
     margin: 0px;
     box-sizing: border-box;
     /*so the total size (width and height) includes padding and border*/
-    border: solid red 0.5px;
+    /*border: solid red 0.5px;*/
     color: rgb(226, 216, 188);
 }
 
@@ -26,58 +26,53 @@ body {
 
 /* Header */
 header {
-    background-color: #ffffff;
-    padding: 0 1rem;
-    /* top and bottom=0, left and right=1rem -- this is to prevent the text from sticking to the side of the screen*/
+    background-color: black;
     position: fixed;
-    /*this is to keep the header always on top*. Note: the position property has affected the width of the element!!
-    This is because it reverted to content width when we made the position fixed. That is why below, I gave the witdh of 100%*/
-    z-index: 99;
-    /*99 is a HIGH index, it is to make sure it's layered on top of any other elements*/
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
-    /* we also used this color in the body element above*/
+    /*z-index: 99;*/
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    align-items: baseline;
+    color: #fbfaf1f8;
+    margin: auto;
 }
 
-/*Navbar styles with dropdown toggle*/
-nav {
-    position: absolute;
-    /*Absolute positioning takes an element outside the normal
-    flow of the page structure.
-    It is positioned relative to the nearest positioned ancestor
-    in our case, the header.*/
-    background-color: #ffffff;
-    width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    /* top and bottom=0, left and right=1rem -- this is to prevent the text from sticking to the side of the screen*/
+header a {
+    /* remove underline from all header links*/
+    text-decoration: none;
+}
 
-    box-shadow: 0 2px 2px #3a3a3a;
+/* Logo */
+#logo {
+    font-size: 30px;
+    margin: 10px 10px;
+    letter-spacing: -1.7px;
+}
+
+/* Toggle */
+
+/* Hide checkbox */
+#toggle {
     display: none;
-    /*this is so the navbars are hidden until the user clicks to open them*/
-    top: 100%;
-    /*Effectively, this tells the navigation element that the top of the element
-    should start at the bottom of its parent.*/
-
 }
 
-/*Checkboxes have a PSEUDOCLASS that indicates when they are checked*/
-/*Nav-toggle*/
-#nav-toggle:checked~nav {
-    /*the tilde ~ is the adjoining element we want to target
-                                        In this case, when we check the box, we want the nav to appear*/
+/* Toggle lable */
+.toggle-label i {
+    font-size: 45px;
+    margin-right: 10px;
+}
+
+/* Navbar */
+nav {
+    display: none;
+    position:absolute;
+    background-color: black;
+    width: 100%;
+    top:100%;
+}
+/* Navbar toggle*/
+#toggle:checked~nav {
     display: block;
 }
 
-/*hide the checkbox*/
-#nav-toggle {
-    display: none;
-}
 
-/*Make the label X larger */
-.nav-toggle-label {
-    font-size: 2rem;
-}
