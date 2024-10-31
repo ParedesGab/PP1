@@ -199,8 +199,9 @@ footer {
 #social-links {
     display: flex;
     font-size: 110%;
-    justify-content:center;
+    justify-content: center;
     text-align: center;
+    padding: 20px 0;
 }
 
 #social-links li {
