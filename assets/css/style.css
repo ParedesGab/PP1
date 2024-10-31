@@ -8,13 +8,13 @@
     margin: 0px;
     box-sizing: border-box;
     /*so the total size (width and height) includes padding and border*/
-    /*border: solid red 0.5px;*/
+    /*border: solid red 0.2px;*/
     color: rgb(226, 216, 188);
 }
 
 /* BODY */
 body {
-    background-color: rgb(51, 0, 255);
+    /*background-color: rgb(51, 0, 255);*/
     font-family: 'Arsenal', sans-serif;
     /* Will fill up 100% of the viewport height*/
     min-height: 100vh;
@@ -141,20 +141,21 @@ main {
     color: black;
     font-size: 25px;
     text-align: center;
-    margin-top: 20px;
+    margin: 30px 30px;
 }
 
 #love-story p {
     color: black;
     font-size: 125x;
     text-align: center;
-    margin: 20px;
+    margin: 0px 20px 20px;
+    margin-bottom: 10px;
 }
 
 #love-story video {
     width: 270px;
     margin-left: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 /* Extraordinary section */
@@ -162,15 +163,13 @@ main {
 #extraordinary {
     /* display:flex; PROPERTY FOR QUERY*/
     background: url("../images/Der\ Wurm\ mit\ dem\ bakterienpelz.webp") no-repeat center center/cover;
-    opacity: 1;
 }
 
 #extraordinary h3 {
     color: rgb(226, 216, 188);
     font-size: 25px;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 30px 30px;
 }
 
 #extraordinary img {
@@ -185,8 +184,28 @@ main {
 #extraordinary p {
     width: 250px;
     color: black;
-    font-size: 125x;
+    font-size: 18px;
     text-align: justify;
-    margin: 0 20px 20px 20px;
-    border: solid black 2px;
+    margin: 0 30px 30px 30px;
+    /*border: solid black 2px;*/
+    background-color: rgba(222, 221, 218, 0.5);
 }
+
+/* FOOTER */
+footer {
+    background-color: black;
+}
+
+#social-links {
+    display: flex;
+    font-size: 110%;
+    justify-content:center;
+    text-align: center;
+}
+
+#social-links li {
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+
