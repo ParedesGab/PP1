@@ -8,7 +8,7 @@
     margin: 0px;
     box-sizing: border-box;
     /*so the total size (width and height) includes padding and border*/
-    /*border: solid red 0.2px;*/
+    border: solid red 0.2px;
     color: rgb(226, 216, 188);
 }
 
@@ -227,7 +227,7 @@ footer {
     /* Increase Logo size */
     #logo {
         font-size: 35px;
-        margin-top:15px;
+        margin-top: 15px;
     }
 
     /* Hide Toggle Label */
@@ -272,5 +272,28 @@ footer {
         font-size: 63px;
         position: absolute;
     }
+
+        /* Love story section */
+
+        #love-story {
+            padding-bottom:30px;
+        }
+        #love-story h3 {
+            font-size: 30px;
+        }
+    
+        .story {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width:600px;
+        }
+
+        #love-story p {
+            font-size: 18px;
+            text-align: justify;
+            margin:0px;
+        }
+
 
 }
