@@ -8,7 +8,7 @@
     margin: 0px;
     box-sizing: border-box;
     /*so the total size (width and height) includes padding and border*/
-    border: solid red 0.2px;
+    /*border: solid red 0.2px;*/
     color: rgb(226, 216, 188);
 }
 
@@ -112,15 +112,13 @@ main {
 /* Hero section */
 #hero {
     width: 100%;
-    height: 420px;
+    height: 430px;
     position: relative;
     background-image: url("/assets/images/Gabriela-COSB-colloquium-2021-11-30-Kopie.webp");
     background-color: black;
     background-repeat: no-repeat;
-    background-position: 86% 16%;
-    /* scale relative to browser size */
-    background-size: 44vh;
-
+    background-position: 10% 30%;
+    background-size: 320px;
 }
 
 #hero h2 {
@@ -262,12 +260,12 @@ footer {
 
     /* Hero section */
     #hero {
-        background-position: 105% 60%;
-        background-size: 82vh;
+        background-position: 100% 58%;
+        background-size: 680px;
     }
 
     #hero h2 {
-        top: 140px;
+        top: 125px;
         padding-left: 40px;
         text-align: left;
         font-size: 63px;
@@ -321,4 +319,40 @@ footer {
     #social-links li {
         margin-left: 20px;
     }
+}
+
+/* Laptops and Up */
+@media screen and (min-width:992px) {
+
+    /* Increase Logo size */
+    #logo {
+        margin-left: 25px;
+    }
+
+    /* Put Navbar inside header */
+
+    /* Style Navbar */
+    #nav-links {
+        margin-right: 25px;
+    }
+
+    #nav-links>li {
+        font-size: 22px;
+        padding-left: 15px;
+    }
+
+    /* MAIN */
+    #hero {
+        height: 450px;
+        background-position: 100% 50%;
+        background-size: 780px;
+    }
+
+    /* Hero section */
+    #hero h2 {
+        top: 125px;
+        font-size: 70px;
+    }
+
+
 }
