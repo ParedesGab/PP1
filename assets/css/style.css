@@ -142,7 +142,7 @@ main {
 #love-story h3 {
     color: black;
     font-size: 25px;
-    margin: 30px 30px;
+    margin: 35px 35px;
 }
 
 .story {
@@ -162,7 +162,7 @@ main {
 #love-story video {
     width: 270px;
     margin: 0px 20px 20px;
-    margin-bottom: 10px;
+    margin-bottom: 35px;
 }
 
 /* Extraordinary section */
@@ -181,20 +181,27 @@ main {
     margin: 30px 30px;
 }
 
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #extraordinary img {
     width: 270px;
     height: 270px;
-    margin-left: 20px;
+    /*margin-left: 20px;*/
+    /*margin: 30px 30px 3px 30px;*/
     border-radius: 100%;
     border: solid black 2px;
 }
 
 #extraordinary p {
-    width: 250px;
+    width: 270px;
     color: black;
     font-size: 18px;
     text-align: justify;
-    margin: 3px 30px 30px 30px;
+    /*margin: 3px 30px 30px 30px;*/
     padding: 5px;
     border: solid black 2px;
     background-color: rgba(222, 221, 218, 0.55);
@@ -354,5 +361,49 @@ footer {
         font-size: 70px;
     }
 
+    /* Love story section */
 
+    #love-story h3 {
+        font-size: 40px;
+    }
+
+    .story {
+        width: 800px;
+    }
+
+    #love-story p {
+        font-size: 20px;
+    }
+
+    #love-story video {
+        padding-left: 50px;
+        width: 400px;
+        height: 200px;
+    }
+
+    /* Extraordinary section */
+
+    #extraordinary .features {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .feature {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin:20px;
+    }
+
+    #extraordinary h3 {
+        font-size: 40px;
+    }
+
+    #extraordinary p {
+        width: 270px;
+        height: 270px;
+        margin-top:5px;
+        font-size: 20px;
+    }
 }
