@@ -8,7 +8,7 @@
     margin: 0px;
     box-sizing: border-box;
     /*so the total size (width and height) includes padding and border*/
-    border: solid red 0.2px;
+    /*border: solid red 0.2px;*/
     color: rgb(226, 216, 188);
 }
 
@@ -132,7 +132,7 @@ main {
 
 /* Love story section */
 #love-story {
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -151,6 +151,7 @@ main {
     flex-direction: column;
     align-items: center;
 }
+
 #love-story p {
     color: black;
     font-size: 125x;
@@ -168,7 +169,7 @@ main {
 /* Extraordinary section */
 
 #extraordinary {
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     background: url("../images/Der\ Wurm\ mit\ dem\ bakterienpelz.webp") no-repeat center center/cover;
@@ -214,7 +215,53 @@ footer {
 
 #social-links li {
     list-style-type: none;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
+/* MEDIA QUERIES */
 
+/* Tablets and up */
+@media screen and (min-width:768px) {
+/* Logo */
+#logo {
+    font-size: 40px;
+    margin: 10px 10px;
+    letter-spacing: -1.7px;
+}
+
+/* Hide Toggle Label */
+.toggle-label {
+    display: none;
+}
+
+/* Navbar */
+nav {
+    position: relative;
+    display:block;
+    background-color: black;
+    width: 100%;
+    top: 100%;
+}
+
+/* Style Navbar */
+#nav-links {
+    margin: 0 20px 0 20px;
+    line-height: 1.5;
+    padding: 0 60px;
+    list-style-type: none;
+}
+
+#nav-links>li {
+    text-align: center;
+    letter-spacing: -1px;
+    font-size: 20px;
+    background-image: url(../images/logo\ header\ laxus\ -\ Kopie.jpg);
+    /*youtube https://www.youtube.com/watch?v=M5audtofhIo */
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+}
+
+.active:hover {
+    text-decoration: underline;
+}
+}
