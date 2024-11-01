@@ -125,7 +125,6 @@ main {
 #hero h2 {
     top: 210px;
     padding-left: 10px;
-    margin-bottom: 20px;
     text-align: left;
     font-size: 48px;
     position: absolute;
@@ -133,6 +132,10 @@ main {
 
 /* Love story section */
 #love-story {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: rgb(226, 216, 188);
     color: black;
 }
@@ -140,7 +143,6 @@ main {
 #love-story h3 {
     color: black;
     font-size: 25px;
-    text-align: center;
     margin: 30px 30px;
 }
 
@@ -161,7 +163,9 @@ main {
 /* Extraordinary section */
 
 #extraordinary {
-    /* display:flex; PROPERTY FOR QUERY*/
+    display:flex;
+    flex-direction: column;
+    align-items: center;
     background: url("../images/Der\ Wurm\ mit\ dem\ bakterienpelz.webp") no-repeat center center/cover;
 }
 
@@ -178,7 +182,6 @@ main {
     margin-left: 20px;
     border-radius: 100%;
     border: solid black 2px;
-
 }
 
 #extraordinary p {
@@ -186,9 +189,9 @@ main {
     color: black;
     font-size: 18px;
     text-align: justify;
-    margin: 0 30px 30px 30px;
-    /*border: solid black 2px;*/
-    background-color: rgba(222, 221, 218, 0.5);
+    margin: 3px 30px 30px 30px;
+    border: solid black 2px;
+    background-color: rgba(222, 221, 218, 0.55);
 }
 
 /* FOOTER */
