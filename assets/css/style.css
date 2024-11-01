@@ -197,6 +197,7 @@ main {
     font-size: 18px;
     text-align: justify;
     margin: 3px 30px 30px 30px;
+    padding: 5px;
     border: solid black 2px;
     background-color: rgba(222, 221, 218, 0.55);
 }
@@ -273,27 +274,51 @@ footer {
         position: absolute;
     }
 
-        /* Love story section */
+    /* Love story section */
 
-        #love-story {
-            padding-bottom:30px;
-        }
-        #love-story h3 {
-            font-size: 30px;
-        }
-    
-        .story {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            width:600px;
-        }
+    #love-story {
+        padding-bottom: 30px;
+    }
 
-        #love-story p {
-            font-size: 18px;
-            text-align: justify;
-            margin:0px;
-        }
+    #love-story h3 {
+        font-size: 30px;
+    }
 
+    .story {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 600px;
+    }
 
+    #love-story p {
+        font-size: 18px;
+        text-align: justify;
+        margin: 0px;
+    }
+
+    /* Extraordinary section */
+
+    .feature {
+        display: flex;
+    }
+
+    #extraordinary h3 {
+        font-size: 30px;
+    }
+
+    #extraordinary p {
+        width: 270px;
+        height: 260px;
+    }
+
+    /* FOOTER */
+    #social-links {
+        display: flex;
+        font-size: 150%;
+    }
+
+    #social-links li {
+        margin-left: 20px;
+    }
 }
