@@ -112,18 +112,16 @@ main {
 /* Hero section */
 #hero {
     width: 100%;
-    height: 430px;
+    height: 450px;
     position: relative;
-    background-image: url("/assets/images/Gabriela-COSB-colloquium-2021-11-30-Kopie.webp");
+    /*background: url("../images/Gabriela-COSB-colloquium-2021-11-30-Kopie.webp") no-repeat center center/cover;*/
+    background: url("../images/Gabriela-COSB-colloquium-2021-11-30-Kopie.webp") no-repeat 84% 25% / 110%;
     background-color: black;
-    background-repeat: no-repeat;
-    background-position: 10% 30%;
-    background-size: 320px;
 }
 
 #hero h2 {
-    top: 210px;
-    padding-left: 20px;
+    top: 215px;
+    margin-left: 20px;
     text-align: left;
     font-size: 48px;
     position: absolute;
@@ -201,7 +199,7 @@ main {
     color: black;
     font-size: 18px;
     text-align: justify;
-    /*margin: 3px 30px 30px 30px;*/
+    margin-bottom: 30px;;
     padding: 5px;
     border: solid black 2px;
     background-color: rgba(222, 221, 218, 0.55);
@@ -266,10 +264,10 @@ footer {
     /* MAIN */
 
     /* Hero section */
-    #hero {
+    /* #hero {
         background-position: 100% 58%;
         background-size: 680px;
-    }
+    }*/
 
     #hero h2 {
         top: 125px;
@@ -347,11 +345,11 @@ footer {
     }
 
     /* MAIN */
-    #hero {
+    /*#hero {
         height: 450px;
         background-position: 100% 50%;
         background-size: 780px;
-    }
+    }*/
 
     /* Hero section */
     #hero h2 {
