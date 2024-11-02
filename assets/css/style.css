@@ -331,12 +331,10 @@ footer {
 /* Laptops and Up */
 @media screen and (min-width:992px) {
 
-    /* Increase Logo size */
+    /* Increase */
     #logo {
         margin-left: 25px;
     }
-
-    /* Put Navbar inside header */
 
     /* Style Navbar */
     #nav-links {
@@ -393,7 +391,7 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin:20px;
+        margin: 20px;
     }
 
     #extraordinary h3 {
@@ -403,7 +401,87 @@ footer {
     #extraordinary p {
         width: 270px;
         height: 270px;
-        margin-top:5px;
+        margin-top: 5px;
+        font-size: 20px;
+    }
+}
+
+/* Desktops and Up */
+@media screen and (min-width:1200px) {
+
+    /* Increase Logo size */
+    #logo {
+        font-size: 45px;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    /* Style Navbar */
+    #nav-links {
+        margin-right: 30px;
+    }
+
+    #nav-links>li {
+        font-size: 32px;
+        padding-left: 20px;
+    }
+
+    /* MAIN */
+    #hero {
+        height: 650px;
+        background-position: 90% 50%;
+        background-size: 1000px;
+    }
+
+    /* Hero section */
+    #hero h2 {
+        top: 125px;
+        font-size: 70px;
+    }
+
+    /* Love story section */
+
+    #love-story h3 {
+        font-size: 40px;
+    }
+
+    .story {
+        width: 800px;
+    }
+
+    #love-story p {
+        font-size: 20px;
+    }
+
+    #love-story video {
+        padding-left: 50px;
+        width: 400px;
+        height: 200px;
+    }
+
+    /* Extraordinary section */
+
+    #extraordinary .features {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .feature {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
+
+    #extraordinary h3 {
+        font-size: 40px;
+    }
+
+    #extraordinary p {
+        width: 270px;
+        height: 270px;
+        margin-top: 5px;
         font-size: 20px;
     }
 }
