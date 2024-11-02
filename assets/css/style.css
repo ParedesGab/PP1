@@ -429,14 +429,15 @@ footer {
     /* MAIN */
     #hero {
         height: 650px;
-        background-position: 90% 50%;
+        background-position: 90% 55%;
         background-size: 1000px;
     }
 
     /* Hero section */
     #hero h2 {
-        top: 125px;
-        font-size: 70px;
+        top: 220px;
+        font-size: 110px;
+        padding-left: 110px;
     }
 
     /* Love story section */
