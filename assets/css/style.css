@@ -120,7 +120,7 @@ main {
 }
 
 #hero h2 {
-    top: 215px;
+    top: 235px;
     margin-left: 20px;
     text-align: left;
     font-size: 48px;
@@ -188,8 +188,6 @@ main {
 #extraordinary img {
     width: 270px;
     height: 270px;
-    /*margin-left: 20px;*/
-    /*margin: 30px 30px 3px 30px;*/
     border-radius: 100%;
     border: solid black 2px;
 }
@@ -199,7 +197,7 @@ main {
     color: black;
     font-size: 18px;
     text-align: justify;
-    margin-bottom: 30px;;
+    margin-bottom: 30px;
     padding: 5px;
     border: solid black 2px;
     background-color: rgba(222, 221, 218, 0.55);
@@ -212,18 +210,41 @@ footer {
 
 #social-links {
     display: flex;
-    font-size: 110%;
+    font-size: 20px;
     justify-content: center;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px 0px;
 }
 
 #social-links li {
     list-style-type: none;
-    margin-left: 15px;
+    margin: 0px 12px;
 }
 
 /* MEDIA QUERIES */
+
+/*Large or landscape phones */
+/*@media screen and (min-width: 576px) {
+
+    /* Hero section */
+/*#hero {
+        width: 100%;
+        height: 450px;
+        position: relative;
+        background: url("../images/Gabriela-COSB-colloquium-2021-11-30-Kopie.webp") no-repeat center center/cover;
+        background: url("../images/Gabriela-COSB-colloquium-2021-11-30-Kopie.webp") no-repeat 84% 25% / 110%;
+        background-color: black;
+    }
+
+    #hero h2 {
+        top: 215px;
+        margin-left: 20px;
+        text-align: left;
+        font-size: 48px;
+        position: absolute;
+    }
+}*/
+
 
 /* Tablets and Up */
 @media screen and (min-width:768px) {
@@ -255,7 +276,7 @@ footer {
     }
 
     #nav-links>li {
-        font-size: 18px;
+        font-size: 20px;
         text-transform: uppercase;
         background-image: none;
         padding-left: 10px;
@@ -264,17 +285,13 @@ footer {
     /* MAIN */
 
     /* Hero section */
-    /* #hero {
-        background-position: 100% 58%;
-        background-size: 680px;
-    }*/
+    #hero {
+        background: url("../images/Gabriela-COSB-colloquium-2021-11-30-Kopie.webp") no-repeat 84% 51% / 100%;
+    }
 
     #hero h2 {
-        top: 125px;
-        padding-left: 40px;
-        text-align: left;
+        top: 170px;
         font-size: 63px;
-        position: absolute;
     }
 
     /* Love story section */
@@ -308,17 +325,20 @@ footer {
 
     #extraordinary h3 {
         font-size: 30px;
+        margin-bottom: 45px;
     }
 
     #extraordinary p {
         width: 270px;
         height: 260px;
+        margin-left: 10px;
+        margin-bottom: 50px;
     }
 
     /* FOOTER */
     #social-links {
         display: flex;
-        font-size: 150%;
+        font-size: 25px;
     }
 
     #social-links li {
@@ -345,16 +365,17 @@ footer {
     }
 
     /* MAIN */
-    /*#hero {
-        height: 450px;
-        background-position: 100% 50%;
-        background-size: 780px;
-    }*/
 
     /* Hero section */
+    #hero {
+        background: url("../images/Gabriela-COSB-colloquium-2021-11-30-Kopie.webp") no-repeat 84% 51% / 80%;
+        background-color: black;
+    }
+
     #hero h2 {
-        top: 125px;
+        top: 130px;
         font-size: 70px;
+        margin-left: 65px;
     }
 
     /* Love story section */
@@ -441,46 +462,42 @@ footer {
     /* Love story section */
 
     #love-story h3 {
-        font-size: 40px;
+        font-size: 50px;
     }
 
     .story {
-        width: 800px;
+        width: 1000px;
     }
 
     #love-story p {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     #love-story video {
-        padding-left: 50px;
-        width: 400px;
-        height: 200px;
+        width: 500px;
+        height: 300px;
     }
 
     /* Extraordinary section */
 
-    #extraordinary .features {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .feature {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 20px;
-    }
-
     #extraordinary h3 {
-        font-size: 40px;
+        font-size: 50px;
+        margin-top: 45px;
+    }
+
+    #extraordinary img {
+        width: 350px;
+        height: 350px;
     }
 
     #extraordinary p {
-        width: 270px;
-        height: 270px;
+        width: 350px;
+        height: 350px;
         margin-top: 5px;
-        font-size: 20px;
+        font-size: 25px;
+    }
+
+    .feature {
+        margin:0 30px;
     }
 }
