@@ -44,53 +44,56 @@
     <!-- Contact us section -->
     <main id="main-contact">
         <section>
-            <h1>Win a years supply of coffee from Coders Coffeehouse</h1>
-            <p>Complete our survey for your chance to win!</p>
-            <hr>
+            <h1>Interested in more symbiotic love stories?</h1>
+            <p>Subscribe to our Newsletter!</p>
         </section>
 
         <section>
-            <div id="time">
+            <div id="">
                 <form action="succesful.html" method="GET" target="_blank">
-                    <div>
-                        <label for="name">Name</label>
-                        <input id="name" type="text" name="getdata" placeholder="Enter your name">
-                    </div>
+                    <fieldset>
+                        <legend>Your details</legend>
+                        <div>
+                            <label for="name">Name</label>
+                            <input id="name" type="text" name="getdata" placeholder="Enter your name" required>
+                        </div>
 
-                    <div>
-                        <label for="email">Email</label>
-                        <input id="email" type="email" name="email">
-                    </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input id="email" type="email" name="email" required>
+                        </div>
+                    </fieldset>
                     <br>
-                    <p class="bold">Which of our coders coffeehouse snacks do you enjoy?</p>
+                    <fieldset>
+                        <legend>I want more information about:</legend> <!--Dropdown menu instead, or required radio type-->
 
-                    <div>
-                        <input type="radio" id="brownies-checkbox" name="brownies">
-                        <label for="brownies-checkbox">Laxus oneistus</label>
-                    </div>
+                        <div>
+                            <input type="radio" id="brownies-checkbox" name="brownies">
+                            <label for="brownies-checkbox">Laxus oneistus</label>
+                        </div>
 
-                    <div>
-                        <input type="radio" id="cookies-checkbox" name="cookies">
-                        <label for="cookies-checkbox">Ca. Thiosymbion oneisti</label>
-                    </div>
+                        <div>
+                            <input type="radio" id="cookies-checkbox" name="cookies">
+                            <label for="cookies-checkbox">Ca. Thiosymbion oneisti</label>
+                        </div>
 
-                    <div>
-                        <input type="radio" id="cookies-checkbox" name="cookies">
-                        <label for="cookies-checkbox">Both</label>
-                    </div>
+                        <div>
+                            <input type="radio" id="cookies-checkbox" name="cookies">
+                            <label for="cookies-checkbox">Both, Laxus and Thiosymbion!</label>
+                        </div>
 
-                    <div>
-                        <input type="radio" id="cookies-checkbox" name="cookies">
-                        <label for="cookies-checkbox">Other symbiosis system!</label>
-                    </div>
-
+                        <div>
+                            <input type="radio" id="cookies-checkbox" name="cookies">
+                            <label for="cookies-checkbox">Other symbiotic system!</label>
+                        </div>
+                    </fieldset>
                     <br>
-                    <label for="feedback">What can we do to improve your experience with us?</label>
+                    <label for="feedback">What other scientific content do you want to see?</label>
                     <textarea name="feedback" id="feedback"
                         placeholder="You can see this placeholder, because there isn't anything between the textareas opening and closing tags"
-                        rows="5" cols="40"></textarea>
-                    <label for="submit">Senden</label>
-                    <input id="submit" type="submit">
+                        rows="5" cols="40" required></textarea>
+                    <br>
+                    <button type="submit" id="submit"><strong>Send!</strong></button>
                 </form>
             </div>
         </section>
