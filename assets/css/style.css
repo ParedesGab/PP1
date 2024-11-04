@@ -147,7 +147,7 @@ main,
 }
 
 #LT-hero h2 {
-    top: 115px;
+    top: 135px;
     margin: 0px 20px;
     font-size: 45px;
     position: absolute;
@@ -156,7 +156,8 @@ main,
 
 }
 
-/* Love story section */ /*change name of love story for something more generic*/
+/* Love story section */
+/*change name of love story for something more generic*/
 #love-story {
     display: flex;
     flex-direction: column;
@@ -241,6 +242,14 @@ main,
     border: solid black 2px;
     background-color: rgba(222, 221, 218, 0.55);
 }
+
+#extraordinary .model {
+    width: 300px;
+    border-radius: 0%;
+    border: solid black 2px;
+    margin-bottom: 35px;
+}
+
 
 /* FOOTER */
 footer {
