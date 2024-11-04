@@ -8,7 +8,7 @@
     margin: 0px;
     /* Include padding and border to the total size (width and height)*/
     box-sizing: border-box;
-    border: solid red 0.2px;
+    /*border: solid red 0.2px;*/
 }
 
 /* BODY */
@@ -222,7 +222,7 @@ main,
     margin: 30px 30px;
 }
 
-.features, 
+.features,
 .nutritional {
     display: flex;
     flex-direction: column;
@@ -249,6 +249,7 @@ main,
 
 #extraordinary .model {
     width: 90%;
+    border: solid black 2px;
 }
 
 /* FOOTER */
@@ -343,10 +344,19 @@ footer {
         font-size: 63px;
     }
 
+    /* Laxus and Thiosymbion hero section */
+    #main-LT {
+        margin-top: 85px;
+    }
+
+    #LT-hero {
+        height: 350px;
+    }
+
     #LT-hero h2 {
-        top: 105px;
+        top: 130px;
         margin: 0px 20px;
-        font-size: 50px;
+        font-size: 60px;
     }
 
     /* Love story section */
@@ -388,7 +398,7 @@ footer {
         height: 260px;
         margin-left: 10px;
         margin-bottom: 50px;
-    }  
+    }
 
     /* Laxus and Thiosymbion extraordinary section */
 
@@ -401,7 +411,7 @@ footer {
 
     #extraordinary .LT-h3 {
         background-color: rgba(222, 221, 218, 0.55);
-        color:black;
+        color: black;
     }
 
     #extraordinary .nutritional p {
@@ -409,12 +419,10 @@ footer {
         margin: 0 15px;
         margin-bottom: 0px;
     }
-   
+
     #extraordinary .model {
         width: 65%;
     }
-
-
 
     /* FOOTER */
     #social-links {
@@ -457,6 +465,21 @@ footer {
         top: 130px;
         font-size: 70px;
         margin-left: 65px;
+    }
+
+    /* Laxus and Thiosymbion hero section */
+    #main-LT {
+        margin-top: 115px;
+    }
+
+    #LT-hero {
+        height: 400px;
+    }
+
+    #LT-hero h2 {
+        top: 160px;
+        margin: 0px 20px;
+        font-size: 60px;
     }
 
     /* Love story section */
@@ -580,5 +603,26 @@ footer {
 
     .feature {
         margin: 0 30px;
+    }
+
+    /* Laxus and Thiosymbion extraordinary section */
+
+    .nutritional {
+        height: 900px;
+        /*margin: 0px 0px 38px 0px;*/
+    }
+
+    /*#extraordinary .LT-h3 {
+    }*/
+
+    #extraordinary .nutritional p {
+        width: 300px;
+        /*margin: 0 15px;
+        margin-bottom: 0px;*/
+    }
+
+    #extraordinary .model {
+        width: 90%;
+        height: 90%;
     }
 }
