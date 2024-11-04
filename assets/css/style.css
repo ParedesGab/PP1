@@ -149,13 +149,13 @@ main,
 #LT-hero h2 {
     top: 135px;
     margin: 0px 20px;
-    font-size: 45px;
+    font-size: 46px;
     position: absolute;
     color: black;
     background-color: rgba(222, 221, 218, 0.65);
 }
 
-#LT-hero .thio-h2 {
+#LT-hero h2 {
     top: 115px;
 }
 
@@ -222,7 +222,8 @@ main,
     margin: 30px 30px;
 }
 
-.features {
+.features, 
+.nutritional {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -246,21 +247,9 @@ main,
     background-color: rgba(222, 221, 218, 0.55);
 }
 
-#extraordinary .card {
-    width: 300px;
+#extraordinary .model {
+    width: 90%;
 }
-
-.card .model {
-    width: 100%;
-}
-
-/*#extraordinary .model {
-    width: 300px;
-    border-radius: 0%;
-    border: solid black 2px;
-    margin-bottom: 35px;
-}*/
-
 
 /* FOOTER */
 footer {
@@ -278,6 +267,7 @@ footer {
 #social-links li {
     list-style-type: none;
     margin: 0px 12px;
+    color: blueviolet;
 }
 
 /* MEDIA QUERIES */
@@ -303,7 +293,6 @@ footer {
         position: absolute;
     }
 }*/
-
 
 /* Tablets and Up */
 @media screen and (min-width:768px) {
@@ -354,6 +343,12 @@ footer {
         font-size: 63px;
     }
 
+    #LT-hero h2 {
+        top: 105px;
+        margin: 0px 20px;
+        font-size: 50px;
+    }
+
     /* Love story section */
 
     #love-story {
@@ -393,7 +388,33 @@ footer {
         height: 260px;
         margin-left: 10px;
         margin-bottom: 50px;
+    }  
+
+    /* Laxus and Thiosymbion extraordinary section */
+
+    .nutritional {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 0px 38px 0px;
     }
+
+    #extraordinary .LT-h3 {
+        background-color: rgba(222, 221, 218, 0.55);
+        color:black;
+    }
+
+    #extraordinary .nutritional p {
+        width: 200px;
+        margin: 0 15px;
+        margin-bottom: 0px;
+    }
+   
+    #extraordinary .model {
+        width: 65%;
+    }
+
+
 
     /* FOOTER */
     #social-links {
