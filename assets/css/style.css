@@ -147,16 +147,16 @@ main,
 }
 
 #LT-hero h2 {
-    top: 145px;
+    top: 115px;
     margin: 0px 20px;
-    font-size: 40px;
+    font-size: 45px;
     position: absolute;
     color: black;
-    background-color: rgba(222, 221, 218, 0.55);
+    background-color: rgba(222, 221, 218, 0.65);
 
 }
 
-/* Love story section */
+/* Love story section */ /*change name of love story for something more generic*/
 #love-story {
     display: flex;
     flex-direction: column;
@@ -189,6 +189,16 @@ main,
 #love-story video {
     width: 270px;
     margin: 0px 20px 20px;
+    margin-bottom: 35px;
+}
+
+#love-story img {
+    width: 270px;
+    margin: 0px 20px 20px;
+    margin-bottom: 35px;
+}
+
+#love-story .laxus-img {
     margin-bottom: 35px;
 }
 
