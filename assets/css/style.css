@@ -8,12 +8,12 @@
     margin: 0px;
     /* Include padding and border to the total size (width and height)*/
     box-sizing: border-box;
-    /*border: solid red 0.2px;*/
+    border: solid red 0.2px;
 }
 
 /* BODY */
 body {
-    background-color: black;
+    background-color:brown;
     font-family: 'Arsenal', sans-serif;
     /* Will fill up 100% of the viewport height*/
     min-height: 100vh;
@@ -158,6 +158,28 @@ main,
 #LT-hero h2 {
     top: 115px;
 }
+
+/* Contact us page */
+#main-contact {
+    margin-top: 100px;
+    flex: 1 0 auto;
+    color: wheat;
+    display:flex;
+    flex-direction: column;
+    justify-content: top;
+    text-align: left;
+    align-items: center;
+    /*background: url("../images/ball\ of\ nematodes.webp") no-repeat center center/cover;*/
+}
+
+/*#main-contact > section {
+    width: 70%;
+
+    
+}*/
+
+
+
 
 /* Love story section */
 /*change name of love story for something more generic*/

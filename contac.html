@@ -23,11 +23,12 @@
     <header>
         <!-- Logo -->
         <a href="index.html" aria-label="logo linked to home page">
-            <h1 id="logo"><i class="fas fa-wave-square fa-flip-horizontal"></i>Laxus & Thiosymbion</h1>
+            <h1 id="logo">Laxus & Thiosymbion</h1>
         </a>
         <!-- Toggling using checkbox with Burger icon-->
-        <label for="toggle" class="toggle-label"><i class="fas fa-bars"></i></label>
         <input id="toggle" type="checkbox" name="toggle">
+        <label for="toggle" class="toggle-label"><i class="fas fa-bars"></i></label>
+
         <!-- Navigation links -->
         <nav>
             <ul id="nav-links">
@@ -40,52 +41,63 @@
     </header>
 
     <!-- Main -->
-    <main>
-        <!-- Hero section -->
-        <section id="hero">
-            <h2>An extraordinary symbiosis</h2>
-            <img src="assets/images/background.webp" alt="">
+    <!-- Contact us section -->
+    <main id="main-contact">
+        <section>
+            <h1>Win a years supply of coffee from Coders Coffeehouse</h1>
+            <p>Complete our survey for your chance to win!</p>
+            <hr>
         </section>
 
-        <!-- Love story section -->
-        <section id="love-story">
-            <h3> ---- A love story ---- </h3>
-            <div class="story">
-                <p>"Lapsus Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore.
+        <section>
+            <div id="time">
+                <form action="succesful.html" method="GET" target="_blank">
+                    <div>
+                        <label for="name">Name</label>
+                        <input id="name" type="text" name="getdata" placeholder="Enter your name">
+                    </div>
 
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore
-                    Imaged modifed from Weber et.
+                    <div>
+                        <label for="email">Email</label>
+                        <input id="email" type="email" name="email">
+                    </div>
+                    <br>
+                    <p class="bold">Which of our coders coffeehouse snacks do you enjoy?</p>
 
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore
-                </p>
-                <img src="assets/images/reasons-image.webp" alt="">
-            </div>
-        </section>
+                    <div>
+                        <input type="radio" id="brownies-checkbox" name="brownies">
+                        <label for="brownies-checkbox">Laxus oneistus</label>
+                    </div>
 
-        <!-- Wny extraordinary? section -->
-        <section id="features">
-            <div>
-                <img src="assets/images/reasons-image.webp" alt="">
-                <p>A</p>
-            </div>
-            <div>
-                <img src="assets/images/reasons-image.webp" alt="">
-                <p>B</p>
-            </div>
-            <div>
-                <img src="assets/images/reasons-image.webp" alt="">
-                <p>C</p>
+                    <div>
+                        <input type="radio" id="cookies-checkbox" name="cookies">
+                        <label for="cookies-checkbox">Ca. Thiosymbion oneisti</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="cookies-checkbox" name="cookies">
+                        <label for="cookies-checkbox">Both</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="cookies-checkbox" name="cookies">
+                        <label for="cookies-checkbox">Other symbiosis system!</label>
+                    </div>
+
+                    <br>
+                    <label for="feedback">What can we do to improve your experience with us?</label>
+                    <textarea name="feedback" id="feedback"
+                        placeholder="You can see this placeholder, because there isn't anything between the textareas opening and closing tags"
+                        rows="5" cols="40"></textarea>
+                    <label for="submit">Senden</label>
+                    <input id="submit" type="submit">
+                </form>
             </div>
         </section>
     </main>
 
     <!-- Footer -->
     <footer>
-        <!-- Symbiosis quote -->
-        <!-- Add contact us to the footer too -->
         <!-- Social media icons -->
         <ul id="social-links">
             <li><a href="https://www.facebook.com/" aria-label="" target="_blank"><i class="fab fa-facebook"></i></a>
