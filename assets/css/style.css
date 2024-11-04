@@ -6,9 +6,9 @@
 * {
     padding: 0px;
     margin: 0px;
+    /* Include padding and border to the total size (width and height)*/
     box-sizing: border-box;
-    /*so the total size (width and height) includes padding and border*/
-    /*border: solid red 0.2px;*/
+    border: solid red 0.2px;
     color: rgb(226, 216, 188);
 }
 
@@ -498,6 +498,6 @@ footer {
     }
 
     .feature {
-        margin:0 30px;
+        margin: 0 30px;
     }
 }
