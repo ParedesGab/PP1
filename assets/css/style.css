@@ -8,7 +8,7 @@
     margin: 0;
     /* Include padding and border to the total size (width and height) */
     box-sizing: border-box;
-    border: solid red 0.2px;
+    /*border: solid red 0.2px;*/
 }
 
 /* BODY */
@@ -100,7 +100,7 @@ nav {
 
 #nav-links>li {
     letter-spacing: -1px;
-    font-size: 20px;
+    font-size: 1.3rem;
     background-image: url(../images/logo\ header\ laxus\ -\ Kopie.jpg);
     background-repeat: no-repeat;
     background-size: 1.5rem;
@@ -346,7 +346,7 @@ footer {
     }
 }*/
 
-/* Tablets and Up */
+/* Media Query: Tablets and Up */
 @media screen and (min-width:768px) {
 
     /* Hide Toggle Label */
@@ -383,7 +383,7 @@ footer {
     }
 
     #hero h2 {
-        top: 190px;
+        top: 200px;
         left:30px;
         font-size: 63px;
     }
@@ -481,22 +481,24 @@ footer {
     }
 }
 
-/* Laptops and Up */
+/* Media Query: Laptops and Up */
 @media screen and (min-width:992px) {
 
     /* Increase */
     #logo {
-        margin-left: 25px;
+        margin-left: 1.7rem;
+        margin-top: 1.7rem;
     }
 
     /* Style Navbar */
     #nav-links {
-        margin-right: 25px;
+        margin-right: 1.7rem;
     }
 
     #nav-links>li {
-        font-size: 22px;
+        font-size: 1.4rem;
         padding-left: 15px;
+        margin-top: 1.2rem;
     }
 
     /* MAIN */
@@ -505,6 +507,7 @@ footer {
     #hero {
         background: url("../images/Gabriela-COSB-colloquium-2021-11-30-Kopie.webp") no-repeat 84% 51% / 80%;
         background-color: black;
+        height: 550px;
     }
 
     #hero h2 {
