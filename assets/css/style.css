@@ -8,11 +8,12 @@
     margin: 0;
     /* Include padding and border to the total size (width and height) */
     box-sizing: border-box;
-    /*border: solid red 0.2px;*/
+    border: solid red 0.2px;
 }
 
 /* BODY */
 body {
+    background-color: blue;
     /* Fill up 100% of the viewport height */
     min-height: 100vh;
     font-family: "Arsenal", sans-serif;
@@ -128,7 +129,7 @@ main,
     width: 100%;
     height: 480px;
     position: relative;
-    background: url("../images/Gabriela-COSB-colloquium-2021-11-30-Kopie.webp") no-repeat 35% center/cover;
+    background: url("../images/Gabriela-COSB-colloquium-2021-11-30-Kopie.webp") no-repeat 35% center / cover;
     background-color: black;
 }
 
@@ -223,6 +224,7 @@ h3 {
 /* Extraordinary section */
 
 #extraordinary {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -379,7 +381,7 @@ footer {
     /* Hero section */
     #hero {
         height: 500px;
-        background: url("../images/Gabriela-COSB-colloquium-2021-11-30-Kopie.webp") no-repeat 0% 60% / 100%;
+        background: url("../images/Gabriela-COSB-colloquium-2021-11-30-Kopie.webp") no-repeat center center / cover;
     }
 
     #hero h2 {
@@ -505,7 +507,7 @@ footer {
 
     /* Hero section */
     #hero {
-        background: url("../images/Gabriela-COSB-colloquium-2021-11-30-Kopie.webp") no-repeat 84% 51% / 80%;
+        background: url("../images/Gabriela-COSB-colloquium-2021-11-30-Kopie.webp") no-repeat center center / 82%;
         background-color: black;
         height: 550px;
     }
@@ -565,7 +567,6 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 20px;
     }
 
     #extraordinary h3 {
@@ -580,31 +581,25 @@ footer {
     }
 }
 
-/* Desktops and Up */
+/* Media query: Desktops and Up */
 @media screen and (min-width:1200px) {
 
     /* Increase Logo size */
     #logo {
-        font-size: 45px;
-        margin-top: 30px;
-        margin-left: 30px;
+        font-size: 2.6rem;
     }
 
     /* Style Navbar */
-    #nav-links {
-        margin-right: 30px;
-    }
-
     #nav-links>li {
-        font-size: 32px;
+        font-size: 2rem;
         padding-left: 20px;
     }
 
     /* MAIN */
     #hero {
         height: 650px;
-        background-position: 90% 55%;
-        background-size: 1000px;
+        background: url("../images/Gabriela-COSB-colloquium-2021-11-30-Kopie.webp") no-repeat center center / 80%;
+        background-color: black;
     }
 
     /* Hero section */
@@ -650,10 +645,6 @@ footer {
         height: 350px;
         margin-top: 5px;
         font-size: 25px;
-    }
-
-    .feature1 {
-        margin: 0 30px;
     }
 
     /* Laxus and Thiosymbion extraordinary section */
