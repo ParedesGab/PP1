@@ -177,16 +177,19 @@ main,
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(230, 225, 215);
+    background-color: rgb(227, 220, 206);
     color: black;
+    min-height: 40vh;
+    margin: 20px 20px;
 }
 
-#love-story h3 {
+h3 {
     color: black;
     font-size: 2rem;
-    margin: 35px 35px;
+    margin: 2.6rem 2.6rem;
     background-color: rgba(241, 131, 129, 0.3);
-    padding: 10px;
+    padding: 10px 20px;
+    text-align: center;
 }
 
 .story {
@@ -228,12 +231,12 @@ main,
     background: url("../images/Der\ Wurm\ mit\ dem\ bakterienpelz.webp") no-repeat center center/cover;
 }
 
-#extraordinary h3 {
+/*#extraordinary h3 {
     color: rgb(226, 216, 188);
     font-size: 25px;
     text-align: center;
     margin: 30px 30px;
-}
+}*/
 
 .features,
 .nutritional {
