@@ -126,19 +126,19 @@ main,
 /* Hero section */
 #hero {
     width: 100%;
-    height: 450px;
+    height: 480px;
     position: relative;
-    background: url("../images/Gabriela-COSB-colloquium-2021-11-30-Kopie.webp") no-repeat center center/cover;
+    background: url("../images/Gabriela-COSB-colloquium-2021-11-30-Kopie.webp") no-repeat 35% center/cover;
     background-color: black;
 }
 
 #hero h2 {
-    top: 235px;
-
+    top: 244px;
     font-size: 50px;
     position: absolute;
-
-
+    width: 80%;
+    min-height: 180px;
+    margin: 0 1.3rem;
 }
 
 #main-LT {
@@ -169,57 +169,24 @@ main,
     top: 115px;
 }
 
-/* Contact Us page */
-#main-contact {
-    margin-top: 100px;
-    flex: 1 0 auto;
-    color: wheat;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    padding: 40px 5% 0 5%;
-}
-
-#main-contact h1 {
-    font-size: 40px;
-    margin-bottom: 2rem;
-}
-
-#main-contact h3 {
-    font-size: 25px;
-    margin-bottom: 2rem;
-}
-
-#section-contact {
-    background: url("../images/Gabriela-COSB-colloquium-2021-11-30-Kopie.webp");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 45%;
-    text-align: left;
-    flex-grow: 1;
-}
-
-#form-contact {
-    background-color: rgba(247, 127, 30, 0.2);
-}
-
 /* Love story section */
+
 /*change name of love story for something more generic*/
 #love-story {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(226, 216, 188);
+    background-color: rgb(230, 225, 215);
     color: black;
 }
 
 #love-story h3 {
     color: black;
-    font-size: 25px;
+    font-size: 2rem;
     margin: 35px 35px;
+    background-color: rgba(241, 131, 129, 0.3);
+    padding: 10px;
 }
 
 .story {
@@ -298,6 +265,42 @@ main,
     border: solid black 2px;
 }
 
+/* Contact Us page */
+#main-contact {
+    margin-top: 100px;
+    flex: 1 0 auto;
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 40px 5% 0 5%;
+}
+
+#main-contact h1 {
+    font-size: 40px;
+    margin-bottom: 2rem;
+}
+
+#main-contact h3 {
+    font-size: 25px;
+    margin-bottom: 2rem;
+}
+
+#section-contact {
+    background: url("../images/Gabriela-COSB-colloquium-2021-11-30-Kopie.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 45%;
+    text-align: left;
+    flex-grow: 1;
+}
+
+#form-contact {
+    background-color: rgba(247, 127, 30, 0.2);
+}
+
 /* FOOTER */
 footer {
     background-color: black;
@@ -344,11 +347,11 @@ footer {
 /* Tablets and Up */
 @media screen and (min-width:768px) {
 
-    /* Increase Logo size */
+    /* Increase Logo size 
     #logo {
         font-size: 35px;
         margin-top: 15px;
-    }
+    }*/
 
     /* Hide Toggle Label */
     .toggle-label {
@@ -360,22 +363,18 @@ footer {
         position: relative;
         display: block;
         width: fit-content;
-        padding-top: 10px;
     }
 
     /* Style Navbar */
     #nav-links {
-        display: flex;
         flex-direction: row;
-        margin: 10px 20px 10px;
-        padding: 0px;
+        margin-right: 1.3rem;
+        padding-bottom: 0px;
     }
 
     #nav-links>li {
-        font-size: 20px;
-        text-transform: uppercase;
         background-image: none;
-        padding-left: 10px;
+        padding-left: 11px;
     }
 
     /* MAIN */
