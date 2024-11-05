@@ -4,14 +4,25 @@
 
 /* Wildcard selector * to override default styles */
 * {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     /* Include padding and border to the total size (width and height) */
     box-sizing: border-box;
     /*border: solid red 0.2px;*/
 }
 
-h1, 
+/* BODY */
+body {
+    /* Fill up 100% of the viewport height */
+    min-height: 100vh;
+    font-family: "Arsenal", sans-serif;
+    /* Flex container */
+    display: flex;
+    /* Show on top of each other the body children */
+    flex-direction: column;
+}
+
+h1,
 h2 {
     margin-left: 21px;
     text-align: left;
@@ -19,17 +30,6 @@ h2 {
     color: rgb(226, 216, 188);
 }
 
-/* BODY */
-body {
-    background-color: black;
-    font-family: "Arsenal", sans-serif;
-    /* Fill up 100% of the viewport height */
-    min-height: 100vh;
-    /* Flex container */
-    display: flex;
-    /* Show on top of each other the body children */
-    flex-direction: column;
-}
 
 /* HEADER */
 header {
@@ -52,9 +52,8 @@ header a {
 
 /* Logo */
 #logo {
-    font-size: 30px;
+    font-size: 2rem;
     margin: 1rem 1.3rem;
-    letter-spacing: -1.7px;
 }
 
 /* Toggle */
@@ -66,19 +65,8 @@ header a {
 
 /* Toggle lable */
 .toggle-label i {
-    font-size: 45px;
+    font-size: 2.8rem;
     margin: 1rem 1.3rem;
-}
-
-/* Navbar */
-nav {
-    /* Hide the navbar */
-    display: none;
-    position: absolute;
-    background-color: black;
-    width: 100%;
-    top: 100%;
-    text-transform: uppercase;
 }
 
 /* Navbar toggle*/
@@ -86,29 +74,43 @@ nav {
     display: block;
 }
 
-/* Style Navbar */
+/* Navigation bar */
+nav {
+    /* Place it outside the header */
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    background-color: black;
+    /* Hide the navbar */
+    display: none;
+}
+
+/* Navbar links */
 #nav-links {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: center;
     line-height: 1.5;
     list-style-type: none;
+    text-transform: uppercase;
+    padding-bottom: 5px;
 }
 
 #nav-links>li {
     letter-spacing: -1px;
     font-size: 20px;
     background-image: url(../images/logo\ header\ laxus\ -\ Kopie.jpg);
-    /*youtube https://www.youtube.com/watch?v=M5audtofhIo */
     background-repeat: no-repeat;
     background-size: 1.5rem;
     padding-left: 30px;
 }
 
-.active:hover {
+/*.active:hover {
     text-decoration: underline;
-}
+    background-color: yellow;
+}*/
 
 /* MAIN */
 
@@ -135,8 +137,8 @@ main,
 
     font-size: 50px;
     position: absolute;
-    
-    
+
+
 }
 
 #main-LT {
