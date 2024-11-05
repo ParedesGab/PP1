@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=	, initial-scale=1.0">
+    <!-- Meta tags for search engines -->
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <!-- Webpage title -->
+    <title>Laxus & Thiosymbion | Contact Us page</title>
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="">
+    <link rel="icon" type="image/png" sizes="32x32" href="">
+    <link rel="icon" type="image/png" sizes="16x16" href="">
+    <!-- CSS style sheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Logo -->
+        <a href="index.html" aria-label="logo linked to home page">
+            <h1 id="logo">Laxus & Thiosymbion</h1>
+        </a>
+        <!-- Toggling using checkbox with Burger icon-->
+        <input id="toggle" type="checkbox" name="toggle">
+        <label for="toggle" class="toggle-label"><i class="fas fa-bars"></i></label>
+
+        <!-- Navigation links -->
+        <nav>
+            <ul id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="laxus.html">Laxus</a></li>
+                <li><a href="thiosymbion.html">Thiosymbion</a></li>
+                <li><a href="contact.html" class="active">Newsletter</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <!-- Contact us section -->
+    <main id="main-contact">
+        <h1>Interested in more symbiotic love stories?</h1>
+        <h3>Subscribe to our Newsletter!</h3>
+
+        <section id="section-contact">
+            <form id="form-contact" action="succesful.html" method="GET" target="_blank">
+                <fieldset>
+                    <legend>Your details</legend>
+                    <div>
+                        <label for="name">Name</label>
+                        <input id="name" type="text" name="getdata" placeholder="Enter your name" required>
+                    </div>
+
+                    <div>
+                        <label for="email">Email</label>
+                        <input id="email" type="email" name="email" required>
+                    </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>I want more information about: </legend>
+                    <!--Dropdown menu instead, or required radio type where to put it?-->
+
+                    <div id="a">
+                        <input type="radio" id="cookies-checkbox" name="cookies">
+                        <label for="cookies-checkbox">Laxus oneistus</label>
+                        <br>
+                        <input type="radio" id="cookies-checkbox" name="cookies">
+                        <label for="cookies-checkbox">Ca. Thiosymbion oneisti</label>
+                        <br>
+                        <input type="radio" id="cookies-checkbox" name="cookies">
+                        <label for="cookies-checkbox">Both, Laxus and Thiosymbion!</label>
+                        <br>
+                        <input type="radio" id="cookies-checkbox" name="cookies">
+                        <label for="cookies-checkbox">Other symbiotic system!</label>
+                    </div>
+                </fieldset>
+                <br>
+                <label for="feedback">What other scientific content do you want to see?</label>
+                <textarea name="feedback" id="feedback"
+                    placeholder="You can see this placeholder, because there isn't anything between the textareas opening and closing tags"
+                    rows="5" cols="40" required></textarea>
+                <br>
+                <button type="submit" id="submit"><strong>Send!</strong></button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <!-- Social media icons -->
+        <ul id="social-links">
+            <li><a href="https://www.facebook.com/" aria-label="" target="_blank" rel="noopener"><i
+                        class="fab fa-facebook"></i></a>
+            </li>
+            <li><a href="https://www.instagram.com/" aria-label="" target="_blank" rel="noopener"><i
+                        class="fab fa-instagram"></i></a>
+            </li>
+            <li><a href="https://x.com/" aria-label="" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li><a href="https://www.linkedin.com" aria-label="" target="_blank" rel="noopener"><i
+                        class="fab fa-linkedin"></i></a>
+            </li>
+        </ul>
+    </footer>
+
+    <!-- Javascript Font Awesome Kit (v5.15.4)-->
+    <script src="https://kit.fontawesome.com/dd9cffa4c0.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

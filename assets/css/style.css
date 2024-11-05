@@ -6,20 +6,28 @@
 * {
     padding: 0px;
     margin: 0px;
-    /* Include padding and border to the total size (width and height)*/
+    /* Include padding and border to the total size (width and height) */
     box-sizing: border-box;
     /*border: solid red 0.2px;*/
 }
 
+h1, 
+h2 {
+    margin-left: 21px;
+    text-align: left;
+    letter-spacing: -1.9px;
+    color: rgb(226, 216, 188);
+}
+
 /* BODY */
 body {
-    background-color:black;
-    font-family: 'Arsenal', sans-serif;
-    /* Will fill up 100% of the viewport height*/
+    background-color: black;
+    font-family: "Arsenal", sans-serif;
+    /* Fill up 100% of the viewport height */
     min-height: 100vh;
     /* Flex container */
     display: flex;
-    /* Body childs to show on top of each other and not in one row */
+    /* Show on top of each other the body children */
     flex-direction: column;
 }
 
@@ -39,13 +47,13 @@ header {
 header a {
     /* remove underline from all header links*/
     text-decoration: none;
-    color: rgb(226, 216, 188);
+    color: rgb(231, 216, 188);
 }
 
 /* Logo */
 #logo {
     font-size: 30px;
-    margin: 10px 20px;
+    margin: 1rem 1.3rem;
     letter-spacing: -1.7px;
 }
 
@@ -59,7 +67,7 @@ header a {
 /* Toggle lable */
 .toggle-label i {
     font-size: 45px;
-    margin-right: 10px;
+    margin: 1rem 1.3rem;
 }
 
 /* Navbar */
@@ -124,11 +132,11 @@ main,
 
 #hero h2 {
     top: 235px;
-    margin-left: 20px;
-    text-align: left;
-    font-size: 48px;
+
+    font-size: 50px;
     position: absolute;
-    color: rgb(226, 216, 188);
+    
+    
 }
 
 #main-LT {
@@ -159,27 +167,41 @@ main,
     top: 115px;
 }
 
-/* Contact us page */
+/* Contact Us page */
 #main-contact {
     margin-top: 100px;
     flex: 1 0 auto;
     color: wheat;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: left;
+    text-align: center;
     align-items: center;
-    /*background: url("../images/Gabriela\ -\ COSB\ colloquium\ -\ 2021-11-30.webp") no-repeat center center/cover;*/
+    padding: 40px 5% 0 5%;
 }
 
-#main-contact > section {
-    width: 90%;   
-    height: 90%;
-    background: url("../images/Gabriela\ -\ COSB\ colloquium\ -\ 2021-11-30.webp") no-repeat center center/cover;
+#main-contact h1 {
+    font-size: 40px;
+    margin-bottom: 2rem;
 }
 
+#main-contact h3 {
+    font-size: 25px;
+    margin-bottom: 2rem;
+}
 
+#section-contact {
+    background: url("../images/Gabriela-COSB-colloquium-2021-11-30-Kopie.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 45%;
+    text-align: left;
+    flex-grow: 1;
+}
 
+#form-contact {
+    background-color: rgba(247, 127, 30, 0.2);
+}
 
 /* Love story section */
 /*change name of love story for something more generic*/
@@ -251,7 +273,7 @@ main,
     align-items: center;
 }
 
-#extraordinary .feature img {
+#extraordinary .feature1 img {
     width: 270px;
     height: 270px;
     border-radius: 100%;
@@ -406,7 +428,7 @@ footer {
 
     /* Extraordinary section */
 
-    .feature {
+    .feature1 {
         display: flex;
     }
 
@@ -532,7 +554,7 @@ footer {
         justify-content: space-between;
     }
 
-    .feature {
+    .feature1 {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -623,7 +645,7 @@ footer {
         font-size: 25px;
     }
 
-    .feature {
+    .feature1 {
         margin: 0 30px;
     }
 
