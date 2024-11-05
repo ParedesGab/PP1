@@ -369,7 +369,7 @@ footer {
     }
 
     #nav-links>li {
-        margin-top:5px;
+        margin-top: 5px;
         background-image: none;
         padding-left: 11px;
     }
@@ -384,7 +384,7 @@ footer {
 
     #hero h2 {
         top: 200px;
-        left:30px;
+        left: 30px;
         font-size: 63px;
     }
 
@@ -511,9 +511,9 @@ footer {
     }
 
     #hero h2 {
-        top: 130px;
+        top: 190px;
         font-size: 70px;
-        margin-left: 65px;
+        left: 50px;
     }
 
     /* Laxus and Thiosymbion hero section */
@@ -533,8 +533,11 @@ footer {
 
     /* Love story section */
 
-    #love-story h3 {
-        font-size: 40px;
+    #love-story {
+        min-height: 45vh;
+    }
+    h3 {
+        font-size: 2.8rem;
     }
 
     .story {
@@ -546,9 +549,8 @@ footer {
     }
 
     #love-story video {
-        padding-left: 50px;
-        width: 400px;
-        height: 200px;
+        margin: 0px 60px;
+        margin-bottom:30px;
     }
 
     /* Extraordinary section */
