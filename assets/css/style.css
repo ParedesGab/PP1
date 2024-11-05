@@ -180,7 +180,7 @@ main,
     background-color: rgb(227, 220, 206);
     color: black;
     min-height: 40vh;
-    margin: 20px 20px;
+    margin: 30px 20px;
 }
 
 h3 {
@@ -223,7 +223,7 @@ h3 {
 /* Extraordinary section */
 
 #extraordinary {
-    margin: 20px 0px;
+    margin: 30px 0px 0px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -231,7 +231,7 @@ h3 {
 }
 
 #extraordinary>h3 {
-    background-color: rgba(199, 199, 222, 0.2);
+    background-color: rgb(227, 220, 206, 0.35);
 }
 
 .features,
@@ -307,16 +307,20 @@ footer {
 
 #social-links {
     display: flex;
-    font-size: 20px;
+    font-size: 2rem;
     justify-content: center;
     text-align: center;
     padding: 20px 0px;
 }
 
-#social-links li {
+#social-links>li {
     list-style-type: none;
-    margin: 0px 12px;
-    color: blueviolet;
+}
+
+#social-links i {
+    list-style-type: none;
+    margin: 0px 15px;
+    color: rgb(226, 216, 188);
 }
 
 /* MEDIA QUERIES */
