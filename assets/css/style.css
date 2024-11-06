@@ -108,10 +108,11 @@ nav {
     padding-left: 30px;
 }
 
-/*.active:hover {
-    text-decoration: underline;
-    background-color: yellow;
-}*/
+.active:hover {
+    /*text-decoration: underline;*/
+    background-color: rgb(233, 233, 183);
+    color:black;
+}
 
 /* MAIN */
 
@@ -143,12 +144,12 @@ main,
 }
 
 #main-LT {
-    margin-top: 70px;
+    margin-top: 112px;
 }
 
 #LT-hero {
     width: 100%;
-    height: 250px;
+    height: 300px;
     position: relative;
     background: url("../images/csm_SB_banner_2_61b0631352.webp") no-repeat 33% center/cover;
     /*background: url("../images/csm_SB_banner_2_61b0631352.webp") no-repeat 0% 100% / cover;*/
@@ -218,7 +219,8 @@ h3 {
     margin-bottom: 35px;
 }
 
-#love-story .laxus-img {
+#love-story img {
+    width: 280px;
     margin-bottom: 35px;
 }
 
@@ -265,6 +267,7 @@ h3 {
 #extraordinary .model {
     width: 90%;
     border: solid black 2px;
+    margin-bottom: 20px;
 }
 
 /* Contact Us page */
