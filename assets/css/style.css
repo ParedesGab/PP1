@@ -188,7 +188,7 @@ h3 {
     font-size: 2.2rem;
     margin: 2.2rem 2.2rem;
     background-color: rgba(241, 131, 129, 0.3);
-    padding: 10px 10px;
+    padding: 10px 30px;
     text-align: center;
 }
 
@@ -196,12 +196,14 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 #love-story p {
     color: black;
     font-size: 1.2rem;
-    text-align: center;
+    text-align: justify;
+    padding: 10px;
     margin: 0px 20px 20px;
 }
 
@@ -232,6 +234,7 @@ h3 {
 
 #extraordinary>h3 {
     background-color: rgb(227, 220, 206, 0.35);
+    padding: 30px 30px;
 }
 
 .features,
@@ -254,7 +257,7 @@ h3 {
     font-size: 1.2rem;
     text-align: justify;
     margin-bottom: 30px;
-    padding: 5px;
+    padding: 10px;
     border: solid black 2px;
     background-color: rgba(222, 221, 218, 0.55);
 }
@@ -414,19 +417,17 @@ footer {
     .story {
         display: flex;
         flex-direction: row;
-        align-items: center;
+        align-items: flex-start;
         width: 650px;
     }
 
     #love-story p {
-        font-size: 18px;
-        text-align: justify;
-        margin: 20px;
+        padding: 0px;
     }
 
     #love-story video {
-        min-width: 280px;
-        min-height: 200px;
+        margin-bottom: 20px;
+        width: 280px;
     }
 
     /* Extraordinary section */
@@ -548,12 +549,15 @@ footer {
     }
 
     #love-story p {
-        font-size: 20px;
+        font-size: 1.4rem;
+        margin-right: 30px;
     }
 
     #love-story video {
-        margin: 0px 60px;
-        margin-bottom: 30px;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 25px;
+        width: 390px;
     }
 
     /* Extraordinary section */
@@ -571,15 +575,11 @@ footer {
         padding: 0px 20px;
     }
 
-    #extraordinary h3 {
-        font-size: 40px;
-    }
-
     #extraordinary p {
         width: 270px;
         height: 270px;
         margin-top: 5px;
-        font-size: 20px;
+        font-size: 1.4rem;
     }
 }
 
@@ -600,21 +600,21 @@ footer {
     /* MAIN */
     #hero {
         height: 650px;
-        background: url("../images/Gabriela-COSB-colloquium-2021-11-30-Kopie.webp") no-repeat center center / 80%;
+        background: url("../images/Gabriela-COSB-colloquium-2021-11-30-Kopie.webp") no-repeat center center / 85%;
         background-color: black;
     }
 
     /* Hero section */
     #hero h2 {
-        top: 220px;
-        font-size: 110px;
-        padding-left: 110px;
+        top: 210px;
+        font-size: 100px;
+        left: 55px;
     }
 
     /* Love story section */
 
-    #love-story h3 {
-        font-size: 50px;
+    h3 {
+        font-size: 3.5rem;
     }
 
     .story {
@@ -622,7 +622,7 @@ footer {
     }
 
     #love-story p {
-        font-size: 25px;
+        font-size: 1.7rem;
     }
 
     #love-story video {
@@ -633,7 +633,6 @@ footer {
     /* Extraordinary section */
 
     #extraordinary h3 {
-        font-size: 50px;
         margin-top: 45px;
     }
 
