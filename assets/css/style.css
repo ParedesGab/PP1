@@ -180,7 +180,6 @@ main,
     justify-content: center;
     background-color: rgb(236, 229, 191, 0.65);
     color: black;
-    /*min-height: 30vh;*/
     margin: 30px 20px;
 }
 
@@ -384,7 +383,7 @@ footer {
     }
 
     #hero h2 {
-        top: 200px;
+        top: 220px;
         left: 30px;
         font-size: 63px;
     }
@@ -445,6 +444,7 @@ footer {
         height: 260px;
         margin-left: 10px;
         margin-bottom: 50px;
+        background-color: rgba(222, 221, 218, 0.65);
     }
 
     /* Laxus and Thiosymbion extraordinary section */
@@ -473,11 +473,11 @@ footer {
 
     /* FOOTER */
     #social-links {
-        display: flex;
-        font-size: 25px;
+        font-size: 2.2rem;
+        padding: 22px 0px;
     }
 
-    #social-links li {
+    #social-links>li {
         margin-left: 20px;
     }
 }
@@ -506,13 +506,13 @@ footer {
 
     /* Hero section */
     #hero {
-        background: url("../images/Gabriela-COSB-colloquium-2021-11-30-Kopie.webp") no-repeat center center / 82%;
+        background: url("../images/Gabriela-COSB-colloquium-2021-11-30-Kopie.webp") no-repeat center center / 88%;
         background-color: black;
-        height: 550px;
+        height: 600px;
     }
 
     #hero h2 {
-        top: 190px;
+        top: 230px;
         font-size: 70px;
         left: 50px;
     }
@@ -535,8 +535,9 @@ footer {
     /* Love story section */
 
     #love-story {
-        min-height: 45vh;
+        min-height: 30vh;
     }
+
     h3 {
         font-size: 2.8rem;
     }
@@ -551,7 +552,7 @@ footer {
 
     #love-story video {
         margin: 0px 60px;
-        margin-bottom:30px;
+        margin-bottom: 30px;
     }
 
     /* Extraordinary section */
