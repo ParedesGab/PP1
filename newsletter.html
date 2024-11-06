@@ -18,7 +18,7 @@
 
 </head>
 
-<body>
+<body id="newsletter-body">
     <!-- Header -->
     <header>
         <!-- Logo -->
@@ -35,21 +35,20 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="laxus.html">Laxus</a></li>
                 <li><a href="thiosymbion.html">Thiosymbion</a></li>
-                <li><a href="contact.html" class="active">Newsletter</a></li>
+                <li><a href="newsletter.html" class="active">Newsletter</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Main -->
-    <!-- Contact us section -->
-    <main id="main-contact">
+    <main id="subscribe">
         <h1>Interested in more symbiotic love stories?</h1>
         <h3>Subscribe to our Newsletter!</h3>
 
-        <section id="section-contact">
-            <form id="form-contact" action="succesful.html" method="GET" target="_blank">
+        <section>
+            <form id="form" action="succesful.html" method="GET" target="_blank">
                 <fieldset>
-                    <legend>Your details</legend>
+                    <legend class="legend">Your details:</legend>
                     <div>
                         <label for="name">Name</label>
                         <input id="name" type="text" name="getdata" placeholder="Enter your name" required>
@@ -57,35 +56,35 @@
 
                     <div>
                         <label for="email">Email</label>
-                        <input id="email" type="email" name="email" required>
+                        <input id="email" type="email" name="email" placeholder="Enter your email" required>
                     </div>
                 </fieldset>
                 <br>
                 <fieldset>
-                    <legend>I want more information about: </legend>
+                    <legend class="legend">I want more information about: </legend>
                     <!--Dropdown menu instead, or required radio type where to put it?-->
 
                     <div id="a">
-                        <input type="radio" id="cookies-checkbox" name="cookies">
-                        <label for="cookies-checkbox">Laxus oneistus</label>
+                        <input type="radio" id="organism" name="organism">
+                        <label for="organism"><em>Laxus oneistus</em></label>
                         <br>
-                        <input type="radio" id="cookies-checkbox" name="cookies">
-                        <label for="cookies-checkbox">Ca. Thiosymbion oneisti</label>
+                        <input type="radio" id="organism" name="organism">
+                        <label for="organism"><em>Ca.</em> Thiosymbion oneisti</label>
                         <br>
-                        <input type="radio" id="cookies-checkbox" name="cookies">
-                        <label for="cookies-checkbox">Both, Laxus and Thiosymbion!</label>
+                        <input type="radio" id="organism" name="organism">
+                        <label for="organism">Both, <em>Laxus</em> and Thiosymbion!</label>
                         <br>
-                        <input type="radio" id="cookies-checkbox" name="cookies">
-                        <label for="cookies-checkbox">Other symbiotic system!</label>
+                        <input type="radio" id="organism" name="organism">
+                        <label for="organism">Other symbiotic system!</label>
                     </div>
                 </fieldset>
                 <br>
-                <label for="feedback">What other scientific content do you want to see?</label>
+                <label for="feedback" class="legend">Did you like the information of <em>Laxus</em> and Thiosymbion?</label>
                 <textarea name="feedback" id="feedback"
-                    placeholder="You can see this placeholder, because there isn't anything between the textareas opening and closing tags"
-                    rows="5" cols="40" required></textarea>
+                    placeholder="Thank you for your feedback!"
+                    required></textarea>
                 <br>
-                <button type="submit" id="submit"><strong>Send!</strong></button>
+                <button type="submit" id="submit"><strong>Subscribe</strong></button>
             </form>
         </section>
     </main>

@@ -233,14 +233,6 @@ h3 {
     padding: 30px 30px;
 }
 
-/* Style for home, laxus and thiosymbion pages */
-.features,
-.nutritional {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 #extraordinary .feature1 img {
     width: 270px;
     height: 270px;
@@ -264,40 +256,73 @@ h3 {
     margin-bottom: 20px;
 }
 
-/* Contact Us page */
-#main-contact {
-    margin-top: 100px;
+/* Style for home, laxus and thiosymbion pages */
+.features,
+.nutritional {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Newsletter page */
+
+#newsletter-body {
+    background-color: rgb(58, 47, 117);
+}
+
+#subscribe {
+    margin-top: 111px;
     flex: 1 0 auto;
-    color: wheat;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
     padding: 40px 5% 0 5%;
+    background-color: rgb(58, 47, 117);
+    color: wheat;
 }
 
-#main-contact h1 {
+#subscribe>h1 {
     font-size: 40px;
-    margin-bottom: 2rem;
+    margin: 0px;
+    text-align: center;
 }
 
-#main-contact h3 {
+#subscribe>h3 {
     font-size: 25px;
     margin-bottom: 2rem;
+    text-align: center;
+    color: wheat;
 }
 
-#section-contact {
-    background: url("../images/Gabriela-COSB-colloquium-2021-11-30-Kopie.webp");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 45%;
+#subscribe>section {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+#form {
     text-align: left;
-    flex-grow: 1;
 }
 
-#form-contact {
-    background-color: rgba(247, 127, 30, 0.2);
+#form .legend {
+    font-size: 1.2rem;
+    padding: 7px 5px 7px 1px;
+}
+
+#form textarea {
+    /*font-size: 1.2rem;*/
+    margin: 7px 0px;
+    width: 100%;
+    height: 150px;
+}
+
+#form button {
+    font-size: 1rem;
+    margin: 7px 0px;
+    padding: 5px;
+    background-color: rgba(241, 131, 129, 0.3);
+    color: wheat;
 }
 
 /* FOOTER */
@@ -326,26 +351,13 @@ footer {
 /* MEDIA QUERIES */
 
 /*Large or landscape phones */
-/*@media screen and (min-width: 576px) {
+@media screen and (min-width: 576px) {
 
-    /* Hero section */
-/*#hero {
-        width: 100%;
-        height: 450px;
-        position: relative;
-        background: url("../images/Gabriela-COSB-colloquium-2021-11-30-Kopie.webp") no-repeat center center/cover;
-        background: url("../images/Gabriela-COSB-colloquium-2021-11-30-Kopie.webp") no-repeat 84% 25% / 110%;
-        background-color: black;
+    /*Nesletter*/
+    #subscribe {
+        margin-top: 95px;
     }
-
-    #hero h2 {
-        top: 215px;
-        margin-left: 20px;
-        text-align: left;
-        font-size: 48px;
-        position: absolute;
-    }
-}*/
+}
 
 /* Media Query: Tablets and Up */
 @media screen and (min-width:768px) {
@@ -601,6 +613,7 @@ footer {
         width: 60%;
         margin-left: 20px;
     }
+
 }
 
 /* Media query: Desktops and Up */
