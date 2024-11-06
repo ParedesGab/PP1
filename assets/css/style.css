@@ -489,6 +489,7 @@ footer {
     #logo {
         margin-left: 1.7rem;
         margin-top: 1.7rem;
+        font-size: 2.2rem;
     }
 
     /* Style Navbar */
@@ -497,7 +498,7 @@ footer {
     }
 
     #nav-links>li {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         padding-left: 15px;
         margin-top: 1.2rem;
     }
@@ -512,7 +513,7 @@ footer {
     }
 
     #hero h2 {
-        top: 230px;
+        top: 235px;
         font-size: 70px;
         left: 50px;
     }
@@ -567,6 +568,7 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding: 0px 20px;
     }
 
     #extraordinary h3 {
