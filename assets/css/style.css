@@ -111,7 +111,7 @@ nav {
 .active:hover {
     /*text-decoration: underline;*/
     background-color: rgb(233, 233, 183);
-    color:black;
+    color: black;
 }
 
 /* MAIN */
@@ -172,8 +172,6 @@ main,
 }
 
 /* Love story section */
-
-/*change name of love story for something more generic*/
 #love-story {
     display: flex;
     flex-direction: column;
@@ -213,14 +211,10 @@ h3 {
     margin: 0px 20px 20px;
 }
 
-#love-story img {
-    width: 270px;
-    margin: 0px 20px 20px;
-    margin-bottom: 35px;
-}
-
+/* Laxus and Thiosymbion image */
 #love-story img {
     width: 280px;
+    margin: 0px 20px 20px;
     margin-bottom: 35px;
 }
 
@@ -239,6 +233,7 @@ h3 {
     padding: 30px 30px;
 }
 
+/* Style for home, laxus and thiosymbion pages */
 .features,
 .nutritional {
     display: flex;
@@ -266,7 +261,6 @@ h3 {
 
 #extraordinary .model {
     width: 90%;
-    border: solid black 2px;
     margin-bottom: 20px;
 }
 
@@ -433,6 +427,12 @@ footer {
         width: 280px;
     }
 
+    /* Laxus and Thiosymbion image */
+    #love-story img {
+        width: 50%;
+        margin: 40px 20px;
+    }
+
     /* Extraordinary section */
 
     .feature1 {
@@ -465,14 +465,15 @@ footer {
         color: black;
     }
 
-    #extraordinary .nutritional p {
-        width: 200px;
+    #extraordinary .nutritional>p {
+        width: 240px;
+        height: 343px;
         margin: 0 15px;
-        margin-bottom: 0px;
     }
 
     #extraordinary .model {
-        width: 65%;
+        width: 60%;
+        margin-bottom: 0px;
     }
 
     /* FOOTER */
@@ -499,6 +500,7 @@ footer {
     /* Style Navbar */
     #nav-links {
         margin-right: 1.7rem;
+        margin-bottom: 0.6rem;
     }
 
     #nav-links>li {
@@ -524,7 +526,7 @@ footer {
 
     /* Laxus and Thiosymbion hero section */
     #main-LT {
-        margin-top: 115px;
+        margin-top: 87px;
     }
 
     #LT-hero {
@@ -583,6 +585,21 @@ footer {
         height: 270px;
         margin-top: 5px;
         font-size: 1.4rem;
+    }
+
+    #extraordinary .nutritional>p {
+        width: 280px;
+        height: 369px;
+    }
+
+    #extraordinary .model {
+        width: 50%;
+        margin-left: 40px;
+    }
+
+    #extraordinary .model-T {
+        width: 60%;
+        margin-left: 20px;
     }
 }
 
@@ -653,22 +670,8 @@ footer {
 
     /* Laxus and Thiosymbion extraordinary section */
 
-    .nutritional {
-        height: 900px;
-        /*margin: 0px 0px 38px 0px;*/
-    }
-
-    /*#extraordinary .LT-h3 {
-    }*/
-
-    #extraordinary .nutritional p {
-        width: 300px;
-        /*margin: 0 15px;
-        margin-bottom: 0px;*/
-    }
-
-    #extraordinary .model {
-        width: 90%;
-        height: 90%;
+    #extraordinary .nutritional>p {
+        width: 330px;
+        margin: 50px 0px;
     }
 }
