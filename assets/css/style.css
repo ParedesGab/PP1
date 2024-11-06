@@ -270,7 +270,8 @@ h3 {
     background-color: rgb(58, 47, 117);
 }
 
-#subscribe {
+#subscribe,
+#thankyou {
     margin-top: 111px;
     flex: 1 0 auto;
     display: flex;
@@ -283,7 +284,8 @@ h3 {
     color: wheat;
 }
 
-#subscribe>h1 {
+#subscribe>h1,
+#thankyou h1 {
     font-size: 40px;
     margin: 0px;
     text-align: center;
@@ -323,6 +325,17 @@ h3 {
     padding: 5px;
     background-color: rgba(241, 131, 129, 0.3);
     color: wheat;
+}
+
+/* Thank you page */
+#thankyou section {
+    border: solid rgb(255, 166, 0) 4px;
+    padding: 30px;
+}
+
+#thankyou p {
+    margin: 10px 0px;
+    text-align: left;
 }
 
 /* FOOTER */
