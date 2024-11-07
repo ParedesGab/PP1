@@ -14,7 +14,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="">
     <link rel="icon" type="image/png" sizes="16x16" href="">
     <!-- CSS style sheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" aria-label="CSS link that adds style to Newsletter Page">
 
 </head>
 
@@ -22,21 +22,31 @@
     <!-- Header -->
     <header>
         <!-- Logo -->
-        <a href="index.html" aria-label="logo linked to home page">
+        <a href="index.html" aria-label="Click on our our logo Laxus & Thiosymbion to go to our Home page">
             <h1 id="logo">Laxus & Thiosymbion</h1>
         </a>
         <!-- Toggling using checkbox with Burger icon-->
         <input id="toggle" type="checkbox" name="toggle">
-        <label for="toggle" class="toggle-label"><i class="fas fa-bars"></i></label>
+        <label for="toggle" class="toggle-label">
+            <i class="fas fa-bars"></i>
+        </label>
 
         <!-- Navigation links -->
         <nav>
             <ul id="nav-links">
-                <li><a href="index.html" aria-label="Home page">Home</a></li>
-                <li><a href="laxus.html" aria-label="Laxus page">Laxus</a></li>
-                <li><a href="thiosymbion.html" aria-label="Thiosymbion page">Thiosymbion</a></li>
-                <li><a href="newsletter.html" class="active"
-                        aria-label="Subscribe to the Newsletter page">Newsletter</a></li>
+                <li>
+                    <a href="index.html" aria-label="Go to our Home page">Home</a>
+                </li>
+                <li>
+                    <a href="laxus.html" aria-label="Go to our Laxus page">Laxus</a>
+                </li>
+                <li>
+                    <a href="thiosymbion.html" aria-label="Go to our Thiosymbion page">Thiosymbion</a>
+                </li>
+                <li>
+                    <a href="newsletter.html" class="active"
+                        aria-label="Go to our Newsletter page to subscribe to our Newsletter">Newsletter</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -47,6 +57,8 @@
         <h3>Subscribe to our Newsletter!</h3>
 
         <section>
+            <h3 class="hidden-heading">Form</h3>
+            <!--HIDE IT-->
             <form id="form" action="succesful.html" method="GET" target="_blank">
                 <fieldset>
                     <legend class="legend">Your details:</legend>
@@ -66,17 +78,17 @@
                     <!--Dropdown menu instead, or required radio type where to put it?-->
 
                     <div id="a">
-                        <input type="radio" id="organism" name="organism">
-                        <label for="organism"><em>Laxus oneistus</em></label>
+                        <input type="radio" id="L-organism" name="L-organism">
+                        <label for="L-organism"><em>Laxus oneistus</em></label>
                         <br>
-                        <input type="radio" id="organism" name="organism">
-                        <label for="organism"><em>Ca.</em> Thiosymbion oneisti</label>
+                        <input type="radio" id="T-organism" name="T-organism">
+                        <label for="T-organism"><em>Ca.</em> Thiosymbion oneisti</label>
                         <br>
-                        <input type="radio" id="organism" name="organism">
-                        <label for="organism">Both, <em>Laxus</em> and Thiosymbion!</label>
+                        <input type="radio" id="both" name="both">
+                        <label for="both">Both, <em>Laxus</em> and Thiosymbion!</label>
                         <br>
-                        <input type="radio" id="organism" name="organism">
-                        <label for="organism">Other symbiotic system!</label>
+                        <input type="radio" id="other" name="other">
+                        <label for="other">Other symbiotic system!</label>
                     </div>
                 </fieldset>
                 <br>
@@ -84,31 +96,38 @@
                     Thiosymbion?</label>
                 <textarea name="feedback" id="feedback" placeholder="Thank you for your feedback!" required></textarea>
                 <br>
-                <button type="submit" id="submit"><strong>Subscribe</strong></button>
+                <button type="submit" id="submit"
+                    aria-label="Click here to finish the subscription to our newsletter"><strong>Subscribe</strong>
+                </button>
             </form>
         </section>
     </main>
 
     <!-- Footer -->
     <footer>
-            <!-- Social media icons -->
-            <ul id="social-links">
-                <li><a href="https://www.facebook.com/" aria-label="Find us on Facebook!" target="_blank"
-                        rel=”noopener”><i class="fab fa-facebook"></i></a>
-                </li>
-                <li><a href="https://www.instagram.com/" aria-label="Find us on Instagram" target="_blank"
-                        rel=”noopener”><i class="fab fa-instagram"></i></a>
-                </li>
-                <li><a href="https://x.com/" aria-label="Find us on Twitter!" target="_blank" rel=”noopener”><i
-                            class="fab fa-twitter"></i></a></li>
-                <li><a href="https://www.linkedin.com" aria-label="Find us on LinkedIn" target="_blank"
-                        rel=”noopener”><i class="fab fa-linkedin"></i></a>
-                </li>
-            </ul>
-        </footer>
+        <!-- Social media icons -->
+        <ul id="social-links">
+            <li><a href="https://www.facebook.com/" aria-label="Find us on Facebook" target="_blank" rel="noopener">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </li>
+            <li><a href="https://www.instagram.com/" aria-label="Find us on Instagram" target="_blank" rel="noopener">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+            <li><a href="https://x.com/" aria-label="Find us on Twitter" target="_blank" rel="noopener">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li><a href="https://www.linkedin.com" aria-label="Find us on LinkedIn" target="_blank" rel="noopener">
+                    <i class="fab fa-linkedin"> </i>
+                </a>
+            </li>
+        </ul>
+    </footer>
 
-        <!-- Javascript Font Awesome Kit (v5.15.4)-->
-        <script src="https://kit.fontawesome.com/dd9cffa4c0.js" crossorigin="anonymous"></script>
+    <!-- Javascript Font Awesome Kit (v5.15.4)-->
+    <script src="https://kit.fontawesome.com/dd9cffa4c0.js" crossorigin="anonymous"></script>
 
 </body>
 
