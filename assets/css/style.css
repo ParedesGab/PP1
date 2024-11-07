@@ -165,6 +165,7 @@ main,
     position: absolute;
     color: black;
     background-color: rgba(222, 221, 218, 0.65);
+    padding: 0px 12px;
 }
 
 #hero-lt h2 {
@@ -336,6 +337,11 @@ h3 {
 #thankyou p {
     margin: 10px 0px;
     text-align: left;
+}
+
+/* Hide heading form */
+.hidden-heading {
+    display: none;
 }
 
 /* FOOTER */
@@ -626,7 +632,6 @@ footer {
         width: 60%;
         margin-left: 20px;
     }
-
 }
 
 /* Media query: Desktops and Up */
