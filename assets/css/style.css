@@ -117,7 +117,7 @@ nav {
 /* MAIN */
 
 main,
-#main-LT {
+#main-lt {
     margin-top: 58px;
     display: flex;
     flex-direction: column;
@@ -143,11 +143,11 @@ main,
     margin: 0 1.3rem;
 }
 
-#main-LT {
+#main-lt {
     margin-top: 112px;
 }
 
-#LT-hero {
+#hero-lt {
     width: 100%;
     height: 300px;
     position: relative;
@@ -158,7 +158,7 @@ main,
     justify-content: left;
 }
 
-#LT-hero h2 {
+#hero-lt h2 {
     top: 135px;
     margin: 0px 20px;
     font-size: 46px;
@@ -167,7 +167,7 @@ main,
     background-color: rgba(222, 221, 218, 0.65);
 }
 
-#LT-hero h2 {
+#hero-lt h2 {
     top: 115px;
 }
 
@@ -414,15 +414,15 @@ footer {
     }
 
     /* Laxus and Thiosymbion hero section */
-    #main-LT {
+    #main-lt {
         margin-top: 72px;
     }
 
-    #LT-hero {
+    #hero-lt {
         height: 350px;
     }
 
-    #LT-hero h2 {
+    #hero-lt h2 {
         top: 150px;
         margin: 0px 20px;
         font-size: 60px;
@@ -485,7 +485,7 @@ footer {
         margin: 0px 0px 38px 0px;
     }
 
-    #extraordinary .LT-h3 {
+    #extraordinary .lt-h3 {
         background-color: rgba(222, 221, 218, 0.55);
         color: black;
     }
@@ -550,15 +550,15 @@ footer {
     }
 
     /* Laxus and Thiosymbion hero section */
-    #main-LT {
+    #main-lt {
         margin-top: 87px;
     }
 
-    #LT-hero {
+    #hero-lt {
         height: 400px;
     }
 
-    #LT-hero h2 {
+    #hero-lt h2 {
         top: 160px;
         margin: 0px 20px;
         font-size: 60px;
@@ -622,7 +622,7 @@ footer {
         margin-left: 40px;
     }
 
-    #extraordinary .model-T {
+    #extraordinary .model-t {
         width: 60%;
         margin-left: 20px;
     }
