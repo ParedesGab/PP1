@@ -512,7 +512,7 @@ footer {
     #extraordinary h3 {
         margin-bottom: 45px;
         margin-top: 40px;
-        
+
     }
 
     #extraordinary img {
@@ -664,13 +664,14 @@ footer {
     #extraordinary img {
         width: 270px;
         height: 270px;
-        margin-left:0px;
+        margin-left: 0px;
         margin-bottom: 15px;
     }
+
     #extraordinary p {
         width: 240px;
         height: 380px;
-        margin:0px;
+        margin: 0px;
         font-size: 1.4rem;
     }
 
@@ -738,21 +739,22 @@ footer {
     }
 
     /* Extraordinary section */
+    .feature1 {
+        padding: 0px 50px;
+    }
 
     #extraordinary h3 {
         margin-top: 45px;
     }
 
     #extraordinary img {
-        width: 350px;
-        height: 350px;
+        width: 310px;
+        height: 310px;
     }
 
     #extraordinary p {
-        width: 350px;
-        height: 350px;
-        margin-top: 5px;
-        font-size: 25px;
+        width: 280px;
+        height: 380px;
     }
 
     /* Laxus and Thiosymbion extraordinary section */
