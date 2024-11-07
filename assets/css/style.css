@@ -328,7 +328,12 @@ h3 {
     color: wheat;
 }
 
-/* Thank you page */
+/* Hide heading form */
+.hidden-heading {
+    display: none;
+}
+
+/* Successful page */
 #thankyou section {
     border: solid rgb(255, 166, 0) 4px;
     padding: 30px;
@@ -339,9 +344,14 @@ h3 {
     text-align: left;
 }
 
-/* Hide heading form */
-.hidden-heading {
-    display: none;
+/*Return to home page button */
+#return {
+    font-size: 1rem;
+    background-color: rgb(255, 166, 0);
+    color: black;
+    padding: 10px;
+    border-radius: 15px;
+
 }
 
 /* FOOTER */
