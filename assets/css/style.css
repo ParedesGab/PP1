@@ -651,19 +651,26 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        margin-top: 35px;
     }
 
     .feature1 {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 0px 20px;
+        padding: 0px 40px;
     }
 
-    #extraordinary p {
+    #extraordinary img {
         width: 270px;
         height: 270px;
-        margin-top: 5px;
+        margin-left:0px;
+        margin-bottom: 15px;
+    }
+    #extraordinary p {
+        width: 240px;
+        height: 380px;
+        margin:0px;
         font-size: 1.4rem;
     }
 
