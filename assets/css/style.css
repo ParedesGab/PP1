@@ -238,8 +238,7 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 1650px;
-    /*width: 100%;*/
+    max-width: 2100px;
 }
 
 #extraordinary .feature1 {
@@ -371,7 +370,7 @@ h3 {
 /* FOOTER */
 footer {
     background-color: black;
-    padding: 20px 0px;
+    padding: 25px 0px;
 }
 
 #social-links {
@@ -471,6 +470,10 @@ footer {
 
     /* Love story section */
 
+    #love-story {
+        margin: 60px 20px;
+    }
+
     h3 {
         font-size: 2.5rem;
         padding: 20px 20px;
@@ -501,11 +504,11 @@ footer {
 
     /* Extraordinary section */
 
-    .features {
+    #extraordinary .features {
         margin-top: 20px;
     }
 
-    .feature1 {
+    #extraordinary .feature1 {
         display: flex;
     }
 
@@ -647,6 +650,10 @@ footer {
 
     /* Extraordinary section */
 
+    #extraordinary {
+        padding-bottom: 205px;
+    }
+
     #extraordinary .features {
         display: flex;
         flex-direction: row;
@@ -654,11 +661,11 @@ footer {
         margin-top: 35px;
     }
 
-    .feature1 {
+    #extraordinary .feature1 {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 0px 40px;
+        padding: 0px 30px;
     }
 
     #extraordinary img {
@@ -739,8 +746,8 @@ footer {
     }
 
     /* Extraordinary section */
-    .feature1 {
-        padding: 0px 50px;
+    #extraordinary .feature1 {
+        padding: 0px 40px;
     }
 
     #extraordinary h3 {
@@ -763,4 +770,76 @@ footer {
         width: 330px;
         margin: 50px 0px;
     }
+}
+
+/*Media Query: Extraordinary section in more than 1800px */
+@media screen and (min-width: 1800px) {
+
+    /* Increase Logo size */
+    #logo {
+        font-size: 3.5rem;
+    }
+
+    /* Style Navbar */
+    #nav-links>li {
+        font-size: 2.5rem;
+        padding-left: 30px;
+    }
+
+    /* MAIN */
+    #hero {
+        height: 950px;
+    }
+
+    /* Hero section */
+    #hero h2 {
+        top: 340px;
+        font-size: 120px;
+    }
+
+    /* Love story section */
+    #love-story {
+        margin: 120px 60px;
+    }
+
+    h3 {
+        font-size: 4rem;
+    }
+
+    .story {
+        width: 1400px;
+    }
+
+    #love-story p {
+        font-size: 2rem;
+    }
+
+    #love-story video {
+        width: 600px;
+        height: auto;
+    }
+
+    #extraordinary {
+        padding-bottom: 300px;
+    }
+
+    #extraordinary img {
+        width: 500px;
+        height: 500px;
+    }
+
+    #extraordinary p {
+        width: 450px;
+        font-size: 2rem;
+    }
+
+        /* FOOTER */
+        #social-links {
+            font-size: 2.9rem;
+        }
+    
+        #social-links>li {
+            margin-left: 25px;
+        }
+
 }
