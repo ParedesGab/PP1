@@ -239,13 +239,12 @@ h3 {
     flex-direction: column;
     justify-content: center;
     max-width: 1650px;
-    width: 100%;
+    /*width: 100%;*/
 }
 
 #extraordinary .feature1 {
     margin-bottom: 25px;
     margin-top: 40px;
-    width: 90%;
 }
 
 #extraordinary .feature1 img {
