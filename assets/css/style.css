@@ -125,6 +125,10 @@ main,
     flex: 1 0 auto;
 }
 
+#main-lt {
+    margin-top: 80px;
+}
+
 /* Hero section */
 #hero {
     width: 100%;
@@ -143,33 +147,24 @@ main,
     margin: 0 1.3rem;
 }
 
-#main-lt {
-    margin-top: 112px;
-}
-
 #hero-lt {
     width: 100%;
     height: 300px;
     position: relative;
     background: url("../images/csm_SB_banner_2_61b0631352.webp") no-repeat 33% center/cover;
-    /*background: url("../images/csm_SB_banner_2_61b0631352.webp") no-repeat 0% 100% / cover;*/
     background-color: black;
     display: flex;
     justify-content: left;
 }
 
 #hero-lt h2 {
-    top: 135px;
+    top: 115px;
     margin: 0px 20px;
     font-size: 46px;
     position: absolute;
     color: black;
     background-color: rgba(222, 221, 218, 0.65);
     padding: 0px 12px;
-}
-
-#hero-lt h2 {
-    top: 115px;
 }
 
 /* Love story section */
@@ -262,12 +257,7 @@ h3 {
     margin-bottom: 30px;
     padding: 10px;
     border: solid black 2px;
-    background-color: rgba(222, 221, 218, 0.65);
-}
-
-#extraordinary .model {
-    width: 90%;
-    margin-bottom: 20px;
+    background-color: rgba(222, 221, 218, 0.7);
 }
 
 /* Style laxus and thiosymbion pages */
@@ -276,6 +266,25 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 40px;
+}
+
+#extraordinary .lt-h3 {
+    background-color: rgba(222, 221, 218, 0.55);
+    color: black;
+    margin-top: 75px;
+}
+
+#extraordinary .nutritional>p {
+    width: 89%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+#extraordinary .model {
+    width: 90%;
+    height: auto;
+    border-radius: 0%;
 }
 
 /* Newsletter page */
@@ -455,7 +464,7 @@ footer {
 
     /* Laxus and Thiosymbion hero section */
     #main-lt {
-        margin-top: 72px;
+        margin-top: 73px;
     }
 
     #hero-lt {
@@ -515,15 +524,11 @@ footer {
     #extraordinary h3 {
         margin-bottom: 45px;
         margin-top: 40px;
-
     }
 
     #extraordinary img {
         width: 350px;
         height: 350px;
-        margin-left: 20px;
-        margin-bottom: 80px;
-        background-color: rgba(222, 221, 218, 0.65);
     }
 
     #extraordinary p {
@@ -531,7 +536,6 @@ footer {
         height: 350px;
         margin-left: 20px;
         margin-bottom: 80px;
-        background-color: rgba(222, 221, 218, 0.65);
     }
 
     /* Laxus and Thiosymbion extraordinary section */
@@ -539,24 +543,18 @@ footer {
     .nutritional {
         flex-direction: row;
         justify-content: center;
-        align-items: center;
-        margin: 0px 0px 38px 0px;
-    }
-
-    #extraordinary .lt-h3 {
-        background-color: rgba(222, 221, 218, 0.55);
-        color: black;
+        margin-top: 60px;
     }
 
     #extraordinary .nutritional>p {
-        width: 240px;
-        height: 343px;
-        margin: 0 15px;
+        width: 28%;
+        height: 450px;
+        margin: 0px;
+        margin-right: 29px;
     }
 
     #extraordinary .model {
         width: 60%;
-        margin-bottom: 0px;
     }
 
     /* FOOTER */
@@ -682,14 +680,10 @@ footer {
         font-size: 1.4rem;
     }
 
-    #extraordinary .nutritional>p {
-        width: 280px;
-        height: 369px;
-    }
+    /* Laxus and Thiosymbion extraordinary section */
 
-    #extraordinary .model {
-        width: 50%;
-        margin-left: 40px;
+    .nutritional {
+        margin-top: 70px;
     }
 
     #extraordinary .model-t {
@@ -764,11 +758,18 @@ footer {
         height: 380px;
     }
 
-    /* Laxus and Thiosymbion extraordinary section */
+    /* Laxus and Thiosymbion hero section */
+    #main-lt {
+        margin-top: 98px;
+    }
 
-    #extraordinary .nutritional>p {
-        width: 330px;
-        margin: 50px 0px;
+    #hero-lt {
+        height: 550px;
+    }
+
+    #hero-lt h2 {
+        top: 200px;
+        font-size: 80px;
     }
 }
 
@@ -795,6 +796,20 @@ footer {
     #hero h2 {
         top: 340px;
         font-size: 120px;
+    }
+
+    /* Laxus and Thiosymbion hero section */
+    #main-lt {
+        margin-top: 114px;
+    }
+
+    #hero-lt {
+        height: 600px;
+    }
+
+    #hero-lt h2 {
+        top: 230px;
+        font-size: 110px;
     }
 
     /* Love story section */
@@ -833,13 +848,26 @@ footer {
         font-size: 2rem;
     }
 
-        /* FOOTER */
-        #social-links {
-            font-size: 2.9rem;
-        }
-    
-        #social-links>li {
-            margin-left: 25px;
-        }
+    /* Laxus and Thiosymbion extraordinary section */
+
+    .nutritional {
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 150px;
+    }
+
+    #extraordinary .nutritional>p {
+        /*font-size:*/
+        margin-right: 60px;
+    }
+
+    /* FOOTER */
+    #social-links {
+        font-size: 2.9rem;
+    }
+
+    #social-links>li {
+        margin-left: 25px;
+    }
 
 }
