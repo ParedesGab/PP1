@@ -1,12 +1,10 @@
 # Laxus and Thiosymbion
 
-Symbiosis is defined as the living together of differently named organisms (Debary,1879). This website features one extraordinary symbiotic example, the one involving the marine nematode *Laxus oneistus* and its inseparable bacterial partner, *Candidatus* Thiosymbion oneisti. 
+Symbiosis is defined as "the living together of differently named organisms" (Debary,1879). This website features one extraordinary symbiotic example, the one involving the marine nematode *Laxus oneistus* and its inseparable bacterial partner, *Candidatus* Thiosymbion oneisti. 
 
 ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
 The site can be accessed via this [link](https://iuliiakonovalova.github.io/animal_shelter/)
-
-
 
 ## Project Goals
 
