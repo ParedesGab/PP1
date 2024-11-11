@@ -1,6 +1,8 @@
 # Laxus and Thiosymbion
 
-Symbiosis is defined as "the living together of differently named organisms" (Debary,1879). This website features one extraordinary symbiotic example, the one involving the marine nematode *Laxus oneistus* and its inseparable bacterial partner, *Candidatus* Thiosymbion oneisti. 
+Symbiosis is defined as "the living together of differently named organisms" (de Bary, 1879). This website provides knowdledge of one extraordinary symbiotic example, the one involving the free-living marine nematode *Laxus oneistus* and its inseparable bacterial partner, *Candidatus* Thiosymbion oneisti. 
+
+For short, across this documentation they will be referred as *Laxus* and Thiosymbion. respectively.
 
 ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
@@ -8,13 +10,70 @@ The site can be accessed via this [link](https://iuliiakonovalova.github.io/anim
 
 ## Project Goals
 
-unique yet widely unkwon partnership The *Laxus* and Thiosymbion website allows
+### Business Owner Goals
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
++ My primary goal is **science communication**. Namely:
 
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
+  + Informe, raise awareness and public outreach of the existance of this fascinating yet little-known nematode-bacterium symbiosis.  
+  + Communicating in an easy way key scientific findings of the *Laxus*-Thiosymbion partnership.
+
++ In addition:
+  + Raise interest in the further study of this beautiful symbiotic system.
+  + Generate public engagement around this system to create a network of people interested in this type of symbiosis.
+
+### User Goals
+
++ Easily understand the main purpose of the website, so I can learn more about this symbiotic relatioship.
++ Find out information on: what are these organisms, where do they live and why they live together. 
+
+## User Experience
+
+#### First-time User
++ As a general user, I want to:
+    + I want to navigate the website easily to find the content I need.
+
++ If I am not a scientist, I also want to:  
+    + Be surprised to discover that in nature, drastically different organisms might need each other to exist.
+    + Find this, otherwise niche topic, intersting and digestible. 
+    + Find a way to get in contact with scientists working on this topic, so they can talk about it in different platforms, such as schools, social media, museums, etc.
+    
++ If I am scientist, I also want to:
+    + Discover the last key findings about the *Laxus*-Thiosymbion symbiosis. 
+    + Find useful information about what makes this symbiosis extraordinary, so I can compare it with my system. 
+    + Share feedback about my research with the potential to start a scientific collaboration.
 
 
+
+#### First-time User
+
+As a first time user I want to:
+
+1. Know if there is some disruption to the usual opening times or other very important information. 
+2. Know when I can visit the place.
+3. Know how to contact the restaurant via phone or email.
+4. Know the address of the premises. 
+5. Visit restaurant's social media platforms and check the activity on them.
+
+#### Returning User
+
+As a returning user I want to:
+
+6. Contact the management and inform about my feedback after a visit.
+7. Check if there is a special offer available. 
+8. Check if the restaurant menu is same as during the last visit.
+
+#### Business Owner 
+
+As the restaurant owner I want to:
+
+9. Advertise the place through presentation of food and drink served. 
+10. Introduce what type of place the user can expect during the visit.
+11. Reveal the interior design of the restaurant. 
+12. Present the head chef to the user.
+13. Inform the user who manages preparation of the dishes and the professional background of this person. 
+14. Share other guests reviews and what they felt during their dining experience. 
+15. Explain how to get to the restaurant and present its unique location. 
+16. Make the user feel welcomed and invited to visit the restaurant.
 
 ## Features 
 
