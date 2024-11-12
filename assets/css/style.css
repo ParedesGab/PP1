@@ -132,7 +132,7 @@ main,
     width: 100%;
     height: 500px;
     position: relative;
-    background: url("../images/2-Laxus-hero.webp") no-repeat 35% center / cover;
+    background: url("../images/2-laxus-hero.webp") no-repeat 35% center / cover;
     background-color: black;
 }
 
@@ -149,7 +149,7 @@ main,
     width: 100%;
     height: 300px;
     position: relative;
-    background: url("../images/3-Laxus-banner.webp") no-repeat 33% center/cover;
+    background: url("../images/3-laxus-banner.webp") no-repeat 33% center/cover;
     background-color: black;
     display: flex;
     justify-content: left;
@@ -218,7 +218,7 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: url("../images/Der\ Wurm\ mit\ dem\ bakterienpelz.webp") no-repeat center center/cover;
+    background: url("../images/4-bacterial-coat.webp") no-repeat center center/cover;
     padding-bottom: 160px;
 }
 
