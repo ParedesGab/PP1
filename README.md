@@ -6,7 +6,7 @@ For short, across this documentation they will be referred as *Laxus* and Thiosy
 
 ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
-The site can be accessed via this [link](https://iuliiakonovalova.github.io/animal_shelter/)
+The site can be accessed via this [link](https://paredesgab.github.io/PP1-project-portfolio-1/)
 
 ## Project Goals
 
