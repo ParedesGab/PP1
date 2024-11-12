@@ -205,6 +205,11 @@ h3 {
     margin: 0px 20px 20px;
 }
 
+#love-story figcaption {
+    padding: 10px;
+    margin: 0px 20px 20px;
+}
+
 /* Laxus and Thiosymbion image */
 #love-story img {
     width: 280px;
