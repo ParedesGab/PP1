@@ -29,8 +29,19 @@ The site can be accessed via this [link](https://iuliiakonovalova.github.io/anim
 ## User Experience
 
 #### First-time User
+  + Navigate the website easily to find the content I need.
+  + Be surprised to discover that in nature, drastically different organisms might need each other to exist.
+  + Find this, otherwise niche topic, intersting and digestible. 
+  + Find a way to get in contact with scientists working on this topic, so they can talk about it in different platforms, such as schools, social media, museums, etc.
+    
++ If I am scientist, I also want to:
+    + Discover the last key findings about the *Laxus*-Thiosymbion symbiosis. 
+    + Find useful information about what makes this symbiosis extraordinary, so I can compare it with my system. 
+    + Share feedback about my research with the potential to start a scientific collaboration.
+
+#### Returning User
 + As a general user, I want to:
-    + I want to navigate the website easily to find the content I need.
+    + Navigate the website easily to find the content I need.
 
 + If I am not a scientist, I also want to:  
     + Be surprised to discover that in nature, drastically different organisms might need each other to exist.

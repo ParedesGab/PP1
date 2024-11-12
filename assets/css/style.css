@@ -6,27 +6,25 @@
 * {
     padding: 0;
     margin: 0;
-    /* Include padding and border to the total size (width and height) */
     box-sizing: border-box;
-    /*border: solid red 0.2px;*/
+    /* Include padding and border to the total size (width and height) */
 }
 
 /* BODY */
 body {
-    /*background-color: blue;*/
-    /* Fill up 100% of the viewport height */
     min-height: 100vh;
+    /* Fill up 100% of the viewport height */
     font-family: "Arsenal", sans-serif;
-    /* Flex container */
     display: flex;
-    /* Show on top of each other the body children */
+    /* Flex container */
     flex-direction: column;
+    /* Show on top of each other the body children */
 }
 
 h1,
 h2 {
-    margin-left: 21px;
     text-align: left;
+    margin-left: 21px;
     letter-spacing: -1.9px;
     color: rgb(226, 216, 188);
 }
@@ -46,8 +44,7 @@ header {
 }
 
 header a {
-    /* remove underline from all header links*/
-    text-decoration: none;
+    text-decoration: none; /* remove underline from all header links*/
     color: rgb(231, 216, 188);
 }
 
@@ -102,7 +99,8 @@ nav {
 #nav-links>li {
     letter-spacing: -1px;
     font-size: 1.3rem;
-    background-image: url(../images/logo\ header\ laxus\ -\ Kopie.jpg);
+    /*background-image: url(../images/logo\ header\ laxus\ -\ Kopie.jpg);*/
+    background-image: url("../images/1-laxus.webp");
     background-repeat: no-repeat;
     background-size: 1.5rem;
     padding-left: 30px;
@@ -361,11 +359,11 @@ h3 {
 /* Style placeholders */
 input::placeholder,
 textarea::placeholder {
-    padding:10px;
+    padding: 10px;
     color: rgb(67, 56, 56, 1);
     font-size: 1.1em;
     font-family: sans-serif;
-  }
+}
 
 /* Hide heading form */
 .hidden-heading {
