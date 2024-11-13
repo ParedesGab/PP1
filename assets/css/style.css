@@ -186,7 +186,9 @@ h3 {
     text-align: center;
 }
 
-.story {
+/* classes for Home, Laxus and Thiosymbion pages */
+.story,
+.introduction {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -220,11 +222,10 @@ h3 {
     width: 250px;
 }
 
-/* Laxus and Thiosymbion image */
+/* Laxus and Thiosymbion introduction section */
 #love-story img {
     width: 280px;
-    margin: 0px 20px 20px;
-    margin-bottom: 35px;
+    margin: 20px 20px 30px 20px;
 }
 
 /* Extraordinary section */
@@ -554,9 +555,14 @@ footer {
         text-align: right;
     }
 
-    /* Laxus and Thiosymbion image */
+    /* Laxus and Thiosymbion introduction section */
+
+    #love-story .introduction p {
+        margin: 20px 60px;
+    }
+
     #love-story img {
-        width: 50%;
+        width: 70%;
         margin: 40px 20px;
     }
 
@@ -703,6 +709,25 @@ footer {
         margin-left: 150px;
     }
 
+    /* Laxus and Thiosymbion introduction section */
+    .introduction {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 900px;
+        margin-bottom: 30px;
+    }
+
+    #love-story .introduction p {
+        margin: 20px 20px;
+    }
+
+    #love-story img {
+        width: 50%;
+        margin: 0px;
+        margin-left: 40px;
+    }
+
     /* Extraordinary section */
 
     #extraordinary {
@@ -805,6 +830,11 @@ footer {
         text-align: right;
         width: 400px;
         font-size: 1.2rem;
+    }
+
+    /* Laxus and Thiosymbion introduction section */
+    .introduction {
+        width: 1000px;
     }
 
     /* Extraordinary section */
@@ -910,6 +940,11 @@ footer {
         margin-left: 0px;
         font-size: 1.32rem;
         width: 600px;
+    }
+
+    /* Laxus and Thiosymbion introduction section */
+    .introduction {
+        width: 1400px;
     }
 
     #extraordinary {
