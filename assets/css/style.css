@@ -179,7 +179,7 @@ main,
 h3 {
     color: black;
     font-size: 2.2rem;
-    margin: 2.2rem 2.2rem;
+    margin: 3rem 2.2rem;
     background-color: rgba(241, 131, 129, 0.3);
     padding: 10px 30px;
     text-align: center;
@@ -192,22 +192,31 @@ h3 {
     justify-content: center;
 }
 
+#love-story h4 {
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 10px;
+    margin: 0px 35px 20px;
+}
+
 #love-story p {
     color: black;
     font-size: 1.4rem;
     text-align: justify;
     padding: 10px;
-    margin: 0px 20px 20px;
+    margin: 0px 20px 5px;
 }
 
 #love-story video {
     width: 270px;
-    margin: 0px 20px 20px;
+    margin: 30px 20px 0px 20px;
 }
 
 #love-story figcaption {
-    padding: 10px;
+    padding: 5px;
     margin: 0px 20px 20px;
+    font-size: 1.1rem;
+    text-align: left;
 }
 
 /* Laxus and Thiosymbion image */
