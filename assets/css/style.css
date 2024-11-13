@@ -786,7 +786,7 @@ footer {
     .story {
         width: 1000px;
     }
-    
+
     #love-story h4 {
         font-size: 1.9rem;
     }
@@ -804,6 +804,7 @@ footer {
         margin-left: 100px;
         text-align: right;
         width: 400px;
+        font-size: 1.2rem;
     }
 
     /* Extraordinary section */
@@ -903,6 +904,12 @@ footer {
     #love-story video {
         width: 600px;
         height: auto;
+    }
+
+    #love-story figcaption {
+        margin-left: 0px;
+        font-size: 1.3rem;
+        width: 600px;
     }
 
     #extraordinary {
