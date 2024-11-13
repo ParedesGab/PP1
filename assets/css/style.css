@@ -616,8 +616,8 @@ footer {
     /* Laxus and Thiosymbion extraordinary section */
 
     #extraordinary .extra-text-lt {
-        width: 670px;
-        height: 480px;
+        width: 88%;
+        height: auto;
     }
 
     #extraordinary .model {
@@ -633,7 +633,6 @@ footer {
     #social-links>li {
         margin-left: 20px;
     }
-
 }
 
 /* Media Query: Laptops and Up */
@@ -778,11 +777,6 @@ footer {
 
     .nutritional {
         margin-top: 70px;
-    }
-
-    #extraordinary .model-t {
-        width: 60%;
-        margin-left: 20px;
     }
 }
 
@@ -983,19 +977,6 @@ footer {
 
     #extraordinary ul {
         font-size: 2.2rem;
-    }
-
-    /* Laxus and Thiosymbion extraordinary section */
-
-    .nutritional {
-        flex-direction: row;
-        justify-content: center;
-        margin-top: 150px;
-    }
-
-    #extraordinary .nutritional>p {
-        /*font-size:*/
-        margin-right: 60px;
     }
 
     /* FOOTER */
