@@ -265,6 +265,7 @@ h3 {
 
 #extraordinary .extra-text {
     width: 270px;
+    height: 1000px;
     color: black;
     font-size: 1.2rem;
     text-align: justify;
@@ -279,18 +280,18 @@ h3 {
     text-align: center;
     padding: 10px;
     margin: 20px 35px;
-    background-color:rgb(236, 229, 191, 0.65);
+    background-color: rgb(236, 229, 191, 0.65);
 }
 
 #extraordinary ul {
     list-style-type: none;
-    padding:10px;
+    padding: 10px;
     text-align: justify;
     font-size: 1.4rem;
 }
 
 #extraordinary ul>li {
-    padding:10px;
+    padding: 10px;
 }
 
 /* Style laxus and thiosymbion pages */
@@ -464,9 +465,9 @@ footer {
         height: 400px;
     }
 
-    #extraordinary p {
+    #extraordinary .extra-text {
         width: 400px;
-        font-size: 1.3rem;
+        height: 720px;
     }
 
     /*Nesletter*/
@@ -606,11 +607,10 @@ footer {
         height: 350px;
     }
 
-    #extraordinary p {
+    #extraordinary .extra-text {
         width: 300px;
-        height: 350px;
+        height: 930px;
         margin-left: 20px;
-        margin-bottom: 80px;
     }
 
     /* Laxus and Thiosymbion extraordinary section */
@@ -775,9 +775,9 @@ footer {
         margin-bottom: 15px;
     }
 
-    #extraordinary p {
+    #extraordinary .extra-text {
         width: 240px;
-        height: 380px;
+        height: 1220px;
         margin: 0px;
         font-size: 1.4rem;
     }
@@ -871,9 +871,9 @@ footer {
         height: 310px;
     }
 
-    #extraordinary p {
+    #extraordinary .extra-text {
         width: 280px;
-        height: 380px;
+        height: 1000px;
     }
 
     /* Laxus and Thiosymbion hero section */
@@ -976,9 +976,21 @@ footer {
         height: 500px;
     }
 
-    #extraordinary p {
+    #extraordinary .feature1 {
+        padding: 60px;
+    }
+
+    #extraordinary .extra-text {
         width: 450px;
-        font-size: 2rem;
+        height: 1400px;
+    }
+
+    #extraordinary h4 {
+        font-size: 2.6rem;
+    }
+
+    #extraordinary ul {
+        font-size: 2.2rem;
     }
 
     /* Laxus and Thiosymbion extraordinary section */
