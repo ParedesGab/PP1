@@ -186,7 +186,7 @@ h3 {
     text-align: center;
 }
 
-/* classes for Home, Laxus and Thiosymbion pages */
+/* Classes for Home, Laxus and Thiosymbion pages */
 .story,
 .introduction {
     display: flex;
@@ -195,6 +195,7 @@ h3 {
     justify-content: center;
 }
 
+/* Love story section - Home page */
 #love-story h4 {
     font-size: 1.6rem;
     text-align: center;
@@ -238,7 +239,7 @@ h3 {
 }
 
 #extraordinary>h3 {
-    background-color: rgb(227, 220, 206, 0.35);
+    background-color: rgb(222, 221, 218, 0.7);
     padding: 30px 30px;
 }
 
@@ -270,14 +271,26 @@ h3 {
     margin-bottom: 30px;
     padding: 10px;
     border: solid black 2px;
-    background-color: rgba(222, 221, 218, 0.7);
+    background-color: rgba(222, 221, 218, 0.8);
 }
 
 #extraordinary h4 {
     font-size: 1.6rem;
     text-align: center;
     padding: 10px;
-    margin: 0px 35px 20px;
+    margin: 20px 35px;
+    background-color:rgb(236, 229, 191, 0.65);
+}
+
+#extraordinary ul {
+    list-style-type: none;
+    padding:10px;
+    text-align: justify;
+    font-size: 1.4rem;
+}
+
+#extraordinary ul>li {
+    padding:10px;
 }
 
 /* Style laxus and thiosymbion pages */
