@@ -316,6 +316,15 @@ h3 {
     border-radius: 0%;
 }
 
+#extraordinary .extra-text-lt {
+    height: auto;
+}
+
+#extraordinary .extra-text-lt li {
+    padding: 15px 0px;
+}
+
+
 /* Newsletter page */
 
 #newsletter-body {
@@ -466,8 +475,8 @@ footer {
     }
 
     #extraordinary .extra-text-lt {
-        width: 500px;
-        height: 560px;
+        width: 510px;
+        height: auto;
     }
 
     /*Nesletter*/
@@ -617,7 +626,6 @@ footer {
 
     #extraordinary .extra-text-lt {
         width: 88%;
-        height: auto;
     }
 
     #extraordinary .model {
@@ -875,6 +883,10 @@ footer {
         top: 200px;
         font-size: 80px;
     }
+
+    #extraordinary .extra-text-lt li {
+        font-size: 1.7rem;
+    }
 }
 
 /*Media Query: Extraordinary section in more than 1800px */
@@ -976,6 +988,10 @@ footer {
     }
 
     #extraordinary ul {
+        font-size: 2.2rem;
+    }
+
+    #extraordinary .extra-text-lt li {
         font-size: 2.2rem;
     }
 
