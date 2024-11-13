@@ -262,7 +262,7 @@ h3 {
     margin-bottom: 5px;
 }
 
-#extraordinary p {
+#extraordinary .extra-text {
     width: 270px;
     color: black;
     font-size: 1.2rem;
