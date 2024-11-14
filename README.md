@@ -24,7 +24,7 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 + My primary goal is **science communication**. Namely:
 
   + Inform, raise awareness and public outreach about the existance of this fascinating but little-known nematode-bacterium symbiosis.  
-  + Communicate in an simple way key scientific findings of the *Laxus*-Thiosymbion partnership.
+  + Communicate key scientific findings of the *Laxus*-Thiosymbion partnership in a simple way.
 
 + In addition:
   + Spark interest in further scientific study of this fascinating symbiotic system. 
@@ -35,41 +35,42 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 ### Target audience
 
 + General public interested in life, nature or biology.
-+ Environmental advocates, because global warking or human impact has also an effect on marine meiofauna.
-+ Students, teachers, marine science enthusiastss studying marine biology, ecology, nematology, or microbiology. 
-+ Researchers and Scientists.
++ Environmental advocates, because global warming and/or human impact have also an effect on marine meiofauna.
++ Students, teachers or marine science enthusiasts studying marine biology, ecology, nematology, or microbiology. 
++ Researchers, scientists.
 
 ### User expectations
 
 + Accessible site.
 + Fast access to content.
-+ Clearly undestand the purpose of the site.
-+ Have relevant content that is that keeps the user engaged.
++ Understand clearly the purpose of the site.
++ Have relevant content that keeps the user engaged.
 + Easy and intuitive navigation, overall a smooth experience.
 + Mobile-friendly, but generally a responsive design that works well on all devices.
 
 ### User stories
 
-+ As a first-time user, I want to:
++ **As a first-time user, I want to:**
 
   + Easily navigate the website and find the content interesting.
-  + Be surprised to discover that drastically different organisms in nature might rely on each other for survival.
+  + Be surprised to discover that drastically different organisms in nature might depend on each other for survival.
   + Find this, otherwise niche topic, entertaining and easy to understand. 
   + Find useful information about this symbiosis, so I can compare it with my research system. 
-  + Visit the social media platforms to check what activity is carried out around this topic.
+  + Visit the social media platforms to see what activity is going on around this topic.
 
-+ As a returning user, I want to:
++ **As a returning user, I want to:**
+
   + Discover the latest key findings or new research on the *Laxus*-Thiosymbion symbiosis. 
-  + Connect with scientists working on marine symbiosis, so they can share their insights in schools, museums, or to stablish a scientific collaboration.
-  + Check if other symbiotic systems are featured on the website.
+  + Connect with scientists working on marine symbiosis, so they can share their insights in schools, museums, or to establish a scientific collaboration.
+  + See if other symbiotic systems are featured on the site.
 
-+ As the business ownser user, I want:
++ **As the business ownser user, I want:**
 
   + Pass on my love for this system that was my workhorse for many years. 
-  + Highlight the key discoveries I made during my PhD research (Paredes et al., 2021, 2022).
+  + Highlight the key discoveries I made during my Ph.D. research (Paredes et al., 2021, 2022).
   + Keep the website updated with the latest research on this symbiosis. 
   + Know if the visitors found the content interesting and if it was easy to understand. 
-  + Know what other symbiotic-related content my users want to see. For example, scientist testimonial, or the process of collecting the nematodes from sand, etc. 
+  + Know what other symbiosis-related content my users want to see. For example, testimonial from scientists, or the process of collecting the nematodes from sand, etc. 
 
 ## Features 
 
