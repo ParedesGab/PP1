@@ -206,7 +206,7 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
   - Third: The **What Thiosymbion gives to Laxus section** -which is a research study conducted by the developer in 2021. A summary of the main findings of the article is presented, as well as a nutritional model of the interaction of Thiosymbion with the nematode. The study is also linked to the website, and this section is responsive.  
 
-  ![Footer](documentation/footer.png)
+  ![Thiosymbion](documentation/footer.png)
 
 ---
 ### NEWSLETTER page
@@ -219,7 +219,7 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
   - This section is responsive, and the resize property of the textarea was disabled by setting it to: none.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Newsletter](documentation/footer.png)
 
 ---
 ### SUCCESSFUL page
@@ -230,9 +230,18 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
   - This page is responsive, and has a "Return to Home page" button to keep the user in the website. 
 ---
+
 ### Features Left to Implement
 
-- Another feature idea
+- Make the hamburger icon responsive. 
+
+- Update the extraordinary section with new research. 
+
+- Add a carousel to the "Love story" section, and to the "Laxus and Thiosymbion introduction sections", respectively; so that more media can be displayed. 
+
+- And/or, add a gallery section, showing nematode pictures, researchers in action, the island in Belize from where they are collected, etc., and use CSS grid to organize it.
+
+- Add a "References" page, that lists all publications related to the *Laxus*-Thiosymbion association.
 
 ## Testing 
 
