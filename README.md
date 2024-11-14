@@ -161,16 +161,16 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 - These features are in fact seminal findings of the Laxus*-Thiosymbion research. As such, they will likely remain as the site is updated, but more features will be added as new research emerges.
 ​
 ![Highlights Section](documentation/main_cons.png)
----
 
 #### Footer
 
-    - Footer contains social media links that open in a new tab.
+- The footer section contains links to the relevant social media sites that feature *Laxus* and Thiosymbion.
+- The links will open to a new tab to allow easy navigation for the user. 
+- The footer is valuable to the user as it encourages them to keep connected via social media
 ​
-    ![Footer](documentation/footer.png)
+![Footer](documentation/footer.png)
 
-      - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+
 
 - __Gallery__
 
