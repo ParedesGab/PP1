@@ -98,25 +98,29 @@ Symbiosis is defined as "the living together of differently named organisms" (de
     + **On mobile devices:**
         
       + The navbar features the logo on the left, with a hamburger menu from Font Awesome on the right.
+
       ![NavBar Mobile Closed](documentation/navbar_mobile_closed.png)
 
       + When clicked, the hamburger menu reveals a drop-down with the navigation links displayed in the same order as described above, and they have Laxus as bullet points.
+
       ![NavBar Mobile Open](documentation/navbar_mobile_open.png)
 
     + **On tablets and larger screens** 
       + The logo remains on the left, the hamburger disappears and instead you see all the navigation links spaceously distributed on the right.
+
       ![NavBar Tablets and Up](documentation/navbar_tablets.png)
        
 ---
 ### Home page
 
+  * Presents the symbiosis of *Laxus* and Thiosymbion.
+  * Intends to make the topic of symbiosis easy to understand, by:
+    * Presenting it as a love story - it is afterall, a relationship.
+    * Making the analogy of wearing a winter coat, so it is more clear that the bacteria leaves on the surface. 
+  * Presents the extraordinary features of this partnership, including fun facts to make the content more interactive.
+  * Presents the social media channels.
 
-- __The landing page image__
-
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
-
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+    ![Home Page](documentation/home_page.png)
 
 - __Club Ethos Section__
 
