@@ -135,51 +135,35 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
 #### Love story section
 
-  -This section aims to introduce the symbiosis in a fun and simplified way.
+- This section aims to introduce the symbiosis in a fun and simplified way.
   
-  -It contains: a title (h3), an intro text explaining the website's theme, a video of moving worms, and a video caption. 
+- It contains: a title (h3), an intro text explaining the website's theme, a video of moving worms, and a video caption. 
 
-  -The "love story" title is an analogy representing symbiosis as a partnership.
+- The "love story" title is an analogy representing symbiosis as a partnership.
 
-  - The text is written to engage all audiences, for example, using the analogy of a winter coat in Caribbean heat to help users imagine life as this nematode.  
+- The text is written to engage all audiences, for example, using the analogy of a winter coat in Caribbean heat to help users imagine life as this nematode.  
 
-  -The video, shows several *Laxus oneistus* in motion, and the caption, highlights their resemblance with rice noodles but, in fact, the whiteness is the bacteria on the surface. 
+- The video, shows several *Laxus oneistus* in motion, and the caption, highlights their resemblance with rice noodles but, in fact, the whiteness is the bacteria on the surface. 
     
-  ![Highlights Section](documentation/main_cons.png)
-    ---
+![Highlights Section](documentation/main_cons.png)
+---
 
 #### Extraordinary section
 
-    - As the title suggests, this section aims to highlight extraordinary features of this symbiosis. 
+- As the title suggests, this section aims to highlight extraordinary features of this symbiosis. 
     
-    -Three key features have been selected and displayed using the HTML class attribute "feature1.
+- Three key features have been selected and displayed using the HTML class attribute "feature1.
     
-    -They allow the user to see information about its habitat, reasons of being together and more importantly, the uniqueness of this symbiosis, 
+- They allow the user to see information about its habitat, reasons of being together and more importantly, the uniqueness of this symbiosis, 
 
-    - To make it more interactive, each feature card has a "fun fact" that is highlighted in bold and next to a star from Font Awesome. 
+- To make it more interactive, each feature card has a "fun fact" that is highlighted in bold and next to a star from Font Awesome. 
 
-    -These features are in fact seminal findings of the Laxus*-Thiosymbion research. As such, they will likely remain as the site is updated, but more features will be added as new research emerges.
+- These features are in fact seminal findings of the Laxus*-Thiosymbion research. As such, they will likely remain as the site is updated, but more features will be added as new research emerges.
 ​
-    ![Testimonials Section](documentation/testimonials.png)
-
+![Highlights Section](documentation/main_cons.png)
 ---
-+ #### Call to Action Section
 
-    - Call to Action Section has an explicit message for the visitors of the website to contact the company.
-
-    - Is also has a button that directs to the contact page.
-​
-    ![Call to Action Section](documentation/call_to_action.png)
-
-
-      - This section will be updated as these times change to keep the user up to date. 
-
-        - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
-
-
----
-+ #### Footer
+#### Footer
 
     - Footer contains social media links that open in a new tab.
 ​
