@@ -15,7 +15,7 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 ### User Goals
 
 + Find clear, fun and engaging information about this marine symbiosis.
-+ Understand or learn about the unique relationship between Laxus and Thiosymbion. 
++ Understand or learn about the unique relationship between *Laxus* and Thiosymbion. 
 + Explore the "cool factor" of symbiosis through this example.
 + Leave with a new appreciation for the surprising, complex relationships that exist even in the smallest corners of the ocean.
 
@@ -31,6 +31,13 @@ Symbiosis is defined as "the living together of differently named organisms" (de
   + Generate public engagement to build a network of people excited about marine symbioses.
 
 ## User Experience
+
+### Target audience
+
++ General public interested in life, nature or biology.
++ Environmental advocates, because global warking or human impact has also an effect on marine meiofauna.
++ Students, teachers, marine science enthusiastss studying marine biology, ecology, nematology, or microbiology. 
++ Researchers and Scientists.
 
 #### First-time User
   + Navigate the website easily to find the content I need.
