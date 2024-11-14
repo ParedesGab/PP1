@@ -97,26 +97,19 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
     + **On mobile devices:**
         
-      + The navigation bar features the logo on the left, with a hamburger menu on the right.
+      + The navbar features the logo on the left, with a hamburger menu from Font Awesome on the right.
       ![NavBar Mobile Closed](documentation/navbar_mobile_closed.png)
 
-      + When clicked, the hamburger menu reveals a drop-down with links in the same order as described above, and they have Laxus as bullet points.
+      + When clicked, the hamburger menu reveals a drop-down with the navigation links displayed in the same order as described above, and they have Laxus as bullet points.
       ![NavBar Mobile Open](documentation/navbar_mobile_open.png)
 
-    + **On tablets:** 
-      + navigation bar is split into to lines: the first line filled with the logo and the second line filled with links. All elements are centered.
-        ![NavBar Tablets](documentation/navbar_tablets.png)
+    + **On tablets and larger screens** 
+      + The logo remains on the left, the hamburger disappears and instead you see all the navigation links spaceously distributed on the right.
+      ![NavBar Tablets and Up](documentation/navbar_tablets.png)
+       
+---
+### Home page
 
-        
-
-### Existing Features
-
-- ____
-
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
-
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
 
 - __The landing page image__
 
