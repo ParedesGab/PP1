@@ -121,7 +121,6 @@ Symbiosis is defined as "the living together of differently named organisms" (de
   * It also introduces the social media channels.
 
   ![Home Page](documentation/home_page.png)
---- 
 
 #### Hero section
 
@@ -131,7 +130,6 @@ Symbiosis is defined as "the living together of differently named organisms" (de
  - This background image as well as the title position and font-size was made responsive across all devices. 
 
 ![Hero Section](documentation/hero_section.png)
---- 
 
 #### Love story section
 
@@ -146,7 +144,6 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 - The video, shows several *Laxus oneistus* in motion, and the caption, highlights their resemblance with rice noodles but, in fact, the whiteness is the bacteria on the surface. 
     
 ![Highlights Section](documentation/main_cons.png)
----
 
 #### Extraordinary section
 
@@ -166,11 +163,12 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
 - The footer section contains links to the relevant social media sites that feature *Laxus* and Thiosymbion.
 - The links will open to a new tab to allow easy navigation for the user. 
-- The footer is valuable to the user as it encourages them to keep connected via social media
+- The footer adds value by encouraging users to stay connected through social media.
 ​
 ![Footer](documentation/footer.png)
 
-
+---
+### Home page
 
 - __Gallery__
 
