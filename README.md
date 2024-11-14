@@ -76,7 +76,7 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
 ### Navigation Bar
 
-  ![NavBar desktop](documentation/navbar_desktop.png)
+![NavBar desktop](documentation/navbar_desktop.png)
 
   + It is positioned at the top of the page.
   + It is clear and easy to navigate.
@@ -99,16 +99,16 @@ Symbiosis is defined as "the living together of differently named organisms" (de
         
       + The navbar features the logo on the left, with a hamburger menu from Font Awesome on the right.
 
-      ![NavBar Mobile Closed](documentation/navbar_mobile_closed.png)
+    ![NavBar Mobile Closed](documentation/navbar_mobile_closed.png)
 
       + When clicked, the hamburger menu reveals a drop-down with the navigation links displayed in the same order as described above, and they have Laxus as bullet points.
 
-      ![NavBar Mobile Open](documentation/navbar_mobile_open.png)
+    ![NavBar Mobile Open](documentation/navbar_mobile_open.png)
 
     + **On tablets and larger screens** 
       + The logo remains on the left, the hamburger disappears and instead you see all the navigation links spaceously distributed on the right.
 
-      ![NavBar Tablets and Up](documentation/navbar_tablets.png)
+    ![NavBar Tablets and Up](documentation/navbar_tablets.png)
        
 ---
 ### Home page
@@ -120,12 +120,12 @@ Symbiosis is defined as "the living together of differently named organisms" (de
   * It highlights the extraordinary features of this partnership, including fun facts to make the content more interactive.
   * It also introduces the social media channels.
 
-    ![Home Page](documentation/home_page.png)
+  ![Home Page](documentation/home_page.png)
 --- 
 
 #### Hero section
 
-- It is place on the top of the home page.
+- The hero section is placed on the top of the home page.
 - The intention was to make it simple but yet impactful - here the black background allows the single nematode picture to shine.
  - The title of the website (h2) "A extraordinary symbiosis" is next to the image and it has a yelloish/white color, same as the bacterials symbiont.  
  - This background image as well as the title position and font-size was made responsive across all devices. 
@@ -146,27 +146,21 @@ Symbiosis is defined as "the living together of differently named organisms" (de
   -The video, shows several *Laxus oneistus* in motion, and the caption, highlights their resemblance with rice noodles but, in fact, the whiteness is the bacteria on the surface. 
     
   ![Highlights Section](documentation/main_cons.png)
-
     ---
+
 #### Extraordinary section
 
-    - Testimonials Section has three feedbacks from people who were satisfied with the company's service.
+    - As the title suggests, this section aims to highlight extraordinary features of this symbiosis. 
+    
+    -Three key features have been selected and displayed using the HTML class attribute "feature1.
+    
+    -They allow the user to see information about its habitat, reasons of being together and more importantly, the uniqueness of this symbiosis, 
 
-    - Each card has a picture of an animal with its owner.
+    - To make it more interactive, each feature card has a "fun fact" that is highlighted in bold and next to a star from Font Awesome. 
 
-    - Each card has a story from the people who had an experience of using the Animal Shelter.
-
-    - Each card has a name of the pet's owner.
-
+    -These features are in fact seminal findings of the Laxus*-Thiosymbion research. As such, they will likely remain as the site is updated, but more features will be added as new research emerges.
 ​
     ![Testimonials Section](documentation/testimonials.png)
-
-      - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
-
-        - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
-
 
 ---
 + #### Call to Action Section
@@ -176,6 +170,12 @@ Symbiosis is defined as "the living together of differently named organisms" (de
     - Is also has a button that directs to the contact page.
 ​
     ![Call to Action Section](documentation/call_to_action.png)
+
+
+      - This section will be updated as these times change to keep the user up to date. 
+
+        - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
+  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
 
 
 ---
