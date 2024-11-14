@@ -74,11 +74,34 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
++ #### Navigation Bar
+
+    - It is positioned at the top of the page.
+    - It contains the "Laxus and Thiosymbion" logo on the left.
+    - It contains the following four navigation links on the right:
+        * HOME: Takes you to the home page where users can learn about the *Laxus*-Thiosymbion symbiosis.
+        * LAXUS: Takes you to the page that features the nematode *Laxus oneistus* and what it might be providing to its bacterial partner.
+        * THIOSYMBION: Takes you to the page describing the bacterium *Candidatus* Thiosymbion oneisti and what it might provide to its nematode host.
+        * CONTACT: Takes you to the contact form to sign up for a newsletter with symbiosis stories.
+
+    - The links have animated hover effect.
+    - The navigation is clear and easy to understand for the user.
+    ![NavBar desktop](documentation/navbar_desktop.png)
+
+    - The navigation bar is responsive:
+        * On tablets: navigation bar is split into to lines: the first line filled with the logo and the second line filled with links. All elements are centered.
+        ![NavBar Tablets](documentation/navbar_tablets.png)
+
+        * On mobile devices: 
+            - navigation bar filled with the logo in the center and a hamburger menu implemented on the left side of the navigation bar.      
+            ![NavBar Mobile Closed](documentation/navbar_mobile_closed.png)
+        
+            - When the hamburger menu is clicked, there is dropdown menu with the links in the same order.
+            ![NavBar Mobile Open](documentation/navbar_mobile_open.png)
 
 ### Existing Features
 
-- __Navigation Bar__
+- ____
 
   - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
