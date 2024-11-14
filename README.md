@@ -48,63 +48,28 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 + Easy and intuitive navigation, overall a smooth experience.
 + Mobile-friendly, but generally a responsive design that works well on all devices.
 
-#### First-time User
-  + Navigate the website easily to find the content I need.
-  + Be surprised to discover that in nature, drastically different organisms might need each other to exist.
-  + Find this, otherwise niche topic, intersting and digestible. 
-  + Find a way to get in contact with scientists working on this topic, so they can talk about it in different platforms, such as schools, social media, museums, etc.
-    
-+ If I am scientist, I also want to:
-    + Discover the last key findings about the *Laxus*-Thiosymbion symbiosis. 
-    + Find useful information about what makes this symbiosis extraordinary, so I can compare it with my system. 
-    + Share feedback about my research with the potential to start a scientific collaboration.
+### User stories
 
-#### Returning User
-+ As a general user, I want to:
-    + Navigate the website easily to find the content I need.
++ As a first-time user, I want to:
 
-+ If I am not a scientist, I also want to:  
-    + Be surprised to discover that in nature, drastically different organisms might need each other to exist.
-    + Find this, otherwise niche topic, intersting and digestible. 
-    + Find a way to get in contact with scientists working on this topic, so they can talk about it in different platforms, such as schools, social media, museums, etc.
-    
-+ If I am scientist, I also want to:
-    + Discover the last key findings about the *Laxus*-Thiosymbion symbiosis. 
-    + Find useful information about what makes this symbiosis extraordinary, so I can compare it with my system. 
-    + Share feedback about my research with the potential to start a scientific collaboration.
+  + Easily navigate the website and find the content interesting.
+  + Be surprised to discover that drastically different organisms in nature might rely on each other for survival.
+  + Find this, otherwise niche topic, entertaining and easy to understand. 
+  + Find useful information about this symbiosis, so I can compare it with my research system. 
+  + Visit the social media platforms to check what activity is carried out around this topic.
 
++ As a returning user, I want to:
+  + Discover the latest key findings or new research on the *Laxus*-Thiosymbion symbiosis. 
+  + Connect with scientists working on marine symbiosis, so they can share their insights in schools, museums, or to stablish a scientific collaboration.
+  + Check if other symbiotic systems are featured on the website.
 
++ As the business ownser user, I want:
 
-#### First-time User
-
-As a first time user I want to:
-
-1. Know if there is some disruption to the usual opening times or other very important information. 
-2. Know when I can visit the place.
-3. Know how to contact the restaurant via phone or email.
-4. Know the address of the premises. 
-5. Visit restaurant's social media platforms and check the activity on them.
-
-#### Returning User
-
-As a returning user I want to:
-
-6. Contact the management and inform about my feedback after a visit.
-7. Check if there is a special offer available. 
-8. Check if the restaurant menu is same as during the last visit.
-
-#### Business Owner 
-
-As the restaurant owner I want to:
-
-9. Advertise the place through presentation of food and drink served. 
-10. Introduce what type of place the user can expect during the visit.
-11. Reveal the interior design of the restaurant. 
-12. Present the head chef to the user.
-13. Inform the user who manages preparation of the dishes and the professional background of this person. 
-14. Share other guests reviews and what they felt during their dining experience. 
-15. Explain how to get to the restaurant and present its unique location. 
-16. Make the user feel welcomed and invited to visit the restaurant.
+  + Pass on my love for this system that was my workhorse for many years. 
+  + Highlight the key discoveries I made during my PhD research (Paredes et al., 2021, 2022).
+  + Keep the website updated with the latest research on this symbiosis. 
+  + Know if the visitors found the content interesting and if it was easy to understand. 
+  + Know what other symbiotic-related content my users want to see. For example, scientist testimonial, or the process of collecting the nematodes from sand, etc. 
 
 ## Features 
 
