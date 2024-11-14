@@ -1,30 +1,34 @@
 # Laxus and Thiosymbion
 
-Symbiosis is defined as "the living together of differently named organisms" (de Bary, 1879). This website provides knowdledge of one extraordinary symbiotic example, the one involving the free-living marine nematode *Laxus oneistus* and its inseparable bacterial partner, *Candidatus* Thiosymbion oneisti. 
-
-For short, across this documentation they will be referred as *Laxus* and Thiosymbion. respectively.
+(Developer: Gabriela Fabiola Paredes Rojas)
 
 ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
-The site can be accessed via this [link](https://paredesgab.github.io/PP1-project-portfolio-1/)
+Symbiosis is defined as "the living together of differently named organisms" (de Bary, 1879). This website provides information on an extraordinary symbiotic example, the one involving the free-living marine nematode *Laxus oneistus* and its inseparable bacterial partner, *Candidatus* Thiosymbion oneisti. 
+
++ Throughout this documentation, they will be referred as *Laxus* and Thiosymbion. respectively.
+
++ The site can be accessed via this [link](https://paredesgab.github.io/PP1-project-portfolio-1/)
 
 ## Project Goals
+
+### User Goals
+
++ Find clear, fun and engaging information about this marine symbiosis.
++ Understand or learn about the unique relationship between Laxus and Thiosymbion. 
++ Explore the "cool factor" of symbiosis through this example.
++ Leave with a new appreciation for the surprising, complex relationships that exist even in the smallest corners of the ocean.
 
 ### Business Owner Goals
 
 + My primary goal is **science communication**. Namely:
 
-  + Informe, raise awareness and public outreach of the existance of this fascinating yet little-known nematode-bacterium symbiosis.  
-  + Communicating in an easy way key scientific findings of the *Laxus*-Thiosymbion partnership.
+  + Inform, raise awareness and public outreach about the existance of this fascinating but little-known nematode-bacterium symbiosis.  
+  + Communicate in an simple way key scientific findings of the *Laxus*-Thiosymbion partnership.
 
 + In addition:
-  + Raise interest in the further study of this beautiful symbiotic system.
-  + Generate public engagement around this system to create a network of people interested in this type of symbiosis.
-
-### User Goals
-
-+ Easily understand the main purpose of the website, so I can learn more about this symbiotic relatioship.
-+ Find out information on: what are these organisms, where do they live and why they live together. 
+  + Spark interest in further scientific study of this fascinating symbiotic system. 
+  + Generate public engagement to build a network of people excited about marine symbioses.
 
 ## User Experience
 
