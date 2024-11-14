@@ -113,35 +113,80 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 ---
 ### Home page
 
-  * Presents the symbiosis of *Laxus* and Thiosymbion.
-  * Intends to make the topic of symbiosis easy to understand, by:
-    * Presenting it as a love story - it is afterall, a relationship.
-    * Making the analogy of wearing a winter coat, so it is more clear that the bacteria leaves on the surface. 
-  * Presents the extraordinary features of this partnership, including fun facts to make the content more interactive.
-  * Presents the social media channels.
+  * It presents the symbiosis of *Laxus* and Thiosymbion.
+  * It intends to make the topic of symbiosis easy to understand, by:
+    * Presenting it as a love story - it is after all, a relationship.
+    * Using the analogy of wearing a winter coat, so to make it clearer that the bacteria live on the surface. 
+  * It highlights the extraordinary features of this partnership, including fun facts to make the content more interactive.
+  * It also introduces the social media channels.
 
     ![Home Page](documentation/home_page.png)
+--- 
 
-- __Club Ethos Section__
+#### Hero section
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+- It is place on the top of the home page.
+- The intention was to make it simple but yet impactful - here the black background allows the single nematode picture to shine.
+ - The title of the website (h2) "A extraordinary symbiosis" is next to the image and it has a yelloish/white color, same as the bacterials symbiont.  
+ - This background image as well as the title position and font-size was made responsive across all devices. 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Hero Section](documentation/hero_section.png)
+--- 
 
-- __Meetup Times section__
+#### Love story section
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
+  -This section aims to introduce the symbiosis in a fun and simplified way.
+  
+  -It contains: a title (h3), an intro text explaining the website's theme, a video of moving worms, and a video caption. 
+
+  -The "love story" title is an analogy representing symbiosis as a partnership.
+
+  - The text is written to engage all audiences, for example, using the analogy of a winter coat in Caribbean heat to help users imagine life as this nematode.  
+
+  -The video, shows several *Laxus oneistus* in motion, and the caption, highlights their resemblance with rice noodles but, in fact, the whiteness is the bacteria on the surface. 
+    
+  ![Highlights Section](documentation/main_cons.png)
+
+    ---
+#### Extraordinary section
+
+    - Testimonials Section has three feedbacks from people who were satisfied with the company's service.
+
+    - Each card has a picture of an animal with its owner.
+
+    - Each card has a story from the people who had an experience of using the Animal Shelter.
+
+    - Each card has a name of the pet's owner.
+
+​
+    ![Testimonials Section](documentation/testimonials.png)
+
+      - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
   - This section will be updated as these times change to keep the user up to date. 
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+        - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
+  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
 
-- __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
+---
++ #### Call to Action Section
+
+    - Call to Action Section has an explicit message for the visitors of the website to contact the company.
+
+    - Is also has a button that directs to the contact page.
+​
+    ![Call to Action Section](documentation/call_to_action.png)
+
+
+---
++ #### Footer
+
+    - Footer contains social media links that open in a new tab.
+​
+    ![Footer](documentation/footer.png)
+
+      - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
-
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
 - __Gallery__
 
