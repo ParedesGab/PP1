@@ -229,11 +229,13 @@ Symbiosis is defined as "the living together of differently named organisms" (de
   - The user is thanked for subscribing, and there is a quote from one of the foremost symbiosis researchers, Lynn Margulis, that highlights the power of teaming up. 
 
   - This page is responsive, and has a "Return to Home page" button to keep the user in the website. 
----
 
+---
 ### Features Left to Implement
 
 - Make the hamburger icon responsive. 
+
+- Use CSS roots to declare global CSS variables and and apply them across the entire project for consistent styling.
 
 - Update the extraordinary section with new research. 
 
@@ -242,6 +244,26 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 - And/or, add a gallery section, showing nematode pictures, researchers in action, the island in Belize from where they are collected, etc., and use CSS grid to organize it.
 
 - Add a "References" page, that lists all publications related to the *Laxus*-Thiosymbion association.
+
+---
+## Languages
+- HTML
+- CSS
+
+---
+## Technologies used
+- Balsamiq: to create the wireframes.
+- Google Fonts
+- Font Awesome - to add hamburger, star, and social media icons.
+- Gitpod
+- GitHub
+- TinyPNG to compress the images.
+- MDN Web Docs resource to read more about CSS properties.
+- VEED video editor, to compress and edit the video.
+- color-hex to get the rgb color information.
+- Chrome DevTools.
+- Lighthouse from Chrome DevTools.
+- W3C HTML and CSS Validation Services. 
 
 ## Testing 
 
