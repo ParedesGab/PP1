@@ -88,20 +88,23 @@ Symbiosis is defined as "the living together of differently named organisms" (de
     + **LAXUS:** Takes you to the page that features the nematode *Laxus oneistus* and what it might be providing to its bacterial partner.
 
     + **THIOSYMBION:** Takes you to the page describing the bacterium *Candidatus* Thiosymbion oneisti and what it might provide to its nematode host.
-    
+
     + **CONTACT:** Takes you to the contact form to sign up for a newsletter with symbiosis stories.
 
-  + The navigation links have animated hover effect.
+  + All four navigation links have a hover effect.
 
   + In addition, the navigation bar is responsive:
 
-    * On mobile devices: 
-            - navigation bar filled with the logo in the center and a hamburger menu implemented on the left side of the navigation bar.      
-            ![NavBar Mobile Closed](documentation/navbar_mobile_closed.png)
+    + **On mobile devices:**
         
-            - When the hamburger menu is clicked, there is dropdown menu with the links in the same order.
-            ![NavBar Mobile Open](documentation/navbar_mobile_open.png)
-        * On tablets: navigation bar is split into to lines: the first line filled with the logo and the second line filled with links. All elements are centered.
+      + The navigation bar features the logo on the left, with a hamburger menu on the right.
+      ![NavBar Mobile Closed](documentation/navbar_mobile_closed.png)
+
+      + When clicked, the hamburger menu reveals a drop-down with links in the same order as described above, and they have Laxus as bullet points.
+      ![NavBar Mobile Open](documentation/navbar_mobile_open.png)
+
+    + **On tablets:** 
+      + navigation bar is split into to lines: the first line filled with the logo and the second line filled with links. All elements are centered.
         ![NavBar Tablets](documentation/navbar_tablets.png)
 
         
