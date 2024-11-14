@@ -39,6 +39,20 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 + Students, teachers, marine science enthusiastss studying marine biology, ecology, nematology, or microbiology. 
 + Researchers and Scientists.
 
+### User expectations
+
+Your website looks great! It’s clear, engaging, and well-organized for learning about nematodes, symbiosis, and marine biology. You’ve got informative sections on your research topic and the fascinating partnership between Laxus oneistus and Candidatus Thiosymbion oneisti. The visuals also complement the content well and make the science more accessible. If you're open to feedback or looking to add more, feel free to ask!
+
++ Have relevant content that is well communicated and that keeps the User engaged. 
++ Understand clearly the purpose of the website.  I
++ Easy and intuitive navigation, overall a smooth experience.
++ Quick access to content without delays.
++ Mobile-friendly, but in general a responsive design that works well on all devices.
++ Clear Purpose: The website should clearly communicate its goal or mission.
++ Accessibility: Features like text readability, alt text for images, and easy-to-read fonts.
+
+The content should be relevant, clear, and engaging, with a straightforward purpose. Websites must be secure, protecting users' data, and accessible, offering features like readable fonts and alt text for images. A smooth, intuitive experience helps keep users engaged and ensures they can easily find the information they're looking for.
+
 #### First-time User
   + Navigate the website easily to find the content I need.
   + Be surprised to discover that in nature, drastically different organisms might need each other to exist.
