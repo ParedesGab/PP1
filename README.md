@@ -119,6 +119,7 @@ Symbiosis is defined as "the living together of differently named organisms" (de
     * Using the analogy of wearing a winter coat, so to make it clearer that the bacteria live on the surface. 
   * It highlights the extraordinary features of this partnership, including fun facts to make the content more interactive.
   * It also introduces the social media channels.
+  * The home page is responsive.
 
   ![Home Page](documentation/home_page.png)
 
@@ -142,6 +143,8 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 - The text is written to engage all audiences, for example, using the analogy of a winter coat in Caribbean heat to help users imagine life as this nematode.  
 
 - The video, shows several *Laxus oneistus* in motion, and the caption, highlights their resemblance with rice noodles but, in fact, the whiteness is the bacteria on the surface. 
+
+- This section was made responsive, and from Tablets up flex box with flex direction row was used. 
     
 ![Highlights Section](documentation/main_cons.png)
 
@@ -156,6 +159,12 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 - To make it more interactive, each feature card has a "fun fact" that is highlighted in bold and next to a star from Font Awesome. 
 
 - These features are in fact seminal findings of the Laxus*-Thiosymbion research. As such, they will likely remain as the site is updated, but more features will be added as new research emerges.
+
+- This section was made responsive. Namely:
+  - The title (h3) increases in font size.
+  - In mobiles: the figure is placed on top of the text, forming a column. 
+  - In tablets, the figure and text were placed next to each other(in a row). This was achieved because their container (class feature1) was set to display property: flex.
+  - In Laptops and Up, this display propery was set to column, to have the features next to each other. 
 ​
 ![Highlights Section](documentation/main_cons.png)
 
@@ -164,11 +173,23 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 - The footer section contains links to the relevant social media sites that feature *Laxus* and Thiosymbion.
 - The links will open to a new tab to allow easy navigation for the user. 
 - The footer adds value by encouraging users to stay connected through social media.
+- The footer is responsive, with increasing font sizing and padding as the screen width increases.
 ​
 ![Footer](documentation/footer.png)
 
 ---
-### Home page
+### Laxus page
+
+- This page provides the user with more information about the nematode.
+-This section is intented to be a bit more difficult because it 
+
+
+- The hero section is placed on the top of the home page.
+- The intention was to make it simple but yet impactful - here the black background allows the single nematode picture to shine.
+ - The title of the website (h2) "A extraordinary symbiosis" is next to the image and it has a yelloish/white color, same as the bacterials symbiont.  
+ - This background image as well as the title position and font-size was made responsive across all devices. 
+
+![Hero Section](documentation/hero_section.png)
 
 - __Gallery__
 
