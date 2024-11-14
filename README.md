@@ -78,7 +78,7 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
 ![NavBar desktop](documentation/navbar_desktop.png)
 
-  + It is positioned at the top of the page.
+  + It is positioned at the top of the page, and across all pages of the website. 
   + It is clear and easy to navigate.
   + It contains the "Laxus and Thiosymbion" logo on the left.
   + It contains the following four navigation links on the right:
@@ -111,7 +111,7 @@ Symbiosis is defined as "the living together of differently named organisms" (de
     ![NavBar Tablets and Up](documentation/navbar_tablets.png)
        
 ---
-### Home page
+### HOME page
 
   * It presents the symbiosis of *Laxus* and Thiosymbion.
   * It intends to make the topic of symbiosis easy to understand, by:
@@ -170,6 +170,7 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
 #### Footer
 
+- The footer section is present across all pages from this website.
 - The footer section contains links to the relevant social media sites that feature *Laxus* and Thiosymbion.
 - The links will open to a new tab to allow easy navigation for the user. 
 - The footer adds value by encouraging users to stay connected through social media.
@@ -178,36 +179,57 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 ![Footer](documentation/footer.png)
 
 ---
-### Laxus page
+### LAXUS page
 
 - This page provides the user with more information about the nematode.
--This section is intented to be a bit more difficult because it 
 
+- It contains three sections, from top to bottom:
 
-- The hero section is placed on the top of the home page.
-- The intention was to make it simple but yet impactful - here the black background allows the single nematode picture to shine.
- - The title of the website (h2) "A extraordinary symbiosis" is next to the image and it has a yelloish/white color, same as the bacterials symbiont.  
- - This background image as well as the title position and font-size was made responsive across all devices. 
+  - First: The **Hero Laxus section** - which uses the same style as the hero section from the home page. This section is responsive, and its height increases as the device screen width increases. 
 
-![Hero Section](documentation/hero_section.png)
+  - Second: The **Laxus introduction section** - which uses the same style as the love story section from the home page. This section is responsive.
 
-- __Gallery__
+  - Third: The **What Laxus gives to Thiosymbion section** -which is a research study conducted by the developer in 2022. A summary of the main findings of the article is presented, as well as a nutritional model of the interaction of *Laxus* with its bacteria. The study is also linked to the website, and this section is responsive.  
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  ![Footer](documentation/footer.png)
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+---
+### THIOSYMBION page
 
-- __The Sign Up Page__
+- This page provides the user with more information about the bacteria.
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+- Intentionally, it has the same style and responsiveness as the Laxus page, from top to bottom:
+
+  - First: The **Hero Thiosymbion section**.
+
+  - Second: The **Thiosymbion introduction section**.
+
+  - Third: The **What Thiosymbion gives to Laxus section** -which is a research study conducted by the developer in 2021. A summary of the main findings of the article is presented, as well as a nutritional model of the interaction of Thiosymbion with the nematode. The study is also linked to the website, and this section is responsive.  
+
+  ![Footer](documentation/footer.png)
+
+---
+### NEWSLETTER page
+
+  - This page will allow the user to subscribe to a newsletter to stay updated on new content, discoveries, or tips related to the *Laxus*-Thiosymbion symbiosis or other "love stories".
+
+  - To subscribe to the newsletter The user is required to provide their name, email address, feedback,  choose which system is of their interest, and click on the subscribe button. 
+
+  - The subscribe button has a hover effect animation. 
+
+  - This section is responsive, and the resize property of the textarea was disabled by setting it to: none.
 
 ![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+---
+### SUCCESSFUL page
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+  - After successful subscription the user is redirected to this page.
 
+  - The user is thanked for subscribing, and there is a quote from one of the foremost symbiosis researchers, Lynn Margulis, that highlights the power of teaming up. 
+
+  - This page is responsive, and has a "Return to Home page" button to keep the user in the website. 
+---
 ### Features Left to Implement
 
 - Another feature idea
