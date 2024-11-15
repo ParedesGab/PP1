@@ -156,7 +156,9 @@ Symbiosis is defined as "the living together of differently named organisms" (de
     
 - They allow the user to learn about the habitat, reasons of being together and more importantly, the uniqueness of this symbiosis, 
 
-- To make it more interactive, each feature card has a "fun fact" that is highlighted in bold and next to a star from Font Awesome. 
+- To make it more interactive, each feature card has a "fun fact" that is highlighted in bold and next to a star from Font Awesome.
+
+- Two publications are referenced and linked. 
 
 - These features are in fact seminal findings of the *Laxus*-Thiosymbion research. As such, they will likely remain as the site is updated, but more features will be added as new research emerges.
 
@@ -185,11 +187,11 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
 - It contains three sections, from top to bottom:
 
-  - First: The **Hero Laxus section** - which uses the same style as the hero section from the home page. This section is responsive, and its height increases as the device screen width increases. 
+  - The **Hero Laxus section**: it uses the same style as the hero section from the home page. This section is responsive, and its height increases as the device screen width increases. 
 
-  - Second: The **Laxus introduction section** - which uses the same style as the love story section from the home page. This section is responsive.
+  - The **Laxus introduction section**: it uses the same style as the love story section from the home page. This section is responsive.
 
-  - Third: The **What Laxus gives to Thiosymbion section** -which is a research study conducted by the developer in 2022. A summary of the main findings of the article is presented, as well as a nutritional model of the interaction of *Laxus* with its bacteria. The study is also linked to the website, and this section is responsive.  
+  - The **What Laxus gives to Thiosymbion section**: it is a research study conducted by the developer in 2022. A summary of the main findings of the article is presented, as well as a nutritional model of the interaction of *Laxus* with its bacteria. The study is also linked to the website, and this section is responsive.  
 
   ![Footer](documentation/footer.png)
 
@@ -198,24 +200,24 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
 - This page provides the user with more information about the bacteria.
 
-- Intentionally, it has the same style and responsiveness as the Laxus page, from top to bottom:
+- Intentionally, for consistency, it has the same style and responsiveness as the Laxus page. Thus, from top to bottom:
 
-  - First: The **Hero Thiosymbion section**.
+  - The **Hero Thiosymbion section**.
 
-  - Second: The **Thiosymbion introduction section**.
+  - The **Thiosymbion introduction section**.
 
-  - Third: The **What Thiosymbion gives to Laxus section** -which is a research study conducted by the developer in 2021. A summary of the main findings of the article is presented, as well as a nutritional model of the interaction of Thiosymbion with the nematode. The study is also linked to the website, and this section is responsive.  
+  - The **What Thiosymbion gives to Laxus section**: it is a research study conducted by the developer in 2021. A summary of the main findings of the article is presented, as well as a nutritional model of the interaction of Thiosymbion with the nematode. The study is also linked to the website, and this section is responsive.  
 
   ![Thiosymbion](documentation/footer.png)
 
 ---
 ### NEWSLETTER page
 
-  - This page will allow the user to subscribe to a newsletter to stay updated on new content, discoveries, or tips related to the *Laxus*-Thiosymbion symbiosis or other "love stories".
+  - This page will allow the user to subscribe to our newsletter, to stay updated on new content, discoveries, or tips related to the *Laxus*-Thiosymbion symbiosis or other "love stories".
 
-  - To subscribe to the newsletter The user is required to provide their name, email address, feedback,  choose which system is of their interest, and click on the subscribe button. 
+  - To subscribe to the newsletter, the user is required to provide their name, email address, feedback,  choose which system is of their interest, and click on the subscribe button. 
 
-  - The subscribe button has a hover effect animation. 
+  - The subscribe button has a hover effect animation - achieved with double box shadow and transition duration CSS properties.
 
   - This section is responsive, and the resize property of the textarea was disabled by setting it to: none.
 
@@ -230,6 +232,8 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
   - This page is responsive, and has a "Return to Home page" button to keep the user in the website. 
 
+  - The "Return to Home page" button has the same hover effects as the subscribe button, but a slight different style (i.e., round corners).
+
 ---
 ### Features Left to Implement
 
@@ -241,7 +245,7 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
 - Add a carousel to the "Love story" section, and to the "Laxus and Thiosymbion introduction sections", respectively; so that more media can be displayed. 
 
-- And/or, add a gallery section, showing nematode pictures, researchers in action, the island in Belize from where they are collected, etc., and use CSS grid to organize it.
+- And/or, add a gallery section, showing more pictures of nematodes, of the bacteria, of researchers in action, the island in Belize from where they are collected, etc., and use CSS grid to organize it.
 
 - Add a "References" page, that lists all publications related to the *Laxus*-Thiosymbion association.
 
@@ -252,7 +256,7 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
 ---
 ## Technologies used
-- Balsamiq: to create the wireframes.
+- [Balsamiq](https://balsamiq.com/): to create the wireframes.
 - Google Fonts
 - [Font Awesome](https://fontawesome.com/): For the hamburger, star, and social media icons.
 - Gitpod
