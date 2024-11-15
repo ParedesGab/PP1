@@ -371,8 +371,13 @@ SUCCESSFUL page
   - Iphone 15 pro
   - Samsung Galaxy Z Flip 5
 
+---
 ## Browser compatibility
 
+The website was tested on the following browsers:
+- Google Chrome
+- Firefox
+- Microsof Edge
 
 ### Unfixed Bugs
 
