@@ -333,7 +333,11 @@ SUCCESSFUL page
 
 ---
 
-### Browser compatibility
+### Device testing
+
+  -iphone XR
+
+## Browser compatibility
 
 
 ### Unfixed Bugs
