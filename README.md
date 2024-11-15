@@ -275,7 +275,7 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
 - In this section, I checked whether my HTML and CSS codes are compliant with industry standards. For that, I used the the W3C Markup Validation Service for HTML and CSS, respectively.
 
--The results have no errors.
+- The result is: no errors.
 
 ### HTML Validation
 
