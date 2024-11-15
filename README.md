@@ -275,7 +275,7 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
 - In this section, I checked whether my HTML and CSS codes are compliant with industry standards. For that, I used the the W3C Markup Validation Service for HTML and CSS, respectively.
 
-- The result is: no errors.
+- The result in both reports: no errors.
 
 ### HTML Validation
 
@@ -291,13 +291,15 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 + NEWSLETTER
 ![HTML Validation NEWSLETTER](documentation/validation/newsletter-page-html-validator.png)
 
-+ SUCCESSFUL 
++ SUCCESSFUL
 ![HTML Validation SUCCESSFUL](documentation/validation/successful-page-html-validator.png)
 
 ### CSS Validator
 
-•	Resolve the errors and check the warnings!
++ CSS stylesheet
+![CSS Validation](documentation/validation/css-stylesheet-css-validator.png)
 
+### Auto-prefixer
 
 -	In addition, I used the Auto-prefixer tool to make sure that the CSS code works in all browsers. 
 
