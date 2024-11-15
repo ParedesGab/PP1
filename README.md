@@ -307,11 +307,11 @@ SUCCESSFUL page
 
 HOME page
 
-+ ![LightHouse report HOME](documentation/lighthouse/lighthouse-report-homepage.png)
+  ![LightHouse report HOME](documentation/lighthouse/lighthouse-report-homepage.png)
 
 LAXUS page
 
-+ ![LightHouse report LAXUS](documentation/lighthouse/lighthouse-report-laxus-page.png)
+  ![LightHouse report LAXUS](documentation/lighthouse/lighthouse-report-laxus-page.png)
 
 THIOSYMBION page
 
