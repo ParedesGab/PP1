@@ -306,19 +306,24 @@ SUCCESSFUL page
 - Lighthouse tool from Devtools was used to confirm that the website is performing well, is accessible and the colors and fonts chosen are readable.
 
 HOME page
-![LightHouse report HOME](documentation/lighthouse/lighthouse-report-homepage.png)
+
++ ![LightHouse report HOME](documentation/lighthouse/lighthouse-report-homepage.png)
 
 LAXUS page
-![LightHouse report LAXUS](documentation/lighthouse/lighthouse-report-laxus-page.png)
+
++ ![LightHouse report LAXUS](documentation/lighthouse/lighthouse-report-laxus-page.png)
 
 THIOSYMBION page
-![LightHouse report THIOSYMBION](documentation/lighthouse/lighthouse-report-thiosymbion-page.png)
+
++ ![LightHouse report THIOSYMBION](documentation/lighthouse/lighthouse-report-thiosymbion-page.png)
 
 NEWSLETTER page
-![LightHouse report NEWSLETTER](documentation/lighthouse/lighthouse-report-newsletter-page.png)
+
++ ![LightHouse report NEWSLETTER](documentation/lighthouse/lighthouse-report-newsletter-page.png)
 
 SUCCESSFUL page
-![LightHouse report SUCCESSFUL](documentation/lighthouse/lighthouse-report-successful-page.png)
+
++ ![LightHouse report SUCCESSFUL](documentation/lighthouse/lighthouse-report-successful-page.png)
 
 ---
 ### Unfixed Bugs
