@@ -307,7 +307,6 @@ SUCCESSFUL page
 ![CSS Validation](documentation/validation/css-stylesheet-css-validator.png)
 
 ---
-
 ### Accessibility 
 
 - Accessibility across all pages was tested using the Web Accessibility Evaluation Tool  (WAVE). 
@@ -335,7 +334,7 @@ NEWSLETTER page
 SUCCESSFUL page
 
   ![WAVE report SUCCESSFUL](documentation/wave/wave-report-successful-page.png)
-  
+
 ---
 ### LightHouse report
 
@@ -365,7 +364,12 @@ SUCCESSFUL page
 
 ### Device testing
 
-  -iphone XR
+- The website was checked across devices using the chrome extension [Responsive Viewer](https://chromewebstore.google.com/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb?hl=en). 
+
+- In addition, it was manually checked in the following devices:
+  - Iphone XR
+  - Iphone 15 pro
+  - Samsung Galaxy Z Flip 5
 
 ## Browser compatibility
 
