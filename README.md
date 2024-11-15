@@ -288,11 +288,9 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 + THIOSYMBION
 ![HTML Validation THIOSYMBION](documentation/validation/thiosymbion-page-html-validator.png)
 
-+ NEWSLETTER
-![HTML Validation NEWSLETTER](documentation/validation/newsletter-page-html-validator.png)
++ NEWSLETTER ![HTML Validation NEWSLETTER](documentation/validation/newsletter-page-html-validator.png)
 
-+ SUCCESSFUL
-![HTML Validation SUCCESSFUL](documentation/validation/successful-page-html-validator.png)
++ SUCCESSFUL ![HTML Validation SUCCESSFUL](documentation/validation/successful-page-html-validator.png)
 
 ### CSS Validator
 
