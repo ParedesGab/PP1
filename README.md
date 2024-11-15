@@ -263,6 +263,7 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 - [Font Awesome](https://fontawesome.com/): For the hamburger, star, and social media icons.
 - [TinyPNG](https://tinypng.com/): to compress the images.
 - [Favicon.io](https://favicon.io/): to generate the favicon images.
+- [Am I responsive?](https://ui.dev/amiresponsive): to generate the responsive mockup image.
 - [MDN Web Docs](https://developer.mozilla.org/en-US/): resource to check CSS properties.
 - [VEED video editor](https://www.veed.io/tools/video-editor): to compress and edit the video.
 - [Color-hex](https://www.color-hex.com/): to get the rgb color information.
@@ -331,6 +332,10 @@ SUCCESSFUL page
   ![LightHouse report SUCCESSFUL](documentation/lighthouse/lighthouse-report-successful-page.png)
 
 ---
+
+### Browser compatibility
+
+
 ### Unfixed Bugs
 
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
