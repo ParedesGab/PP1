@@ -268,53 +268,59 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 - [Color-hex](https://www.color-hex.com/): to get the rgb color information.
 - [Chrome DevTools](https://developer.chrome.com/docs/devtools?hl=de) and its open source [Lighthouse](https://developer.chrome.com/docs/lighthouse?hl=de).
 -  [W3C HTML](https://validator.w3.org/) and [W3C CSS](https://jigsaw.w3.org/css-validator/) Validation Services. 
+- [WAVE](https://wave.webaim.org/): to test accessibility.
 - [DeepL Write](https://www.deepl.com/en/write): to spot spelling mistakes in the text. 
 
 ---
 ## Validation
 
-- In this section, I checked whether my HTML and CSS codes are compliant with industry standards. For that, I used the the W3C Markup Validation Service for HTML and CSS, respectively.
+- In this section, the HTML and CSS codes were checked for compliance with industry standards. This was done using the W3C Markup Validation Service for HTML and CSS respectively, using the code from both the working environment and the the deployed version.
 
-- The result in both reports: no errors.
+- The result in both reports: no errors were returned.
 
 ### HTML Validation
 
-+ HOME
+HOME page
 ![HTML Validation HOME](documentation/validation/homepage-html-validator.png)
 
-+ LAXUS
+LAXUS page
 ![HTML Validation LAXUS](documentation/validation/laxus-page-html-validator.png)
 
-+ THIOSYMBION
+THIOSYMBION page
 ![HTML Validation THIOSYMBION](documentation/validation/thiosymbion-page-html-validator.png)
 
-+ NEWSLETTER ![HTML Validation NEWSLETTER](documentation/validation/newsletter-page-html-validator.png)
+NEWSLETTER page
+![HTML Validation NEWSLETTER](documentation/validation/newsletter-page-html-validator.png)
 
-+ SUCCESSFUL ![HTML Validation SUCCESSFUL](documentation/validation/successful-page-html-validator.png)
+SUCCESSFUL page
+![HTML Validation SUCCESSFUL](documentation/validation/successful-page-html-validator.png)
 
 ### CSS Validator
 
 + CSS stylesheet
 ![CSS Validation](documentation/validation/css-stylesheet-css-validator.png)
 
-### Auto-prefixer
+---
+### LightHouse report
 
--	In addition, I used the Auto-prefixer tool to make sure that the CSS code works in all browsers. 
+- Lighthouse tool from Devtools was used to confirm that the website is performing well, is accessible and the colors and fonts chosen are readable.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+HOME page
+![LightHouse report HOME](documentation/lighthouse/lighthouse-report-homepage.png)
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+LAXUS page
+![LightHouse report LAXUS](documentation/lighthouse/lighthouse-report-laxus-page.png)
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+THIOSYMBION page
+![LightHouse report THIOSYMBION](documentation/lighthouse/lighthouse-report-thiosymbion-page.png)
 
+NEWSLETTER page
+![LightHouse report NEWSLETTER](documentation/lighthouse/lighthouse-report-newsletter-page.png)
 
-### Validator Testing 
+SUCCESSFUL page
+![LightHouse report SUCCESSFUL](documentation/lighthouse/lighthouse-report-successful-page.png)
 
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
-
+---
 ### Unfixed Bugs
 
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
