@@ -256,19 +256,19 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
 ---
 ## Technologies used
+- [Gitpod](https://www.gitpod.io/)
+- [GitHub](https://github.com/)
 - [Balsamiq](https://balsamiq.com/): to create the wireframes.
-- Google Fonts
+- [Google Fonts](https://fonts.google.com/): to import the Arsenal family font.
 - [Font Awesome](https://fontawesome.com/): For the hamburger, star, and social media icons.
-- Gitpod
-- GitHub
-- TinyPNG to compress the images.
-- MDN Web Docs resource to read more about CSS properties.
-- VEED video editor, to compress and edit the video.
-- color-hex to get the rgb color information.
-- Chrome DevTools.
-- Lighthouse from Chrome DevTools.
-- W3C HTML and CSS Validation Services. 
-- DeepL write, to spot spelling mistakes in the text. 
+- [TinyPNG](https://tinypng.com/): to compress the images.
+- [Favicon.io](https://favicon.io/): to generate the favicon images.
+- [MDN Web Docs](https://developer.mozilla.org/en-US/): resource to check CSS properties.
+- [VEED video editor](https://www.veed.io/tools/video-editor): to compress and edit the video.
+- [Color-hex](https://www.color-hex.com/): to get the rgb color information.
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools?hl=de) and its open source [Lighthouse](https://developer.chrome.com/docs/lighthouse?hl=de).
+-  [W3C HTML](https://validator.w3.org/) and [W3C CSS](https://jigsaw.w3.org/css-validator/) Validation Services. 
+- [DeepL Write](https://www.deepl.com/en/write): to spot spelling mistakes in the text. 
 
 ## Testing 
 
