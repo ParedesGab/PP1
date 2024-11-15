@@ -578,8 +578,8 @@ footer {
     }
 
     #love-story figcaption {
-        margin-left: 70px;
-        text-align: right;
+        margin-left: 20px;
+        width: 300px;
     }
 
     /* Laxus and Thiosymbion introduction section */
@@ -722,7 +722,8 @@ footer {
     }
 
     #love-story figcaption {
-        margin-left: 150px;
+        margin-left: 0px;
+        width: 400px;
     }
 
     /* Laxus and Thiosymbion introduction section */
@@ -836,9 +837,7 @@ footer {
     }
 
     #love-story figcaption {
-        margin-left: 100px;
-        text-align: right;
-        width: 400px;
+        width: 500px;
         font-size: 1.2rem;
     }
 
@@ -951,8 +950,7 @@ footer {
     }
 
     #love-story figcaption {
-        margin-left: 0px;
-        font-size: 1.32rem;
+        font-size: 1.4rem;
         width: 600px;
     }
 
