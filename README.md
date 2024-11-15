@@ -307,6 +307,36 @@ SUCCESSFUL page
 ![CSS Validation](documentation/validation/css-stylesheet-css-validator.png)
 
 ---
+
+### Accessibility 
+
+- Accessibility across all pages was tested using the Web Accessibility Evaluation Tool  (WAVE). 
+
+- Initially there was an error in the navigation bar. This was solved and documented in the "Bugs section" below. 
+
+- No errors are reported. 
+
+HOME page
+
+  ![WAVE report HOME](documentation/wave/wave-report-home-page.png)
+
+LAXUS page
+
+  ![WAVE report LAXUS](documentation/wave/wave-report-laxus-page.png)
+
+THIOSYMBION page
+
+  ![WAVE report THIOSYMBION](documentation/wave/wave-report-thiosymbion-page.png)
+
+NEWSLETTER page
+
+  ![WAVE report NEWSLETTER](documentation/wave/wave-report-newsletter-page.png)
+
+SUCCESSFUL page
+
+  ![WAVE report SUCCESSFUL](documentation/wave/wave-report-successful-page.png)
+  
+---
 ### LightHouse report
 
 - Lighthouse tool from Devtools was used to confirm that the website is performing well, is accessible and the colors and fonts chosen are readable.
