@@ -395,6 +395,15 @@ h3 {
     padding: 5px;
     background-color: rgba(237, 169, 43, 0.871);
     color: black;
+    box-shadow: 5px 5px 0 0 white,
+    8px 8px 0 0 rgb(245, 147, 27);
+    transition-duration: 100ms;
+}
+
+#form button:hover {
+    box-shadow: 6px 56x 0 0 white,
+        10px 10px 0 0 rgb(210, 148, 31);
+    transform: translate(-4px, -4px);
 }
 
 /* Style placeholders */
@@ -430,6 +439,15 @@ textarea::placeholder {
     border-radius: 15px;
     padding: 10px;
     margin: 40px 0px;
+    box-shadow: 5px 5px 0 0 white,
+    8px 8px 0 0 rgb(245, 147, 27);
+    transition-duration: 100ms;
+}
+
+#return:hover {
+    box-shadow: 6px 56x 0 0 white,
+        10px 10px 0 0 rgb(210, 148, 31);
+    transform: translate(-4px, -4px);
 }
 
 /* FOOTER */
@@ -454,6 +472,13 @@ footer {
     list-style-type: none;
     margin: 0px 15px;
     color: rgb(226, 216, 188);
+}
+
+/* Highlight the links to see that they are clickable */
+#social-links i:hover {
+    background-color: rgb(233, 233, 183);
+    color: black;
+    padding: 10px;
 }
 
 /* MEDIA QUERIES */
@@ -675,6 +700,7 @@ footer {
     #nav-links a:hover {
         background-color: rgb(233, 233, 183);
         color: black;
+        padding: 10px;
     }
 
     /* MAIN */
