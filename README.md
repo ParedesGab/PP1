@@ -2,7 +2,7 @@
 
 (Developer: Gabriela Fabiola Paredes Rojas)
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsive Mockup image](documentation/responsive-mockup.png)
 
 Symbiosis is defined as "the living together of differently named organisms" (de Bary, 1879). This website provides information on an extraordinary symbiotic example, the one involving the free-living marine nematode *Laxus oneistus* and its inseparable bacterial partner, *Candidatus* Thiosymbion oneisti. 
 
@@ -280,19 +280,19 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 ### HTML Validation
 
 + HOME
-![HTML Validation Home](documentation/validation/homepage-html-validator.png)
+![HTML Validation HOME](documentation/validation/homepage-html-validator.png)
 
 + LAXUS
-![HTML Validation Home](documentation/validation/laxus-page-html-validator.png)
+![HTML Validation LAXUS](documentation/validation/laxus-page-html-validator.png)
 
 + THIOSYMBION
-![HTML Validation Home](documentation/validation/thiosymbion-page-html-validator.png)
+![HTML Validation THIOSYMBION](documentation/validation/thiosymbion-page-html-validator.png)
 
 + NEWSLETTER
-![HTML Validation Home](documentation/validation/newsletter-page-html-validator.png)
+![HTML Validation NEWSLETTER](documentation/validation/newsletter-page-html-validator.png)
 
 + SUCCESSFUL 
-![HTML Validation Home](documentation/validation/successful-page-html-validator.png)
+![HTML Validation SUCCESSFUL](documentation/validation/successful-page-html-validator.png)
 
 ### CSS Validator
 
