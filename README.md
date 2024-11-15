@@ -270,7 +270,23 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 -  [W3C HTML](https://validator.w3.org/) and [W3C CSS](https://jigsaw.w3.org/css-validator/) Validation Services. 
 - [DeepL Write](https://www.deepl.com/en/write): to spot spelling mistakes in the text. 
 
-## Testing 
+---
+## Validation
+
+- In this section, I checked whether my HTML and CSS codes are compliant with industry standards. For that, I used the the W3C Markup Validation Service for HTML and CSS, respectively.
+
+-	In addition, I used the Auto-prefixer tool to make sure that the CSS code works in all browsers. 
+
+### HTML Validator
+https://validator.w3.org/
+•	Select: validate by direct input and copy and paste your HTML code.
+•	Resolve the errors and check the warnings!
+
+### CSS Validator
+https://jigsaw.w3.org/css-validator/
+•	Resolve the errors and check the warnings!
+
+
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
