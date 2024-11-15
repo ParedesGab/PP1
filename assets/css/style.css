@@ -401,7 +401,7 @@ h3 {
 }
 
 #form button:hover {
-    box-shadow: 6px 56x 0 0 white,
+    box-shadow: 6px 6px 0 0 white,
         10px 10px 0 0 rgb(210, 148, 31);
     transform: translate(-4px, -4px);
 }
@@ -446,7 +446,7 @@ textarea::placeholder {
 }
 
 #return:hover {
-    box-shadow: 6px 56x 0 0 white,
+    box-shadow: 6px 6px 0 0 white,
         10px 10px 0 0 rgb(210, 148, 31);
     transform: translate(-4px, -4px);
 }
