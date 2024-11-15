@@ -281,19 +281,24 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 ### HTML Validation
 
 HOME page
-![HTML Validation HOME](documentation/validation/homepage-html-validator.png)
+
+  ![HTML Validation HOME](documentation/validation/homepage-html-validator.png)
 
 LAXUS page
-![HTML Validation LAXUS](documentation/validation/laxus-page-html-validator.png)
+
+  ![HTML Validation LAXUS](documentation/validation/laxus-page-html-validator.png)
 
 THIOSYMBION page
-![HTML Validation THIOSYMBION](documentation/validation/thiosymbion-page-html-validator.png)
+
+  ![HTML Validation THIOSYMBION](documentation/validation/thiosymbion-page-html-validator.png)
 
 NEWSLETTER page
-![HTML Validation NEWSLETTER](documentation/validation/newsletter-page-html-validator.png)
+
+  ![HTML Validation NEWSLETTER](documentation/validation/newsletter-page-html-validator.png)
 
 SUCCESSFUL page
-![HTML Validation SUCCESSFUL](documentation/validation/successful-page-html-validator.png)
+
+  ![HTML Validation SUCCESSFUL](documentation/validation/successful-page-html-validator.png)
 
 ### CSS Validator
 
@@ -315,15 +320,15 @@ LAXUS page
 
 THIOSYMBION page
 
-+ ![LightHouse report THIOSYMBION](documentation/lighthouse/lighthouse-report-thiosymbion-page.png)
+  ![LightHouse report THIOSYMBION](documentation/lighthouse/lighthouse-report-thiosymbion-page.png)
 
 NEWSLETTER page
 
-+ ![LightHouse report NEWSLETTER](documentation/lighthouse/lighthouse-report-newsletter-page.png)
+  ![LightHouse report NEWSLETTER](documentation/lighthouse/lighthouse-report-newsletter-page.png)
 
 SUCCESSFUL page
 
-+ ![LightHouse report SUCCESSFUL](documentation/lighthouse/lighthouse-report-successful-page.png)
+  ![LightHouse report SUCCESSFUL](documentation/lighthouse/lighthouse-report-successful-page.png)
 
 ---
 ### Unfixed Bugs
