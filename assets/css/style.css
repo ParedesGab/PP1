@@ -106,9 +106,9 @@ nav {
     padding-left: 30px;
 }
 
-.active:hover {
-    background-color: rgb(233, 233, 183);
-    color: black;
+/* Indicate where in which page the User is */
+.active {
+    border-bottom: 1px solid rgb(233, 233, 183);
 }
 
 /* MAIN */
@@ -669,6 +669,12 @@ footer {
         font-size: 1.6rem;
         padding-left: 15px;
         margin-top: 1.2rem;
+    }
+
+    /* Highlight the links to see that they are clickable */
+    #nav-links a:hover {
+        background-color: rgb(233, 233, 183);
+        color: black;
     }
 
     /* MAIN */
