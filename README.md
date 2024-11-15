@@ -78,10 +78,10 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
 ![NavBar desktop](documentation/navbar_desktop.png)
 
-  + It is positioned at the top of the page, and across all pages of the website. 
+  + It is positioned at the top of the page, and it is found across all pages of the website. 
   + It is clear and easy to navigate.
-  + It contains the "Laxus and Thiosymbion" logo on the left.
-  + It contains the following four navigation links on the right:
+  + On the left, it contains the "Laxus & Thiosymbion" logo.
+  + On the right, it contains the following four navigation links:
 
     + **HOME:** Takes you to the home page where users can learn about the *Laxus*-Thiosymbion symbiosis.
 
@@ -89,9 +89,9 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
     + **THIOSYMBION:** Takes you to the page describing the bacterium *Candidatus* Thiosymbion oneisti and what it might provide to its nematode host.
 
-    + **CONTACT:** Takes you to the contact form to sign up for a newsletter with symbiosis stories.
+    + **NEWSLETTER:** Takes you to the contact form to subscribe to our newsletter with symbiosis stories.
 
-  + All four navigation links have a hover effect.
+  + All four navigation links have a hover effect. Namely, an underline to indicate in which page the user is on, and a hover highlight for 992px and up devices, to indicate that they are clickable.
 
   + In addition, the navigation bar is responsive:
 
@@ -101,7 +101,7 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
     ![NavBar Mobile Closed](documentation/navbar_mobile_closed.png)
 
-      + When clicked, the hamburger menu reveals a drop-down with the navigation links displayed in the same order as described above, and they have Laxus as bullet points.
+      + When clicked, the hamburger menu reveals a drop-down with the navigation links displayed (in the same order as described above), and they have an image of *Laxus* as bullet points.
 
     ![NavBar Mobile Open](documentation/navbar_mobile_open.png)
 
@@ -125,10 +125,10 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
 #### Hero section
 
-- The hero section is placed on the top of the home page.
-- The intention was to make it simple but yet impactful - here the black background allows the single nematode picture to shine.
+- The hero section is placed on the top of the home page below the navbar.
+- The intention is to make it simple yet impactful - here, the black background allows the single nematode picture to shine.
  - The title of the website (h2) "A extraordinary symbiosis" is next to the image and it has a yelloish/white color, same as the bacterials symbiont.  
- - This background image as well as the title position and font-size was made responsive across all devices. 
+ - The background image and the title position and font-size are responsive across all devices. 
 
 ![Hero Section](documentation/hero_section.png)
 
@@ -142,9 +142,9 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
 - The text is written to engage all audiences, for example, using the analogy of a winter coat in Caribbean heat to help users imagine life as this nematode.  
 
-- The video, shows several *Laxus oneistus* in motion, and the caption, highlights their resemblance with rice noodles but, in fact, the whiteness is the bacteria on the surface. 
+- The video, shows several *Laxus oneistus* in motion, and the caption, highlights their resemblance with rice noodles but, in fact, the whiteness comes from the bacteria on the surface. 
 
-- This section was made responsive, and from Tablets up flex box with flex direction row was used. 
+- This section is responsive, and from Tablets up flex box with flex direction row was used. 
     
 ![Highlights Section](documentation/main_cons.png)
 
@@ -152,13 +152,13 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
 - As the title suggests, this section aims to highlight extraordinary features of this symbiosis. 
     
-- Three key features have been selected and displayed using the HTML class attribute "feature1.
+- Three key features have been selected and displayed using the HTML class attribute: feature1.
     
-- They allow the user to see information about its habitat, reasons of being together and more importantly, the uniqueness of this symbiosis, 
+- They allow the user to learn about the habitat, reasons of being together and more importantly, the uniqueness of this symbiosis, 
 
 - To make it more interactive, each feature card has a "fun fact" that is highlighted in bold and next to a star from Font Awesome. 
 
-- These features are in fact seminal findings of the Laxus*-Thiosymbion research. As such, they will likely remain as the site is updated, but more features will be added as new research emerges.
+- These features are in fact seminal findings of the *Laxus*-Thiosymbion research. As such, they will likely remain as the site is updated, but more features will be added as new research emerges.
 
 - This section was made responsive. Namely:
   - The title (h3) increases in font size.
@@ -170,11 +170,11 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
 #### Footer
 
-- The footer section is present across all pages from this website.
+- The footer section is found across all pages from the website.
 - The footer section contains links to the relevant social media sites that feature *Laxus* and Thiosymbion.
 - The links will open to a new tab to allow easy navigation for the user. 
 - The footer adds value by encouraging users to stay connected through social media.
-- The footer is responsive, with increasing font sizing and padding as the screen width increases.
+- The footer has a hover effect, and is responsive, with increasing font sizing and padding as the screen width increases.
 ​
 ![Footer](documentation/footer.png)
 
