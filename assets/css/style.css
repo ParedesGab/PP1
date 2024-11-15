@@ -345,7 +345,7 @@ h3 {
 }
 
 #subscribe>h1,
-#thankyou h1 {
+#thankyou .h2-thankyou {
     font-size: 40px;
     margin: 0px;
     text-align: center;
