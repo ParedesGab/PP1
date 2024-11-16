@@ -389,17 +389,18 @@ The website was tested on the following browsers:
 | Header
 | Logo | Click on the "Laxus & Thiosymbion" logo | No matter the page the user is, they are redirected to the main page | Yes | Yes | - |
 | Burger icon | Display of Burger icon | It appears in mobiles and up to a screen size of 767 px | Yes | Yes | - |
-| Burger icon | Click on the Burger icon | It opens the navigation links in the center | Yes | Yes | - |
+| Burger icon | Click on the Burger icon | It opens the navigation links in the center, and the laxus image bullet points are loading| Yes | Yes | - |
+| Navbar | Navigation display | Remains fixed at the top of all pages | Yes | Yes | 
 | Navbar link: HOME | Hover and/or click on the "HOME" link | The link is highlighted, the user is redirected to the home page and the link is underlined indicating where the user is | Yes | Yes | 
 | Navbar link: LAXUS | Hover and/or click on the "LAXUS" link | The link is highlighted, the user is redirected to the Laxus page and the link is underlined indicating where the user is | Yes | Yes | 
 | Navbar link: THIOSYMBION | Hover and/or click on the "Thiosymbion" link | The link is highlighted, the user is redirected to the thiosymbion page and the link is underlined indicating where the user is | Yes | Yes | 
 | Navbar link: NEWSLETTER | Hover and/or click on the "NEWSLETTER" link | The link is highlighted, the user is redirected to the newsletter page and the link is underlined indicating where the user is | Yes | Yes | 
 | HOME page | | | | | |
-| "Contact Us" button in Hero section | Click on the "Contact Us" button | The user is redirected to the contact page | Yes | Yes | - |
-| "Contact Us" button in Call to action section | Click on the "Contact Us" button | The user is redirected to the contact page | Yes | Yes | - |
+| Hero section | Image and title display | The image loads correctly and title is positioned next to it | Yes | Yes | - |
+| Love story section | Title, text and video display | The title stands out in the section, the content is justified with no spelling mistakes and the video loads correctly without sound | Yes | Yes | - |
+| Extraordinary section | Title and images display | The title stands out in the section, the images are not distorted and have a proper resolution, the images are located near to their corresponding text,  the text columns have no spelling mistakes and have the same style. In addition, the article links open in a new window | Yes | Yes | - |
 | LAXUS page | | | | | |
-| "Contact Us" button in Hero section | Click on the "Contact Us" button | The user is redirected to the contact page | Yes | Yes | - |
-| Image in the gallery | User hover the image | Pet's name and description appear on the image | Yes | Yes | - |
+| Image in the gallery | Title, images and text | Pet's name and description appear on the image | Yes | Yes | - |
 | "Contact Us" button in Call to action section | Click on the "Contact Us" button | The user is redirected to the contact page | Yes | Yes | - |
 | THIOSYMBION page | | | | | |
 | First name input | Enter the first name | The first name is entered | Yes | Yes | If user doesn't enter the first name, the error message appears |
@@ -414,10 +415,11 @@ The website was tested on the following browsers:
 | Response page | | | | | |
 | Response message | The user will be automatically redirected to the home page after 10 seconds | The user is redirected to the home page | Yes | Yes | - |
 | Footer | | | | | |
-| Instagram icon in the footer | Click on the Instagram icon | The user is redirected to the Instagram page | Yes | Yes | - |
-| Facebook icon in the footer | Click on the Facebook icon | The user is redirected to the Facebook page | Yes | Yes | - |
-| Twitter icon in the footer | Click on the Twitter icon | The user is redirected to the Twitter page | Yes | Yes | - |
-| YouTube icon in the footer | Click on the YouTube icon | The user is redirected to the YouTube page | Yes | Yes | - |
+| Footer icons | Highlight when hovered | When hovered the icons have a highlight hover effect | Yes | Yes | - |
+| Facebook icon | Click on the Facebook icon | The user is redirected to the Facebook page | Yes | Yes | - |
+| Instagram icon | Click on the Instagram icon | The user is redirected to the Instagram page | Yes | Yes | - |
+| Twitter icon | Click on the Twitter icon | The user is redirected to the Twitter page | Yes | Yes | - |
+| LinkedIn icon | Click on the LinkedIn icon | The user is redirected to the LinkedIn page | Yes | Yes | - |
 
 ### Unfixed Bugs
 
