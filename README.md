@@ -367,9 +367,11 @@ SUCCESSFUL page
 - The website was checked across devices using the chrome extension [Responsive Viewer](https://chromewebstore.google.com/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb?hl=en). 
 
 - In addition, it was manually checked in the following devices:
+  - Huawei Y9 Prime 2019
   - Iphone XR
   - Iphone 15 pro
   - Samsung Galaxy Z Flip 5
+  - Samsung Galaxy S8
 
 ---
 ## Browser compatibility
@@ -383,7 +385,33 @@ The website was tested on the following browsers:
 
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
 
+--
 ## Deployment
+
+The website has been deployed to GitHub pages following these steps:
+
+1. In the GitHub repository for the Laxus & Thiosymbion page [GitHub repository](https://github.com/ParedesGab/PP1-project-portfolio-1), select the "Settings" tab.
+
+2. Click on "Pages" from the field "Code and automation" (on the left). Here select the below settings:
+    - Source: deploy from a branch.
+    - Branch: main.
+    - click "Save".
+
+3. Select the "Code" tab and refresh the page. 
+
+4. On the right side of the page, a "Deployments" section has been activated indicating a successful deployment. 
+
+5. The live link can be accessed in this [link](https://paredesgab.github.io/PP1-project-portfolio-1/).
+
+### Local Deployment
+
+In order to make a local copy of this project, you can clone it.
+In your IDE Terminal, type the following command to clone my repository:
+
+- `git clone https://github.com/IuliiaKonovalova/animal_shelter.git`
+
+- Alternatively, if you use Gitpod, you can [click here](https://gitpod.io/#https://github.com/IuliiaKonovalova/animal_shelter), which will start the Gitpod workspace for you.
+
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
