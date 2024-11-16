@@ -386,7 +386,7 @@ The website was tested on the following browsers:
 
 | Feature | Action | Expected result | Tested | Passed | Observations |
 | --- | --- | --- | --- | --- | --- |
-| Header
+| **Header** | | | | | |
 | Logo | Click on the "Laxus & Thiosymbion" logo | No matter the page the user is, they are redirected to the main page | Yes | Yes | - |
 | Burger icon | Display of Burger icon | It appears in mobiles and up to a screen size of 767 px | Yes | Yes | - |
 | Burger icon | Click on the Burger icon | It opens the navigation links in the center, and the laxus image bullet points are loading| Yes | Yes | - |
@@ -395,34 +395,48 @@ The website was tested on the following browsers:
 | Navbar link: LAXUS | Hover and/or click on the "LAXUS" link | The link is highlighted, the user is redirected to the Laxus page and the link is underlined indicating where the user is | Yes | Yes | 
 | Navbar link: THIOSYMBION | Hover and/or click on the "Thiosymbion" link | The link is highlighted, the user is redirected to the thiosymbion page and the link is underlined indicating where the user is | Yes | Yes | 
 | Navbar link: NEWSLETTER | Hover and/or click on the "NEWSLETTER" link | The link is highlighted, the user is redirected to the newsletter page and the link is underlined indicating where the user is | Yes | Yes | 
-| HOME page | | | | | |
+| **HOME page** | | | | | |
 | Hero section | Image and title display | The image loads correctly and title is positioned next to it | Yes | Yes | - |
 | Love story section | Title, text and video display | The title stands, the content is justified with no spelling mistakes and the video loads correctly without sound | Yes | Yes | - |
 | Extraordinary section | Title and images display | The title stands out, the images are loading correctly and are located near to their corresponding text, the text columns have no spelling mistakes and have the same style. The article links open in a new window | Yes | Yes | - |
-| LAXUS page | | | | | |
+| **LAXUS page** | | | | | |
 | Hero Laxus section | Title and image display | The image is loaded correctly and the title is positioned on the left side of the screen | Yes | Yes | - |
 | Laxus introduction section | Title and image display | The title stands out, all content is centered and displayed as a column (one on top each other), the text is justified with no spelling mistakes and the image loads correctly with good resolution| Yes | Yes | - |
 | What Laxus gives to Thiosymbion section | Title text and image display | The title stands, all content is displayed as a column (one on top each other), the text is justified with no spelling mistakes, and the image loads correctly with good resolution. The article link opens in a new page correctly | Yes | Yes | - |
-| THIOSYMBION page | | | | | |
+| **THIOSYMBION page** | | | | | |
 | Hero thiosymbion section | Title and image display | The image is loaded correctly and the title is positioned on the left side of the screen | Yes | Yes | - |
 | Thiosymbion introduction section | Title and image display | The title stands out, all content is centered and displayed as a column (one on top each other), the text is justified with no spelling mistakes and the image loads correctly with good resolution. The article link opens in a new page correctly | Yes | Yes | - |
 | What Thiosymbion gives to Laxus section | Title text and image display | The title stands, all content is displayed as a column (one on top each other), the text is justified with no spelling mistakes, and the image loads correctly with good resolution. The article link opens in a new page correctly | Yes | Yes | - |
-| NEWSLETTER page | | | | | |
+| **NEWSLETTER page** | | | | | |
 | Subscribe form | Heading not visible | The heading is hidden | Yes | Yes |
 | Name input | Enter the user's name | The name is entered | Yes | Yes | If user does not enter the name, a warning message of "please fill out this field" appears |
 | Email input | Enter the user's email | The email is entered | Yes | Yes | If user does not enter the email, a warning message of "please fill out this field" appears |
 | Radio input | User selects what information they want to be informed about | The selection is made (with one possibility) | Yes | Yes | If user doe not enter the email, a warning message of "please select one of this options" appears |
 | Text area input | User provides feedback | Feedback is provided | Yes | Yes | If user does not write in here, a warning message of "please fill out this field" appears |
 | Subscribe button | Click on the Subscribe button | The button has hover animation, and the user is redirected to a thank you page (successful page) | Yes | Yes | - |
-| SUCESSFUL page | | | | | |
+| **SUCESSFUL page** | | | | | |
 | Thank you section | Text display | The thank you messaged is displayed correctly | Yes | Yes | - |
 | "Return to Home page" button | Click on the "Return to Home page" button | The user is redirected to the home page | Yes | Yes | - |
-| Footer | | | | | |
+| **Footer** | | | | | |
 | Footer icons | Highlight when hovered | When hovered the icons have a highlight hover effect | Yes | Yes | - |
 | Facebook icon | Click on the Facebook icon | The user is redirected to the Facebook page | Yes | Yes | - |
 | Instagram icon | Click on the Instagram icon | The user is redirected to the Instagram page | Yes | Yes | - |
 | Twitter icon | Click on the Twitter icon | The user is redirected to the Twitter page | Yes | Yes | - |
 | LinkedIn icon | Click on the LinkedIn icon | The user is redirected to the LinkedIn page | Yes | Yes | - |
+
+## Bugs
++ ### Solved bugs
+    1. The testimonials pictures had a square shape in Brave browser on a mobile phone when the border radius had been set to 50%. It was due to the outline properties settings instead of the border
+    
+        *Solutions:* Outline was replaced with border properties.
+    
+    1. The gallery image descriptions were not appearing on the picture when hovering it as the position of the .image_content was set to fixed.
+        
+        *Solution:* The .image_content position was set to absolute, with the top: 0, left: 0, and added padding on the .image_content. 
+
+    1. Footer on the contact page was reducing the size of the screen and shrank the contact form as the height of the background image was set to calc(100vh-the size of the footer)
+        
+        *Solution:* The height of the image was set to 100hv, and the display of the footer was set to fixed.
 
 ### Unfixed Bugs
 
