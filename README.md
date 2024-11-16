@@ -397,15 +397,17 @@ The website was tested on the following browsers:
 | Navbar link: NEWSLETTER | Hover and/or click on the "NEWSLETTER" link | The link is highlighted, the user is redirected to the newsletter page and the link is underlined indicating where the user is | Yes | Yes | 
 | HOME page | | | | | |
 | Hero section | Image and title display | The image loads correctly and title is positioned next to it | Yes | Yes | - |
-| Love story section | Title, text and video display | The title stands out in the section, the content is justified with no spelling mistakes and the video loads correctly without sound | Yes | Yes | - |
-| Extraordinary section | Title and images display | The title stands out in the section, the images are not distorted and have a proper resolution, the images are located near to their corresponding text,  the text columns have no spelling mistakes and have the same style. In addition, the article links open in a new window | Yes | Yes | - |
+| Love story section | Title, text and video display | The title stands, the content is justified with no spelling mistakes and the video loads correctly without sound | Yes | Yes | - |
+| Extraordinary section | Title and images display | The title stands out, the images are loading correctly and are located near to their corresponding text, the text columns have no spelling mistakes and have the same style. The article links open in a new window | Yes | Yes | - |
 | LAXUS page | | | | | |
-| Image in the gallery | Title, images and text | Pet's name and description appear on the image | Yes | Yes | - |
-| "Contact Us" button in Call to action section | Click on the "Contact Us" button | The user is redirected to the contact page | Yes | Yes | - |
+| Hero Laxus section | Title and image display | The image is loaded correctly and the title is positioned on the left side of the screen | Yes | Yes | - |
+| Laxus introduction section | Title and image display | The title stands, all content is centered and displayed as a column (one on top each other), the text is justified with no spelling mistakes and the image loads correctly with good resolution| Yes | Yes | - |
+| What Laxus gives to Thiosymbion section | Title and image display | The title stands, all content is centered and displayed as a column (one on top each other), the text is justified with no spelling mistakes and the image loads correctly with good resolution| Yes | Yes | - |
 | THIOSYMBION page | | | | | |
-| First name input | Enter the first name | The first name is entered | Yes | Yes | If user doesn't enter the first name, the error message appears |
+| Hero Thiosymbion section | Title and images display | The image is loaded correctly and the title is positioned on the left side of the screen | | Yes | Yes | - |
 | NEWSLETTER page | | | | | |
 | First name input | Enter the first name | The first name is entered | Yes | Yes | If user doesn't enter the first name, the error message appears |
+| "Contact Us" button in Call to action section | Click on the "Contact Us" button | The user is redirected to the contact page | Yes | Yes | - |
 | SUCESSFUL page | | | | | |
 | First name input | Enter the first name | The first name is entered | Yes | Yes | If user doesn't enter the first name, the error message appears |
 | Last name input | Enter the last name | The last name is entered | Yes | Yes | If user doesn't enter the last name, the error message appears |
