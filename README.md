@@ -403,18 +403,6 @@ The website has been deployed to GitHub pages following these steps:
 
 5. The live link can be accessed in this [link](https://paredesgab.github.io/PP1-project-portfolio-1/).
 
-
-
-
-
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected
-
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
-
-
 ## Credits 
 
 ### Content 
