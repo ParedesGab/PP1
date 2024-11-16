@@ -390,10 +390,10 @@ The website was tested on the following browsers:
 | Logo | Click on the "Laxus & Thiosymbion" logo | No matter the page the user is, they are redirected to the main page | Yes | Yes | - |
 | Burger icon | Display of Burger icon | It appears in mobiles and up to a screen size of 767 px | Yes | Yes | - |
 | Burger icon | Click on the Burger icon | It opens the navigation links in the center | Yes | Yes | - |
-| Navbar link: HOME | Click on the "Home" link | The link is highlighted, the user is redirected to the home page and the link is underlined indicating where the user is | Yes | Yes | - |
-| Navbar link: LAXUS | Click on the "Gallery" link | The user is redirected to the gallery page | Yes | Yes | - |
-| Navbar link: THIOSYMBION | Click on the "Contact" link | The user is redirected to the contact page | Yes | Yes | - |
-| Navbar link: NEWSLETTER | Click on the "Contact" link | The user is redirected to the contact page | Yes | Yes | - |
+| Navbar link: HOME | Hover and/or click on the "HOME" link | The link is highlighted, the user is redirected to the home page and the link is underlined indicating where the user is | Yes | Yes | 
+| Navbar link: LAXUS | Hover and/or click on the "LAXUS" link | The link is highlighted, the user is redirected to the Laxus page and the link is underlined indicating where the user is | Yes | Yes | 
+| Navbar link: THIOSYMBION | Hover and/or click on the "Thiosymbion" link | The link is highlighted, the user is redirected to the thiosymbion page and the link is underlined indicating where the user is | Yes | Yes | 
+| Navbar link: NEWSLETTER | Hover and/or click on the "NEWSLETTER" link | The link is highlighted, the user is redirected to the newsletter page and the link is underlined indicating where the user is | Yes | Yes | 
 | Footer | | | | | |
 | Instagram icon in the footer | Click on the Instagram icon | The user is redirected to the Instagram page | Yes | Yes | - |
 | Facebook icon in the footer | Click on the Facebook icon | The user is redirected to the Facebook page | Yes | Yes | - |
