@@ -411,12 +411,12 @@ The website was tested on the following browsers:
 | Subscribe form | Heading not visible | The heading is hidden | Yes | Yes |
 | Name input | Enter the user's name | The name is entered | Yes | Yes | If user does not enter the name, a warning message of "please fill out this field" appears |
 | Email input | Enter the user's email | The email is entered | Yes | Yes | If user does not enter the email, a warning message of "please fill out this field" appears |
-| Radio input | User selects what information they want to be informed about | The selection is made (with one possibility) | Yes | Yes | If user doe not enter the email, a warning message of "please select one of this options" appears |
+| Radio input | User selects what information they want to be informed about | The selection is made (with one possibility) | Yes | Yes | If user doe not select an option, a warning message of "please select one of this options" appears |
 | Text area input | User provides feedback | Feedback is provided | Yes | Yes | If user does not write in here, a warning message of "please fill out this field" appears |
 | Subscribe button | Click on the Subscribe button | The button has hover animation, and the user is redirected to a thank you page (successful page) | Yes | Yes | - |
 | **SUCESSFUL page** | | | | | |
 | Thank you section | Text display | The thank you messaged is displayed correctly | Yes | Yes | - |
-| "Return to Home page" button | Click on the "Return to Home page" button | The user is redirected to the home page | Yes | Yes | - |
+| "Return to Home page" button | Click on the "Return to Home page" button | The button has a hover effect and the user is redirected to the home page | Yes | Yes | - |
 | **Footer** | | | | | |
 | Footer icons | Highlight when hovered | When hovered the icons have a highlight hover effect | Yes | Yes | - |
 | Facebook icon | Click on the Facebook icon | The user is redirected to the Facebook page | Yes | Yes | - |
@@ -426,17 +426,17 @@ The website was tested on the following browsers:
 
 ## Bugs
 + ### Solved bugs
-    1. The testimonials pictures had a square shape in Brave browser on a mobile phone when the border radius had been set to 50%. It was due to the outline properties settings instead of the border
-    
-        *Solutions:* Outline was replaced with border properties.
-    
-    1. The gallery image descriptions were not appearing on the picture when hovering it as the position of the .image_content was set to fixed.
-        
-        *Solution:* The .image_content position was set to absolute, with the top: 0, left: 0, and added padding on the .image_content. 
+    1. The nav element was initially written as "navigation". 
+        - Solution: this mistake was spotted and corrected. 
 
-    1. Footer on the contact page was reducing the size of the screen and shrank the contact form as the height of the background image was set to calc(100vh-the size of the footer)
-        
-        *Solution:* The height of the image was set to 100hv, and the display of the footer was set to fixed.
+    2. I used the flex:1 0 auto, to not shrink the main content, and push the footer down. However, the layout was not working.
+        - Solution: A Devtools warning message showed me that the CSS body selector had a declaration of flex:display instead of display:flex. This was corrected accordingly.
+
+    3. At some point, the header width was larger than the main section width. As a result, the use of the responsive dimensions of devtools was not possible. 
+        - Solution: A red background color was used to check where the error might be coming from, and it was due to the size of one picture. Given that the header had a CSS width property of 100%, it was a adjusting to the width of this picture. This was resolved by resizing the picture. 
+
+    4. WAVE showed the below error in the navigation bar. This was solved and documented in the "Bugs section" below. 
+
 
 ### Unfixed Bugs
 
