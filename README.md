@@ -86,7 +86,7 @@ Symbiosis is defined as "the living together of differently named organisms" (de
   + It is clear and easy to navigate.
 
   + On the left, it contains the "Laxus & Thiosymbion" logo.
-  
+
   + On the right, it contains the following four navigation links:
 
     + **HOME:** Takes you to the home page where users can learn about the *Laxus*-Thiosymbion symbiosis.
@@ -215,7 +215,7 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
   - The **What Laxus gives to Thiosymbion section**: it is a research study conducted by the developer in 2022. A summary of the main findings of the article is presented, as well as a nutritional model of the interaction of *Laxus* with its bacteria. The study is also linked to the website, and this section is responsive.  
 
-    ![Footer](documentation/footer.png)
+    ![Laxus page](documentation/website-screenshots/laxus-page.png)
 
 ---
 ### THIOSYMBION page
