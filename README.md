@@ -10,6 +10,7 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
 + The site can be accessed via this [link](https://paredesgab.github.io/PP1-project-portfolio-1/)
 
+---
 ## Project Goals
 
 ### User Goals
@@ -30,6 +31,7 @@ Symbiosis is defined as "the living together of differently named organisms" (de
   + Spark interest in further scientific study of this fascinating symbiotic system. 
   + Generate public engagement to build a network of people excited about marine symbioses.
 
+---
 ## User Experience
 
 ### Target audience
@@ -72,6 +74,7 @@ Symbiosis is defined as "the living together of differently named organisms" (de
   + Know if the visitors found the content interesting and if it was easy to understand. 
   + Know what other symbiosis-related content my users want to see. For example, testimonial from scientists, or the process of collecting the nematodes from sand, etc. 
 
+---
 ## Features 
 
 ### Navigation Bar
@@ -250,6 +253,54 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 - And/or, add a gallery section, showing more pictures of nematodes, of the bacteria, of researchers in action, the island in Belize from where they are collected, etc., and use CSS grid to organize it.
 
 - Add a "References" page, that lists all publications related to the *Laxus*-Thiosymbion association.
+
+---
+## Design
+
+### Color Scheme
+
+![Color pallet](documentation/color_pallet.png)
+
+- Soft blue color was used as the main color of the website due to its phycological effect on people's minds. As this color is associated with trustworthiness and reliability, website visitors could build a firm believe in the organization "Animal Shelter".
+
+- Light Blue Color was used as a background color since this color creates a sense of tranquility and makes a connection between animal's ownership and peacefulness.
+
+- Purple color was used to make an emphasis on the logo and leave a memorable effect on the website visitors.
+
+### Typography
+
+![Main Font](documentation/primary_font.png)
+
+- Lato Google Font was used as the main font of the website in order to increase readability of the content on the pages.
+
+![Accent Font](documentation/accent_font.png)
+
+- Lobster Google Font was used to attract viewers' attention to the company's logo, to make an accent on the strong points of the company, and to incentivize visitors to contact "Animal Shelter".
+
+---
+## Wireframes
+
+#### Mobile devices
+
+- [Home Page. Mobile Screen](documentation/mobile_home_page.png)
+- [Gallery Page. Mobile Screen](documentation/mobile_gallery_page.png)
+- [Contact Page. Mobile Screen](documentation/mobile_contact_form_page.png)
+- [Response Page. Mobile Screen](documentation/mobile_response_page.png)
+
+
+#### Tablets
+
+- [Home Page. Tablet Screen](documentation/tablet_home_page.png)
+- [Gallery Page. Tablet Screen](documentation/tablet_gallery_page.png)
+- [Contact Page. Tablet Screen](documentation/tablet_contact_form_page.png)
+- [Response Page. Tablet Screen](documentation/tablet_response_page.png)
+
+#### Desktop
+
+- [Home Page. Desktop Screen](documentation/desktop_home_page.png)
+- [Gallery Page. Desktop Screen](documentation/desktop_gallery_page.png)
+- [Contact Page. Desktop Screen](documentation/desktop_contact_form_page.png)
+- [Response Page. Desktop Screen](documentation/desktop_response_page.png)
 
 ---
 ## Languages
@@ -502,13 +553,13 @@ The website has been deployed to GitHub pages following these steps:
       ![Laxus hero image](assets/images/2-laxus-hero.webp)
 
 - Nicholas Altizer is the author of the following image:
-
   - Home page first extraordinary image:
       ![Laxus extraordinary image nr1](assets/images/5-_Habitat-carrie-bow-cay_1_cropped.webp)
 
 - Nikolaus Leisch is the author of the following images:
 
-  - Home page second extraordinary image (modified image from the original):
+  - Home page second extraordinary image 
+  (modified image from the original):
       ![Laxus extraordinary image nr2](assets/images/6-bacteria-SEM.webp)
   
   - The background image of the "extraordinary" and "What Laxus gives to Thiosymbion sections"
@@ -525,7 +576,7 @@ The website has been deployed to GitHub pages following these steps:
 - The Developer, Gabriela Paredes, is the author or publication author of the following media:
 
   - Laxus video:
-      ![Laxus video](assets/images/worm_video.mp4)
+      [Laxus video](assets/images/worm_video.mp4)
 
   - Laxus and Thiosymbion pages hero image:
       ![Laxus and Thiosymbion hero](assets/images/3-laxus-banner.webp)
