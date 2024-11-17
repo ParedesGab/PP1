@@ -531,7 +531,7 @@ The website was tested on the following browsers:
 
 The website has been deployed to GitHub pages following these steps:
 
-1. In the GitHub repository for the Laxus & Thiosymbion page [GitHub repository](https://github.com/ParedesGab/PP1-project-portfolio-1), select the "Settings" tab.
+1. In the GitHub repository for the Laxus & Thiosymbion page [GitHub repository](https://paredesgab.github.io/PP1-Laxus_and_Thiosymbion/), select the "Settings" tab.
 
 2. Click on "Pages" from the field "Code and automation" (on the left). Here select the below settings:
     - Source: deploy from a branch.
@@ -542,7 +542,7 @@ The website has been deployed to GitHub pages following these steps:
 
 4. On the right side of the page, a "Deployments" section has been activated indicating a successful deployment. 
 
-5. The live link can be accessed in this [here](https://paredesgab.github.io/PP1-project-portfolio-1/).
+5. The live link can be accessed in this [here](https://paredesgab.github.io/PP1-Laxus_and_Thiosymbion/).
 
 ---
 ## Credits 
