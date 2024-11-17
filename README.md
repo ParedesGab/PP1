@@ -243,6 +243,8 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
 - Update the extraordinary section with new research. 
 
+- Have a good understanding of image to aspect ratio, to implement it accordingly. 
+
 - Add a carousel to the "Love story" section, and to the "Laxus and Thiosymbion introduction sections", respectively; so that more media can be displayed. 
 
 - And/or, add a gallery section, showing more pictures of nematodes, of the bacteria, of researchers in action, the island in Belize from where they are collected, etc., and use CSS grid to organize it.
@@ -281,23 +283,23 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
 ### HTML Validation
 
-HOME page
+**HOME page**
 
   ![HTML Validation HOME](documentation/validation/homepage-html-validator.png)
 
-LAXUS page
+**LAXUS page**
 
   ![HTML Validation LAXUS](documentation/validation/laxus-page-html-validator.png)
 
-THIOSYMBION page
+**THIOSYMBION page**
 
   ![HTML Validation THIOSYMBION](documentation/validation/thiosymbion-page-html-validator.png)
 
-NEWSLETTER page
+**NEWSLETTER page**
 
   ![HTML Validation NEWSLETTER](documentation/validation/newsletter-page-html-validator.png)
 
-SUCCESSFUL page
+**SUCCESSFUL page**
 
   ![HTML Validation SUCCESSFUL](documentation/validation/successful-page-html-validator.png)
 
@@ -315,23 +317,23 @@ SUCCESSFUL page
 
 - No errors are reported. 
 
-HOME page
+**HOME page**
 
   ![WAVE report HOME](documentation/wave/wave-report-home-page.png)
 
-LAXUS page
+**LAXUS page**
 
   ![WAVE report LAXUS](documentation/wave/wave-report-laxus-page.png)
 
-THIOSYMBION page
+**THIOSYMBION page**
 
   ![WAVE report THIOSYMBION](documentation/wave/wave-report-thiosymbion-page.png)
 
-NEWSLETTER page
+**NEWSLETTER page**
 
   ![WAVE report NEWSLETTER](documentation/wave/wave-report-newsletter-page.png)
 
-SUCCESSFUL page
+**SUCCESSFUL page**
 
   ![WAVE report SUCCESSFUL](documentation/wave/wave-report-successful-page.png)
 
@@ -340,23 +342,23 @@ SUCCESSFUL page
 
 - Lighthouse tool from Devtools was used to confirm that the website is performing well, is accessible and the colors and fonts chosen are readable.
 
-HOME page
+**HOME page**
 
   ![LightHouse report HOME](documentation/lighthouse/lighthouse-report-homepage.png)
 
-LAXUS page
+**LAXUS page**
 
   ![LightHouse report LAXUS](documentation/lighthouse/lighthouse-report-laxus-page.png)
 
-THIOSYMBION page
+**THIOSYMBION page**
 
   ![LightHouse report THIOSYMBION](documentation/lighthouse/lighthouse-report-thiosymbion-page.png)
 
-NEWSLETTER page
+**NEWSLETTER page**
 
   ![LightHouse report NEWSLETTER](documentation/lighthouse/lighthouse-report-newsletter-page.png)
 
-SUCCESSFUL page
+**SUCCESSFUL page**
 
   ![LightHouse report SUCCESSFUL](documentation/lighthouse/lighthouse-report-successful-page.png)
 
@@ -426,24 +428,27 @@ The website was tested on the following browsers:
 
 ## Bugs
 + ### Solved bugs
-    1. The nav element was initially written as "navigation". 
+  1. The nav element was initially written as "navigation". 
         - Solution: this mistake was spotted and corrected. 
 
-    2. I used the flex:1 0 auto, to not shrink the main content, and push the footer down. However, the layout was not working.
+  2. I used the flex:1 0 auto, to not shrink the main content, and push the footer down. However, the layout was not working.
         - Solution: A Devtools warning message showed me that the CSS body selector had a declaration of flex:display instead of display:flex. This was corrected accordingly.
 
-    3. At some point, the header width was larger than the main section width. As a result, the use of the responsive dimensions of devtools was not possible. 
+  3. At some point, the header width was larger than the main section width. As a result, the use of the responsive dimensions of devtools was not possible. 
         - Solution: A red background color was used to check where the error might be coming from, and it was due to the size of one picture. Given that the header had a CSS width property of 100%, it was a adjusting to the width of this picture. This was resolved by resizing the picture. 
 
-    4. WAVE showed the below error in the navigation bar. The error was googled and it happened because wave is likely not recognizing the i tag of the Font Awesome link. This was solved by adding a span element: "<span>Hamburger label</span>"
+  4. WAVE showed the below error in the navigation bar. 
+        - Solution: The error was googled and it happened because wave is likely not recognizing the i tag of the Font Awesome link. This was solved by adding a span element: "<span>Hamburger label</span>"
       ![bug WAVE](documentation/bugs/bug-wave.png)
 
-    5. HTML validator showed that the meta keywords were missing for the newsletter page. This was added accordingly. 
+  5. HTML validator showed that the meta keywords were missing for the newsletter page. 
+        - Solution: This was added accordingly. 
 
-    6. In the successful page, the "Return to home page" was initially a button element placed as descendant of an anchor element. HTML validator showed this error and this was corrected by removing the button element, and using only the anchor element. 
+  6. In the successful page, the "Return to home page" was initially a button element placed as descendant of an anchor element. HTML validator showed this error. 
+        - Solution: This was corrected by removing the button element, and using only the anchor element. 
     ![bug WAVE](documentation/bugs/bug-successful-page.png)
 
-
+---
 ### Unfixed Bugs
 
   -  The successful.html file has a different indentation than the other html files. Namely, 1 tab is 8 spaces instead of 4. This "error" was googled, consulted with the mentor, and the indent-rainbow extension was installed but this issue persisted. The file could be deleted and a new one created, but it was decided to report this as an unfixed bug so that it could be discussed. 
@@ -465,8 +470,9 @@ The website has been deployed to GitHub pages following these steps:
 
 4. On the right side of the page, a "Deployments" section has been activated indicating a successful deployment. 
 
-5. The live link can be accessed in this [link](https://paredesgab.github.io/PP1-project-portfolio-1/).
+5. The live link can be accessed in this [here](https://paredesgab.github.io/PP1-project-portfolio-1/).
 
+---
 ## Credits 
 
 ### Content 
@@ -532,6 +538,18 @@ The website has been deployed to GitHub pages following these steps:
 
   - Thiosymbion nutritional model image:
       ![Thiosymbion scheme](assets/images/11-thiosymbion-scheme.webp)
+  
+### Publications
+
+1. de Bary A (1879) Die Erscheinung der Symbiose. Verlag von Karl J, Trübner,Strassburg.
+
+2. Ott, J. A., Bauer-Nebelsick, M., & Novotny, V. (1995). THE GENUS LAXUS COBB,1984 (STILBONEMATINAE: NEMATODA): DESCRIPTION OF TWO NEW SPE-CIES WITH ECTOSYMBIOTIC CHEMOAUTOTROPHIC BACTERIA. Proceed-ings of the Biological Society of Washington, 108(3), 508-527.
+
+3. Paredes GF, Viehboeck T, Lee R, Palatinszky M, Mausz MA, Reipert S, Schintlmeister A, Maier A, Volland JM, Hirschfeld C, Wagner M, Berry D, Markert S, Bulgheresi S, König L. Anaerobic Sulfur Oxidation Underlies Adaptation of a Chemosynthetic Symbiont to Oxic-Anoxic Interfaces. mSystems. 2021 Jun 29;6(3):e0118620. doi: 10.1128/mSystems.01186-20. Epub 2021 May 26. PMID: 34058098; PMCID: PMC8269255.
+
+4. Paredes GF, Viehboeck T, Markert S, Mausz MA, Sato Y, Liebeke M, König L, Bulgheresi S. Differential regulation of degradation and immune pathways underlies adaptation of the ectosymbiotic nematode Laxus oneistus to oxic-anoxic interfaces. Sci Rep. 2022 Jun 13;12(1):9725. doi: 10.1038/s41598-022-13235-9. PMID: 35697683; PMCID: PMC9192688.
+
+5. Weber PM, Moessel F, Paredes GF, Viehboeck T, Vischer NOE, Bulgheresi S. A Bidimensional Segregation Mode Maintains Symbiont Chromosome Orientation toward Its Host. Curr Biol. 2019 Sep 23;29(18):3018-3028.e4. doi: 10.1016/j.cub.2019.07.064. Epub 2019 Aug 30. PMID: 31474535.
 
 ## Acknowledgments
 
