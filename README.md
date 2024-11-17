@@ -259,7 +259,7 @@ Symbiosis is defined as "the living together of differently named organisms" (de
   ![Successful page](documentation/website-screenshots/successful-page.png)
 
 ---
-### Features Left to Implement
+## Features left to implement
 
 - Make the hamburger icon responsive so it closes automatically. 
 
@@ -278,7 +278,7 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 ---
 ## Design
 
-### Color Scheme
+### Color scheme
 
 ![Color scheme](documentation/design/color-scheme.png)
 
