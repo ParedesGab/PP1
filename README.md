@@ -271,13 +271,9 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
 ### Typography
 
-![Main Font](documentation/primary_font.png)
+- Arsenal from Google Fonts was used as the main font of the website, with generica family name "Sans-serif"
 
-- Lato Google Font was used as the main font of the website in order to increase readability of the content on the pages.
-
-![Accent Font](documentation/accent_font.png)
-
-- Lobster Google Font was used to attract viewers' attention to the company's logo, to make an accent on the strong points of the company, and to incentivize visitors to contact "Animal Shelter".
+![Main Font](documentation/design/typography.png)
 
 ---
 ## Wireframes
