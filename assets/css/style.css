@@ -348,7 +348,7 @@ h3 {
     color: black;
 }
 
-#subscribe>h1,
+#subscribe>h2,
 #thankyou .h2-thankyou {
     font-size: 40px;
     margin: 0px;
@@ -400,7 +400,7 @@ h3 {
     background-color: rgba(237, 169, 43, 0.871);
     color: black;
     box-shadow: 5px 5px 0 0 white,
-    8px 8px 0 0 rgb(245, 147, 27);
+        8px 8px 0 0 rgb(245, 147, 27);
     transition-duration: 100ms;
 }
 
@@ -445,7 +445,7 @@ textarea::placeholder {
     padding: 10px;
     margin: 40px 0px;
     box-shadow: 5px 5px 0 0 white,
-    8px 8px 0 0 rgb(245, 147, 27);
+        8px 8px 0 0 rgb(245, 147, 27);
     transition-duration: 100ms;
 }
 
