@@ -259,13 +259,15 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
 ### Color Scheme
 
-![Color pallet](documentation/color_pallet.png)
+![Color scheme](documentation/design/color-scheme.png)
 
-- Soft blue color was used as the main color of the website due to its phycological effect on people's minds. As this color is associated with trustworthiness and reliability, website visitors could build a firm believe in the organization "Animal Shelter".
+- The black and Dutch white colors were used as the main colors of the website. Their choice was inspired by the hero image of the home page.
 
-- Light Blue Color was used as a background color since this color creates a sense of tranquility and makes a connection between animal's ownership and peacefulness.
+- The light coral color was chosen to highlight the H2 titles. This was inspired by the red's association with love. However, red would be too overpowering, while a ligth coral color complements the love story title in a more subtle way.
 
-- Purple color was used to make an emphasis on the logo and leave a memorable effect on the website visitors.
+- The grey color is drawn from the background image in the "Extraordinary" section. The goal was to keep the section's color neutral, allowing the featured images to stand out.
+
+- To keep the theme cohesive, a grey background image was chosen in the Hero section of the Laxus and THiosymbion pages.
 
 ### Typography
 
@@ -546,20 +548,19 @@ The website has been deployed to GitHub pages following these steps:
 
 - Ulrich Dirks is the author of the following images:
 
-  - The favicon and the navigation links bullet points: 
+  - The favicon image and the Laxus navigation links bullet points: 
       ![Laxus favicon and bullet points](assets/images/1-laxus.webp)
         
   - Home page Laxus hero image:
+
       ![Laxus hero image](assets/images/2-laxus-hero.webp)
 
-- Nicholas Altizer is the author of the following image:
-  - Home page first extraordinary image:
+- Nicholas Altizer is the author of the Home page first extraordinary image:
       ![Laxus extraordinary image nr1](assets/images/5-_Habitat-carrie-bow-cay_1_cropped.webp)
 
 - Nikolaus Leisch is the author of the following images:
 
-  - Home page second extraordinary image 
-  (modified image from the original):
+  - Home page second extraordinary image (image modified from the below original image)
       ![Laxus extraordinary image nr2](assets/images/6-bacteria-SEM.webp)
   
   - The background image of the "extraordinary" and "What Laxus gives to Thiosymbion sections"
@@ -606,6 +607,6 @@ The website has been deployed to GitHub pages following these steps:
 
 - My sincere gratitude to my mentor, Iuliia Konovalova, for her valuable feedback.  
 
-- Thank you to Code Institute, specially to Kamil, Lane, Ioan and Darcy for great tips and feedback.
+- Thank you to Code Institute, specially to Kamil, Lane, Ioan and Darcy for the great tips and feedback.
 
 - Thank you to my brother Brando, who recognized my love for coding long before I did. Your beautiful piano music [Brando PR](https://www.youtube.com/@BrandoPR) accompanied me along this project.
