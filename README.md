@@ -2,13 +2,13 @@
 
 (Developer: Gabriela Fabiola Paredes Rojas)
 
-![Responsive Mockup image](documentation/responsive-mockup.png)
+![Responsive Mockup image](documentation/website-screenshots/responsive-mockup.png)
 
 Symbiosis is defined as "the living together of differently named organisms" (de Bary, 1879). This website provides information on an extraordinary symbiotic example, the one involving the free-living marine nematode *Laxus oneistus* and its inseparable bacterial partner, *Candidatus* Thiosymbion oneisti. 
 
 + Throughout this documentation, they will be referred as *Laxus* and Thiosymbion. respectively.
 
-+ The site can be accessed via this [link](https://paredesgab.github.io/PP1-project-portfolio-1/)
++ The site can be accessed via this [link](https://paredesgab.github.io/PP1-Laxus_and_Thiosymbion/)
 
 ---
 ## Project Goals
@@ -20,7 +20,7 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 + Explore the "cool factor" of symbiosis through this example.
 + Leave with a new appreciation for the surprising, complex relationships that exist even in the smallest corners of the ocean.
 
-### Business Owner Goals
+### Site Owner Goals
 
 + My primary goal is **science communication**. Namely:
 
@@ -66,7 +66,7 @@ Symbiosis is defined as "the living together of differently named organisms" (de
   + Connect with scientists working on marine symbiosis, so they can share their insights in schools, museums, or to establish a scientific collaboration.
   + See if other symbiotic systems are featured on the site.
 
-+ **As the business ownser user, I want:**
++ **As the site ownser, I want:**
 
   + Pass on my love for this system that was my workhorse for many years. 
   + Highlight the key discoveries I made during my Ph.D. research (Paredes et al., 2021, 2022).
@@ -79,7 +79,7 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
 ### Navigation Bar
 
-![NavBar desktop](documentation/navbar_desktop.png)
+![NavBar Tablets and up](documentation/website-screenshots/navigation.png)
 
   + It is positioned at the top of the page, and it is found across all pages of the website. 
   + It is clear and easy to navigate.
@@ -102,16 +102,16 @@ Symbiosis is defined as "the living together of differently named organisms" (de
         
       + The navbar features the logo on the left, with a hamburger menu from Font Awesome on the right.
 
-    ![NavBar Mobile Closed](documentation/navbar_mobile_closed.png)
+    ![Closed NavBar - Mobile](documentation/website-screenshots/navbar-mobile-closed.png)
 
       + When clicked, the hamburger menu reveals a drop-down with the navigation links displayed (in the same order as described above), and they have an image of *Laxus* as bullet points.
 
-    ![NavBar Mobile Open](documentation/navbar_mobile_open.png)
+    ![Open NavBar - Mobile](documentation/website-screenshots/navbar-mobile-open.png)
 
     + **On tablets and larger screens** 
       + The logo remains on the left, the hamburger disappears and instead you see all the navigation links spaceously distributed on the right.
 
-    ![NavBar Tablets and Up](documentation/navbar_tablets.png)
+    ![NavBar Tablets and up](documentation/website-screenshots/navigation.png)
        
 ---
 ### HOME page
