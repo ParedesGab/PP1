@@ -237,7 +237,7 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 ---
 ### Features Left to Implement
 
-- Make the hamburger icon responsive. 
+- Make the hamburger icon responsive so it closes automatically. 
 
 - Use CSS roots to declare global CSS variables and and apply them across the entire project for consistent styling.
 
@@ -435,12 +435,19 @@ The website was tested on the following browsers:
     3. At some point, the header width was larger than the main section width. As a result, the use of the responsive dimensions of devtools was not possible. 
         - Solution: A red background color was used to check where the error might be coming from, and it was due to the size of one picture. Given that the header had a CSS width property of 100%, it was a adjusting to the width of this picture. This was resolved by resizing the picture. 
 
-    4. WAVE showed the below error in the navigation bar. This was solved and documented in the "Bugs section" below. 
+    4. WAVE showed the below error in the navigation bar. The error was googled and it happened because wave is likely not recognizing the i tag of the Font Awesome link. This was solved by adding a span element: "<span>Hamburger label</span>"
+      ![bug WAVE](documentation/bugs/bug-wave.png)
+
+    5. HTML validator showed that the meta keywords were missing for the newsletter page. This was added accordingly. 
+
+    6. In the successful page, the "Return to home page" was initially a button element placed as descendant of an anchor element. HTML validator showed this error and this was corrected by removing the button element, and using only the anchor element. 
+    ![bug WAVE](documentation/bugs/bug-successful-page.png)
 
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+  -  The successful.html file has a different indentation than the other html files. Namely, 1 tab is 8 spaces instead of 4. This "error" was googled, consulted with the mentor, and the indent-rainbow extension was installed but this issue persisted. The file could be deleted and a new one created, but it was decided to report this as an unfixed bug so that it could be discussed. 
+  ![bug WAVE](documentation/bugs/unfixed-indentatoin.png)
 
 --
 ## Deployment
