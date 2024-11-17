@@ -475,24 +475,68 @@ The website has been deployed to GitHub pages following these steps:
 
 - All content was written by the developer but checked with DeepL Write for spelling mistakes. 
 
-- Inspiration to add the small Laxus bullet points is from the youttube channel "Six Minutes. Smarter."
+- Inspiration to add the small *Laxus* bullet points is from the YouTube channel [Six Minutes. Smarter.](https://www.youtube.com/@SixMinutesSmarter)
 
-- MDN Web Docs showed me different ways to use the backgroun-position property.
+- Inspiration for the hover animation of the Subscription button and the Return and home page link is from the YouTube channel [Smoljames](https://www.youtube.com/@Smoljames).
+
+- MDN Web Docs showed me different ways to use the background-position property.
 
 - ReadMe was inspired and guided by the ReadMe documents of my mentor Iuliia Konovalova, of my cohort Kamil Wojciechowski, and of the love running project. 
 
-- Stack Overflow solutions were a game changer, for example the one "How to use the "required" attribute with a "radio" input field" 
+- Stack Overflow solutions was greatly used to resolve questions.
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- Ulrich Dirks is the author of the following images:
 
+  - The favicon and the navigation links bullet points: 
+      ![Laxus favicon and bullet points](assets/images/1-laxus.webp)
+        
+  - Home page Laxus hero image:
+      ![Laxus hero image](assets/images/2-laxus-hero.webp)
 
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
+- Nicholas Altizer is the author of the following image:
+
+  - Home page first extraordinary image:
+      ![Laxus extraordinary image nr1](assets/images/5-_Habitat-carrie-bow-cay_1_cropped.webp)
+
+- Nikolaus Leisch is the author of the following images:
+
+  - Home page second extraordinary image (modified image from the original):
+      ![Laxus extraordinary image nr2](assets/images/6-bacteria-SEM.webp)
+  
+  - The background image of the "extraordinary" and "What Laxus gives to Thiosymbion sections"
+      ![Bacterial coat](assets/images/4-bacterial-coat.webp)
+
+- Phillip Weber is the author of the following image:
+
+  - Home page third extraordinary image:
+      ![Laxus extraordinary image nr3](assets/images/7-nematode-ball.webp)
+
+  - Thiosymbion page image (modified from Weber et al., 2019):
+      ![Bacterial coat](assets/images/10-weber-et-al-2019.webp)
+
+- The Developer, Gabriela Paredes, is the author or publication author of the following media:
+
+  - Laxus video:
+      ![Laxus video](assets/images/worm_video.mp4)
+
+  - Laxus and Thiosymbion pages hero image:
+      ![Laxus and Thiosymbion hero](assets/images/3-laxus-banner.webp)
+
+  - Laxus head image:
+      ![Laxus head](assets/images/8-worm-head.webp)
+
+  - Laxus nutritional model image:
+      ![Laxus scheme](assets/images/9-laxus-scheme.webp)
+
+  - Thiosymbion nutritional model image:
+      ![Thiosymbion scheme](assets/images/11-thiosymbion-scheme.webp)
 
 ## Acknowledgments
 
-- I want to thank my mentor Iuliia Konovalova for her valuable feedback. 
-- Thank you to my brother Brando, who new long before myself that I love to code. Your piano background [Brando PR](https://www.youtube.com/@BrandoPR) accompanied me along this project. 
-- 
+- My sincere gratitude to my mentor, Iuliia Konovalova, for her valuable feedback.  
+
+- Thank you to Code Institute, specially to Kamil, Lane, Ioan and Darcy for great tips and feedback.
+
+- Thank you to my brother Brando, who recognized my love for coding long before I did. Your beautiful piano music [Brando PR](https://www.youtube.com/@BrandoPR) accompanied me along this project.
