@@ -626,6 +626,6 @@ The website has been deployed to GitHub pages following these steps:
 
 - My sincere gratitude to my mentor, Iuliia Konovalova, for her valuable feedback.  
 
-- Thank you to Code Institute, specially to Kamil, Lane, Ioan and Darcy for the great tips and feedback.
+- Thank you to Code Institute, specially to Kamil, Lane, Ioan and Darcy, and slack community members for the great tips and feedback.
 
 - Thank you to my brother Brando, who recognized my love for coding long before I did. Your beautiful piano music [Brando PR](https://www.youtube.com/@BrandoPR) accompanied me along this project.
