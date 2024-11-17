@@ -278,27 +278,29 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 ---
 ## Wireframes
 
-#### Mobile devices
+#### Mobile
 
-- [Home Page. Mobile Screen](documentation/mobile_home_page.png)
-- [Gallery Page. Mobile Screen](documentation/mobile_gallery_page.png)
-- [Contact Page. Mobile Screen](documentation/mobile_contact_form_page.png)
-- [Response Page. Mobile Screen](documentation/mobile_response_page.png)
-
+- [Mobile: HOME page](documentation/wireframes/mobile-homepage.png)
+- [Mobile: LAXUS page](documentation/wireframes/mobile-laxus-page.png)
+- [Mobile: THIOSYMBION page](documentation/wireframes/mobile-thiosymbion-page.png)
+- [Mobile: NEWSLETTER page](documentation/wireframes/mobile-newsletter-page.png)
+- [Mobile: SUCCESSFUL page](documentation/wireframes/mobile-successful-page.png)
 
 #### Tablets
 
-- [Home Page. Tablet Screen](documentation/tablet_home_page.png)
-- [Gallery Page. Tablet Screen](documentation/tablet_gallery_page.png)
-- [Contact Page. Tablet Screen](documentation/tablet_contact_form_page.png)
-- [Response Page. Tablet Screen](documentation/tablet_response_page.png)
+- [Tablet: HOME page](documentation/wireframes/tablet-homepage.png)
+- [Tablet: LAXUS page. Mobile](documentation/wireframes/tablet-laxus-page.png)
+- [Tablet: THIOSYMBION page](documentation/wireframes/tablet-thiosymbion-page.png)
+- [Tablet: NEWSLETTER page](documentation/wireframes/tablet-newsletter-page.png)
+- [Tablet: SUCCESSFUL page](documentation/wireframes/tablet-successful-page.png)
 
-#### Desktop
+#### Laptops/Desktop
 
-- [Home Page. Desktop Screen](documentation/desktop_home_page.png)
-- [Gallery Page. Desktop Screen](documentation/desktop_gallery_page.png)
-- [Contact Page. Desktop Screen](documentation/desktop_contact_form_page.png)
-- [Response Page. Desktop Screen](documentation/desktop_response_page.png)
+- [Laptops: HOME page](documentation/wireframes/laptop-home-page.png)
+- [Laptops: LAXUS page](documentation/wireframes/laptop-laxus-page.png)
+- [Laptops: THIOSYMBION page](documentation/wireframes/laptop-thiosymbion-page.png)
+- [Laptops: NEWSLETTER page](documentation/wireframes/laptop-newsletter-page.png)
+- [Laptops: SUCCESSFUL page](documentation/wireframes/laptop-successful-page.png)
 
 ---
 ## Languages
