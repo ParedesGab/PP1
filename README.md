@@ -230,7 +230,7 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
   - The **What Thiosymbion gives to Laxus section**: it is a research study conducted by the developer in 2021. A summary of the main findings of the article is presented, as well as a nutritional model of the interaction of Thiosymbion with the nematode. The study is also linked to the website, and this section is responsive.  
 
-  ![Thiosymbion](documentation/footer.png)
+  ![Thiosymbion page](documentation/website-screenshots/thiosymbion-page.png)
 
 ---
 ### NEWSLETTER page
@@ -243,7 +243,7 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
   - This section is responsive, and the resize property of the textarea was disabled by setting it to: none.
 
-![Newsletter](documentation/footer.png)
+![Newsletter page](documentation/website-screenshots/newsletter-page.png)
 
 ---
 ### SUCCESSFUL page
@@ -255,6 +255,8 @@ Symbiosis is defined as "the living together of differently named organisms" (de
   - This page is responsive, and has a "Return to Home page" button to keep the user in the website. 
 
   - The "Return to Home page" button has the same hover effects as the subscribe button, but a slight different style (i.e., round corners).
+
+  ![Successful page](documentation/website-screenshots/successful-page.png)
 
 ---
 ### Features Left to Implement
