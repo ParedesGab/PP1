@@ -531,7 +531,7 @@ The website was tested on the following browsers:
 
 The website has been deployed to GitHub pages following these steps:
 
-1. In the GitHub repository for the Laxus & Thiosymbion page [GitHub repository](https://paredesgab.github.io/PP1-Laxus_and_Thiosymbion/), select the "Settings" tab.
+1. In the GitHub repository for the Laxus & Thiosymbion page [GitHub repository](https://github.com/ParedesGab/PP1-Laxus_and_Thiosymbion), select the "Settings" tab.
 
 2. Click on "Pages" from the field "Code and automation" (on the left). Here select the below settings:
     - Source: deploy from a branch.
@@ -542,7 +542,7 @@ The website has been deployed to GitHub pages following these steps:
 
 4. On the right side of the page, a "Deployments" section has been activated indicating a successful deployment. 
 
-5. The live link can be accessed in this [here](https://paredesgab.github.io/PP1-Laxus_and_Thiosymbion/).
+5. The live link can be accessed [here](https://paredesgab.github.io/PP1-Laxus_and_Thiosymbion/).
 
 ---
 ## Credits 
@@ -574,7 +574,7 @@ The website has been deployed to GitHub pages following these steps:
 
       ![Laxus hero image](assets/images/2-laxus-hero.webp)
 
-- Nicholas Altizer is the author of the Home page first extraordinary image:
+- Nicholas Altizer is the author of the Home page first extraordinary image depicting the Carrie Bow Cay field station in Belize:
       ![Laxus extraordinary image nr1](assets/images/5-_Habitat-carrie-bow-cay_1_cropped.webp)
 
 - Nikolaus Leisch is the author of the following images:
@@ -626,6 +626,6 @@ The website has been deployed to GitHub pages following these steps:
 
 - My sincere gratitude to my mentor, Iuliia Konovalova, for her valuable feedback.  
 
-- Thank you to Code Institute, specially to Kamil, Lane, Ioan and Darcy, and slack community members for the great tips and feedback.
+- Thank you to Code Institute, specially to Kamil, Lane, Ioan and Darcy, and to the slack community members for the great tips and feedback.
 
 - Thank you to my brother Brando, who recognized my love for coding long before I did. Your beautiful piano music [Brando PR](https://www.youtube.com/@BrandoPR) accompanied me along this project.
