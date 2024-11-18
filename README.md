@@ -520,13 +520,12 @@ The website was tested on the following browsers:
         - Solution: This was corrected by removing the button element, and using only the anchor element. 
     ![bug WAVE](documentation/bugs/bug-successful-page.png)
 
----
-### Unfixed Bugs
++ ### Unfixed bugs
 
   -  The successful.html file has a different indentation than the other html files. Namely, 1 tab is 8 spaces instead of 4. This "error" was googled, consulted with the mentor, and the indent-rainbow extension was installed but this issue persisted. The file could be deleted and a new one created, but it was decided to report this as an unfixed bug so that it could be discussed. 
   ![bug WAVE](documentation/bugs/unfixed-indentatoin.png)
 
---
+---
 ## Deployment
 
 The website has been deployed to GitHub pages following these steps:
@@ -575,12 +574,12 @@ The website has been deployed to GitHub pages following these steps:
       ![Laxus hero image](assets/images/2-laxus-hero.webp)
 
 - Nicholas Altizer is the author of the Home page first extraordinary image depicting the Carrie Bow Cay field station in Belize:
-      ![Laxus extraordinary image nr1](assets/images/5-_Habitat-carrie-bow-cay_1_cropped.webp)
+      ![Laxus extraordinary image nr1](assets/images/5-habitat-carrie-bow-cay.webp)
 
 - Nikolaus Leisch is the author of the following images:
 
   - Home page second extraordinary image (image modified from the below original image)
-      ![Laxus extraordinary image nr2](assets/images/6-bacteria-SEM.webp)
+      ![Laxus extraordinary image nr2](assets/images/6-bacteria-sem.webp)
   
   - The background image of the "extraordinary" and "What Laxus gives to Thiosymbion sections"
       ![Bacterial coat](assets/images/4-bacterial-coat.webp)
