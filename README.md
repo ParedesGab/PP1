@@ -4,7 +4,7 @@
 
 ![Responsive Mockup image](documentation/website-screenshots/responsive-mockup.png)
 
-Symbiosis is defined as "the living together of differently named organisms" (de Bary, 1879). This website provides information on an extraordinary symbiotic example, the one involving the free-living marine nematode *Laxus oneistus* and its inseparable bacterial partner, *Candidatus* Thiosymbion oneisti. 
+Symbiosis is defined as "the living together of differently named organisms" (de Bary, 1879). This website provides information on an extraordinary symbiotic example, the one involving the marine free-living marine nematode *Laxus oneistus* and its inseparable bacterial partner, *Candidatus* Thiosymbion oneisti. 
 
 + Throughout this documentation, they will be referred as *Laxus* and Thiosymbion. respectively.
 
