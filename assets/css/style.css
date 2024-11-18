@@ -110,7 +110,7 @@ nav {
     padding-left: 30px;
 }
 
-/* Indicate where in which page the User is */
+/* Indicate in which page the User is */
 .active {
     border-bottom: 1px solid rgb(233, 233, 183);
 }
@@ -297,7 +297,7 @@ h3 {
     padding: 10px;
 }
 
-/* Laxus and Thiosymbion extraordinary section */
+/* Laxus and Thiosymbion - what they give section */
 
 .nutritional {
     display: flex;
@@ -435,7 +435,7 @@ textarea::placeholder {
     text-align: left;
 }
 
-/*Return to home page button */
+/*Return to home page link */
 #return {
     font-size: 1.2rem;
     color: black;
@@ -506,7 +506,7 @@ footer {
         height: auto;
     }
 
-    /*Nesletter*/
+    /*Newsletter*/
     #subscribe,
     #thankyou {
         margin-top: 200px;
@@ -658,7 +658,7 @@ footer {
         margin-left: 20px;
     }
 
-    /* Laxus and Thiosymbion extraordinary section */
+    /* Laxus and Thiosymbion - what they give section */
 
     #extraordinary .extra-text-lt {
         width: 88%;
@@ -820,7 +820,7 @@ footer {
         font-size: 1.4rem;
     }
 
-    /* Laxus and Thiosymbion extraordinary section */
+    /* Laxus and Thiosymbion - what they give section */
     .nutritional {
         margin-top: 70px;
     }
@@ -1036,7 +1036,7 @@ footer {
         font-size: 1.6rem;
     }
 
-    /* Laxus and Thiosymbion extraordinary section */
+    /* Laxus and Thiosymbion - what they give section */
     #extraordinary .extra-text-lt li {
         font-size: 2.2rem;
     }
