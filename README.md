@@ -111,8 +111,8 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
     ![Open NavBar - Mobile](documentation/website-screenshots/navbar-mobile-open.png)
 
-    + **On tablets and larger screens** 
-      + The logo remains on the left, the hamburger disappears and instead you see all the navigation links spaceously distributed on the right.
+    + **On tablets and larger screens:** 
+      + The logo remains on the left, the hamburger is not displayed anymore, instead you see all the navigation links spaceously distributed on the right.
 
     ![NavBar Tablets and up](documentation/website-screenshots/navigation.png)
        
@@ -121,10 +121,10 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
   * It presents the symbiosis of *Laxus* and Thiosymbion.
 
-  * It intends to make the topic of symbiosis easy to understand, by:
+  * It intends to make this topic easy to understand, by:
     * Presenting it as a love story - it is after all, a relationship.
 
-    * Using the analogy of wearing a winter coat, so to make it clearer that the bacteria live on the surface. 
+    * Using the analogy of wearing a coat, because the bacteria live on the surface. 
 
   * It highlights the extraordinary features of this partnership, including fun facts to make the content more enjoyable.
 
@@ -140,7 +140,7 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
 - The intention was to have a simple yet impactful hero section Thus, the black background allows the single nematode picture to shine.
 
- - The title of the website (h2) "A extraordinary symbiosis" is next to the image and it has a yelloish/white color, same as the bacterials symbiont.  
+ - The title of the website (h2) "A extraordinary symbiosis" is next to the image and it has a yellowish/white color, same as the bacterials symbiont.  
 
  - The background image, the title position and font-size are responsive across all devices. 
 
@@ -154,11 +154,11 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
 - The "love story" title is an analogy representing symbiosis as a partnership.
 
-- The text is written to engage all audiences, for example, using the analogy of a winter coat in Caribbean heat to help users imagine life as this nematode.  
+- The text is written to engage all audiences, for example, using the analogy of a winter coat in Caribbean heat to help users imagine life as this nematode coated with its bacteria.
 
 - The video has no audio and it shows several *Laxus oneistus* in motion. The caption, highlights their resemblance with rice noodles but, in fact, the whiteness comes from the bacteria on the surface. 
 
-- This section is responsive, and from Tablets up flex box with flex direction row was used. 
+- This section is responsive, and in Tablets, Laptops and Desktops flex box with flex direction row was used. 
     
     ![Love story Section](documentation/website-screenshots/love-story-section.png)
 
@@ -168,7 +168,7 @@ Symbiosis is defined as "the living together of differently named organisms" (de
     
 - Three key features have been selected and displayed using the HTML class attribute: feature1.
     
-- They allow the user to learn about the habitat, reasons of being together and more importantly, the uniqueness of this symbiosis, 
+- They allow the user to learn about the habitat, reasons of being together and more importantly, the uniqueness of this symbiosis.
 
 - To make it more interactive, each feature card has a "fun fact" that is highlighted in bold and next to a star from Font Awesome.
 
@@ -182,9 +182,9 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
   - In mobiles: the figure is placed on top of the text, forming a column. 
 
-  - In tablets, the figure and text were placed next to each other(in a row). This was achieved because their container (class feature1) was set to display property: flex.
+  - In tablets, the figure and text were placed next to each other (in a row). This was achieved because their container (class feature1) was set to display property: flex.
 
-  - In Laptops and Up, this display propery was set to column, to have the features next to each other. 
+  - In Laptops and Larger screens, this display propery was set to column, to have the features next to each other. 
 
     ![Extraordinary Section](documentation/website-screenshots/extraordinary-section.png)
 
@@ -198,7 +198,7 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
 - The footer adds value by encouraging users to stay connected through social media.
 
-- The footer has a hover effect, and is responsive, with increasing font sizing and padding as the screen width increases.
+- The footer has a hover effect, and is responsive, with increasing font sizing and padding as screen width increases.
 
     ![Footer](documentation/website-screenshots/footer-section.png)
 
@@ -209,11 +209,11 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
 - It contains three sections, from top to bottom:
 
-  - The **Hero Laxus section**: it uses the same style as the hero section from the home page. This section is responsive, and its height increases as the device screen width increases. 
+  - The **Hero Laxus section**: it uses the same style as the hero section from the home page but a different background image. This section is responsive, and its height increases as the device screen width increases. 
 
   - The **Laxus introduction section**: it uses the same style as the love story section from the home page. This section is responsive.
 
-  - The **What Laxus gives to Thiosymbion section**: it is a research study conducted by the developer in 2022. A summary of the main findings of the article is presented, as well as a nutritional model of the interaction of *Laxus* with its bacteria. The study is also linked to the website, and this section is responsive.  
+  - The **What Laxus gives to Thiosymbion section**: it is a research study conducted by the developer in 2022. A summary of the main findings of the article is presented, as well as a nutritional model of the interaction of *Laxus* with its bacteria. The study is also linked to the website and it opens in a new window. This section is responsive.  
 
     ![Laxus page](documentation/website-screenshots/laxus-page.png)
 
@@ -224,11 +224,11 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
 - Intentionally, for consistency, it has the same style and responsiveness as the Laxus page. Thus, from top to bottom:
 
-  - The **Hero Thiosymbion section**.
+  - The **Hero Thiosymbion section**: : it uses the same style and responsiveness as the hero section from the laxus page. The image caption has a link to a study that opens in a new window.  
 
-  - The **Thiosymbion introduction section**.
+  - The **Thiosymbion introduction section**:: it uses the same style as the love story section, and the laxus introduction section from the home page and laxus page, respectively. This section is responsive.
 
-  - The **What Thiosymbion gives to Laxus section**: it is a research study conducted by the developer in 2021. A summary of the main findings of the article is presented, as well as a nutritional model of the interaction of Thiosymbion with the nematode. The study is also linked to the website, and this section is responsive.  
+  - The **What Thiosymbion gives to Laxus section**: it is a research study conducted by the developer in 2021. A summary of the main findings of the article is presented, as well as a nutritional model of the interaction of Thiosymbion with the nematode. The study is also linked to the website and it opens in a new window. This section is responsive.  
 
   ![Thiosymbion page](documentation/website-screenshots/thiosymbion-page.png)
 
@@ -239,7 +239,7 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
   - To subscribe to the newsletter, the user is required to provide their name, email address, feedback,  choose which system is of their interest, and click on the subscribe button. 
 
-  - The subscribe button has a hover effect animation - achieved with double box shadow and transition duration CSS properties.
+  - The subscribe button has a hover effect animation - achieved with the CSS properties: double box shadow and transition duration.
 
   - This section is responsive, and the resize property of the textarea was disabled by setting it to: none.
 
@@ -254,7 +254,7 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
   - This page is responsive, and has a "Return to Home page" button to keep the user in the website. 
 
-  - The "Return to Home page" button has the same hover effects as the subscribe button, but a slight different style (i.e., round corners).
+  - The "Return to Home page" link has the same hover effects as the subscribe button, but a slightly different style (i.e., round corners).
 
   ![Successful page](documentation/website-screenshots/successful-page.png)
 
@@ -267,7 +267,7 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
 - Update the extraordinary section with new research. 
 
-- Have a good understanding of image to aspect ratio, to implement it accordingly. 
+- Better use of image to aspect ratio, and implement it accordingly. 
 
 - Add a carousel to the "Love story" section, and to the "Laxus and Thiosymbion introduction sections", respectively; so that more media can be displayed. 
 
@@ -288,11 +288,11 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
 - The grey color is drawn from the background image in the "Extraordinary" section. The goal was to keep the section's color neutral, allowing the featured images to stand out.
 
-- To keep the theme cohesive, a grey background image was chosen in the Hero section of the Laxus and THiosymbion pages.
+- To keep the theme cohesive, a grey background image was chosen in the Hero section of the Laxus and Thiosymbion pages, and the same background image was used in the Extraordinary section, and in the What Laxus/Thiosymbion gives to Thiosymbion/Laxus sections.
 
 ### Typography
 
-- Arsenal from Google Fonts was used as the main font of the website, with generica family name "Sans-serif"
+- Arsenal from Google Fonts was used as the main font of the website, with the generic family name "Sans-serif"
 
 ![Main Font](documentation/design/typography.png)
 
@@ -349,7 +349,7 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 ---
 ## Validation
 
-- In this section, the HTML and CSS codes were checked for compliance with industry standards. This was done using the W3C Markup Validation Service for HTML and CSS respectively, using the code from both the working environment and the the deployed version.
+- In this section, the HTML and CSS codes were checked for compliance with industry standards. This was done using the W3C Markup Validation Service for HTML and CSS respectively, using the code from both: the working environment and the the deployed version.
 
 - The result in both reports: no errors were returned.
 
@@ -385,7 +385,7 @@ Symbiosis is defined as "the living together of differently named organisms" (de
 
 - Accessibility across all pages was tested using the Web Accessibility Evaluation Tool  (WAVE). 
 
-- Initially there was an error in the navigation bar. This was solved and documented in the "Bugs section" below. 
+- Initially there was an error in the navigation bar. This was solved and documented in the "Bugs" section below. 
 
 - No errors are reported. 
 
@@ -462,8 +462,8 @@ The website was tested on the following browsers:
 | --- | --- | --- | --- | --- | --- |
 | **Header** | | | | | |
 | Logo | Click on the "Laxus & Thiosymbion" logo | No matter the page the user is, they are redirected to the main page | Yes | Yes | - |
-| Burger icon | Display of Burger icon | It appears in mobiles and up to a screen size of 767 px | Yes | Yes | - |
-| Burger icon | Click on the Burger icon | It opens the navigation links in the center, and the laxus image bullet points are loading| Yes | Yes | - |
+| Burger icon | Display of Burger icon | It appears in mobiles and up to a screen width of 767 px | Yes | Yes | - |
+| Burger icon | Click on the Burger icon | It opens the navigation links in the center next to the laxus image bullet points | Yes | Yes | - |
 | Navbar | Navigation display | Remains fixed at the top of all pages | Yes | Yes | 
 | Navbar link: HOME | Hover and/or click on the "HOME" link | The link is highlighted, the user is redirected to the home page and the link is underlined indicating where the user is | Yes | Yes | 
 | Navbar link: LAXUS | Hover and/or click on the "LAXUS" link | The link is highlighted, the user is redirected to the Laxus page and the link is underlined indicating where the user is | Yes | Yes | 
@@ -471,28 +471,28 @@ The website was tested on the following browsers:
 | Navbar link: NEWSLETTER | Hover and/or click on the "NEWSLETTER" link | The link is highlighted, the user is redirected to the newsletter page and the link is underlined indicating where the user is | Yes | Yes | 
 | **HOME page** | | | | | |
 | Hero section | Image and title display | The image loads correctly and title is positioned next to it | Yes | Yes | - |
-| Love story section | Title, text and video display | The title stands, the content is justified with no spelling mistakes and the video loads correctly without sound | Yes | Yes | - |
-| Extraordinary section | Title and images display | The title stands out, the images are loading correctly and are located near to their corresponding text, the text columns have no spelling mistakes and have the same style. The article links open in a new window | Yes | Yes | - |
+| Love story section | Title, text and video display | The title stands out, the content is justified with no spelling mistakes and the no-sound video loads correctly and it does not autoplay  | Yes | Yes | - |
+| Extraordinary section | Title and images display | The title stands out, the images are loading correctly and are located near to their corresponding text, the text in the columns have no spelling mistakes and have the same style. The article links open in a new window | Yes | Yes | - |
 | **LAXUS page** | | | | | |
 | Hero Laxus section | Title and image display | The image is loaded correctly and the title is positioned on the left side of the screen | Yes | Yes | - |
 | Laxus introduction section | Title and image display | The title stands out, all content is centered and displayed as a column (one on top each other), the text is justified with no spelling mistakes and the image loads correctly with good resolution| Yes | Yes | - |
-| What Laxus gives to Thiosymbion section | Title text and image display | The title stands, all content is displayed as a column (one on top each other), the text is justified with no spelling mistakes, and the image loads correctly with good resolution. The article link opens in a new page correctly | Yes | Yes | - |
+| What Laxus gives to Thiosymbion section | Title text and image display | The title stands out, all content is displayed as a column (one on top each other), the text is justified with no spelling mistakes, and the image loads correctly with good resolution. The article link opens in a new page correctly | Yes | Yes | - |
 | **THIOSYMBION page** | | | | | |
 | Hero thiosymbion section | Title and image display | The image is loaded correctly and the title is positioned on the left side of the screen | Yes | Yes | - |
 | Thiosymbion introduction section | Title and image display | The title stands out, all content is centered and displayed as a column (one on top each other), the text is justified with no spelling mistakes and the image loads correctly with good resolution. The article link opens in a new page correctly | Yes | Yes | - |
 | What Thiosymbion gives to Laxus section | Title text and image display | The title stands, all content is displayed as a column (one on top each other), the text is justified with no spelling mistakes, and the image loads correctly with good resolution. The article link opens in a new page correctly | Yes | Yes | - |
 | **NEWSLETTER page** | | | | | |
-| Subscribe form | Heading not visible | The heading is hidden | Yes | Yes |
+| Subscribe form | Heading display | The form heading is hidden | Yes | Yes |
 | Name input | Enter the user's name | The name is entered | Yes | Yes | If user does not enter the name, a warning message of "please fill out this field" appears |
 | Email input | Enter the user's email | The email is entered | Yes | Yes | If user does not enter the email, a warning message of "please fill out this field" appears |
 | Radio input | User selects what information they want to be informed about | The selection is made (with one possibility) | Yes | Yes | If user doe not select an option, a warning message of "please select one of this options" appears |
 | Text area input | User provides feedback | Feedback is provided | Yes | Yes | If user does not write in here, a warning message of "please fill out this field" appears |
-| Subscribe button | Click on the Subscribe button | The button has hover animation, and the user is redirected to a thank you page (successful page) | Yes | Yes | - |
+| Subscribe button | Click on the Subscribe button | The button has hover animation, and when clicked the user is redirected to a thank you page (successful page) | Yes | Yes | - |
 | **SUCESSFUL page** | | | | | |
 | Thank you section | Text display | The thank you messaged is displayed correctly | Yes | Yes | - |
 | "Return to Home page" button | Click on the "Return to Home page" button | The button has a hover effect and the user is redirected to the home page | Yes | Yes | - |
 | **Footer** | | | | | |
-| Footer icons | Highlight when hovered | When hovered the icons have a highlight hover effect | Yes | Yes | - |
+| Footer icons | Highlight when hovered | When hovered, the icons have a highlight hover effect | Yes | Yes | - |
 | Facebook icon | Click on the Facebook icon | The user is redirected to the Facebook page | Yes | Yes | - |
 | Instagram icon | Click on the Instagram icon | The user is redirected to the Instagram page | Yes | Yes | - |
 | Twitter icon | Click on the Twitter icon | The user is redirected to the Twitter page | Yes | Yes | - |
@@ -503,14 +503,14 @@ The website was tested on the following browsers:
   1. The nav element was initially written as "navigation". 
         - Solution: this mistake was spotted and corrected. 
 
-  2. I used the flex:1 0 auto, to not shrink the main content, and push the footer down. However, the layout was not working.
-        - Solution: A Devtools warning message showed me that the CSS body selector had a declaration of flex:display instead of display:flex. This was corrected accordingly.
+  2. The flex:1 0 auto was used to not shrink the main content, and push the footer down. However, this did not work.
+        - Solution: A Devtools warning message showed that the CSS body selector had the declaration written incorrectly. Namely it was as flex:display instead of display:flex. This was corrected accordingly.
 
-  3. At some point, the header width was larger than the main section width. As a result, the use of the responsive dimensions of devtools was not possible. 
+  3. At some point when testing responsiveness, the header width was larger than the main section width. As a result, the use of the responsive dimensions of devtools was not possible. 
         - Solution: A red background color was used to check where the error might be coming from, and it was due to the size of one picture. Given that the header had a CSS width property of 100%, it was a adjusting to the width of this picture. This was resolved by resizing the picture. 
 
   4. WAVE showed the below error in the navigation bar. 
-        - Solution: The error was googled and it happened because wave is likely not recognizing the i tag of the Font Awesome link. This was solved by adding a span element: "<span>Hamburger label</span>"
+        - Solution: The error was googled and it happened because wave is likely not recognizing the i tag of the Font Awesome link. This was solved by adding a span element.
       ![bug WAVE](documentation/bugs/bug-wave.png)
 
   5. HTML validator showed that the meta keywords were missing for the newsletter page. 
@@ -533,7 +533,7 @@ The website has been deployed to GitHub pages following these steps:
 
 1. In the GitHub repository for the Laxus & Thiosymbion page [GitHub repository](https://github.com/ParedesGab/PP1-Laxus_and_Thiosymbion), select the "Settings" tab.
 
-2. Click on "Pages" from the field "Code and automation" (on the left). Here select the below settings:
+2. Click on "Pages" from the field "Code and automation" (on the left), and select the below settings:
     - Source: deploy from a branch.
     - Branch: main.
     - click "Save".
@@ -551,7 +551,7 @@ The website has been deployed to GitHub pages following these steps:
 
 - The Code institute ci-full-template was used to create the GitHub repository of the Laxus & Thiosymbion website.
 
-- All content was written by the developer but checked with DeepL Write for spelling mistakes. 
+- Text was checked with DeepL Write for spelling mistakes. 
 
 - Inspiration to add the small *Laxus* bullet points is from the YouTube channel [Six Minutes. Smarter.](https://www.youtube.com/@SixMinutesSmarter)
 
@@ -559,9 +559,9 @@ The website has been deployed to GitHub pages following these steps:
 
 - MDN Web Docs showed me different ways to use the background-position property.
 
-- ReadMe was inspired and guided by the ReadMe documents of my mentor Iuliia Konovalova, of my cohort Kamil Wojciechowski, and of the love running project. 
+- Stack Overflow solutions was also used to resolve doubts.
 
-- Stack Overflow solutions was greatly used to resolve questions.
+- ReadMe was inspired and guided by the ReadMe documents of my mentor Iuliia Konovalova, of my cohort Kamil Wojciechowski, and of the love running project. 
 
 ### Media
 
@@ -585,7 +585,7 @@ The website has been deployed to GitHub pages following these steps:
   - The background image of the "extraordinary" and "What Laxus gives to Thiosymbion sections"
       ![Bacterial coat](assets/images/4-bacterial-coat.webp)
 
-- Phillip Weber is the author of the following image:
+- Philipp Weber is the author of the following images:
 
   - Home page third extraordinary image:
       ![Laxus extraordinary image nr3](assets/images/7-nematode-ball.webp)
